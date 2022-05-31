@@ -2,9 +2,9 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3216C10;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x32187C8;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3228F00;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3216C50;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3218808;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3228F40;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -220,17 +220,22 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t startReloadTime = 0x320; // float
         constexpr ::std::ptrdiff_t stancePenalty = 0x324; // float
         constexpr ::std::ptrdiff_t aimconePenalty = 0x328; // float
-        constexpr ::std::ptrdiff_t isReloading = 0x32C; // bool
-        constexpr ::std::ptrdiff_t swaySampleTime = 0x330; // float
-        constexpr ::std::ptrdiff_t lastShotTime = 0x334; // float
-        constexpr ::std::ptrdiff_t reloadPressTime = 0x338; // float
-        constexpr ::std::ptrdiff_t ammoTypePreReload = 0x340; // ItemDefinition
-        constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x348; // int
-        constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x34C; // int
-        constexpr ::std::ptrdiff_t triggerReady = 0x350; // bool
-        constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x354; // float
-        constexpr ::std::ptrdiff_t cachedUnderground = 0x358; // bool
-        constexpr ::std::ptrdiff_t createdProjectiles = 0x360; // List<Projectile>
+        constexpr ::std::ptrdiff_t cachedModHash = 0x32C; // uint
+        constexpr ::std::ptrdiff_t sightAimConeScale = 0x330; // float
+        constexpr ::std::ptrdiff_t sightAimConeOffset = 0x334; // float
+        constexpr ::std::ptrdiff_t hipAimConeScale = 0x338; // float
+        constexpr ::std::ptrdiff_t hipAimConeOffset = 0x33C; // float
+        constexpr ::std::ptrdiff_t isReloading = 0x340; // bool
+        constexpr ::std::ptrdiff_t swaySampleTime = 0x344; // float
+        constexpr ::std::ptrdiff_t lastShotTime = 0x348; // float
+        constexpr ::std::ptrdiff_t reloadPressTime = 0x34C; // float
+        constexpr ::std::ptrdiff_t ammoTypePreReload = 0x350; // ItemDefinition
+        constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x358; // int
+        constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x35C; // int
+        constexpr ::std::ptrdiff_t triggerReady = 0x360; // bool
+        constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x364; // float
+        constexpr ::std::ptrdiff_t cachedUnderground = 0x368; // bool
+        constexpr ::std::ptrdiff_t createdProjectiles = 0x370; // List<Projectile>
     } // namespace BaseProjectile
     namespace Magazine {
         constexpr ::std::ptrdiff_t definition = 0x10; // BaseProjectile.Magazine.Definition
