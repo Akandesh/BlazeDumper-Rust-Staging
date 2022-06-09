@@ -10,7 +10,7 @@ namespace blazedumper {
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x300E0B0;
+    public const Int32 offset = 0x300E088;
     }
     public static class BasePlayer
     {

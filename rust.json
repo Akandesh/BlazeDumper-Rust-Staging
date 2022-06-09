@@ -232,7 +232,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 50389168,
+    "Facepunch_Input_TypeInfo": 50389128,
     "Item": {
         "_condition": 24,
         "_maxCondition": 28,
