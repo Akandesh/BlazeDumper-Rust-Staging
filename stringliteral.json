@@ -65080,8 +65080,8 @@
     "address": "0x35273C8"
   },
   {
-    "value": "entid \"{0}\" \"{1}\" ",
-    "address": "0x3527360"
+    "value": "entid",
+    "address": "0x3527368"
   },
   {
     "value": "GameUI.Hud.",
