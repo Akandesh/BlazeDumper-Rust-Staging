@@ -3477,11 +3477,11 @@
   },
   {
     "value": "  </stringTable>",
-    "address": "0x35279E0"
+    "address": "0x35279D8"
   },
   {
     "value": " </resources>",
-    "address": "0x3527970"
+    "address": "0x3527968"
   },
   {
     "value": "</localization>",
@@ -3493,7 +3493,7 @@
   },
   {
     "value": " message=\"$(string.",
-    "address": "0x3527888"
+    "address": "0x3527890"
   },
   {
     "value": ")\"",
@@ -9181,7 +9181,7 @@
   },
   {
     "value": "service",
-    "address": "0x359E070"
+    "address": "0x359E078"
   },
   {
     "value": "wellknown",
@@ -13821,11 +13821,11 @@
   },
   {
     "value": "The element {0} cannot contain text. List of possible elements expected: {1}.",
-    "address": "0x3589A38"
+    "address": "0x3589A40"
   },
   {
     "value": "The element cannot contain text. Content model is empty.",
-    "address": "0x35899F0"
+    "address": "0x35899E8"
   },
   {
     "value": "The element cannot contain white space. Content model is empty.",
@@ -13837,11 +13837,11 @@
   },
   {
     "value": "Reference to an unparsed entity, '{0}'.",
-    "address": "0x3589910"
+    "address": "0x3589918"
   },
   {
     "value": "The actual length is not equal to the specified length.",
-    "address": "0x35898D8"
+    "address": "0x35898D0"
   },
   {
     "value": "The actual length is less than the MinLength value.",
@@ -13877,7 +13877,7 @@
   },
   {
     "value": "Circular type reference.",
-    "address": "0x3589640"
+    "address": "0x3589648"
   },
   {
     "value": "The base type is the final list.",
@@ -13893,7 +13893,7 @@
   },
   {
     "value": "Restriction of 'anySimpleType' is not allowed.",
-    "address": "0x3589540"
+    "address": "0x3589538"
   },
   {
     "value": "The base type is final restriction.",
@@ -36189,7 +36189,7 @@
   },
   {
     "value": "avgfps",
-    "address": "0x3527DB8"
+    "address": "0x3527DC0"
   },
   {
     "value": "gccollects",
@@ -36201,7 +36201,7 @@
   },
   {
     "value": "gc;totalmemory",
-    "address": "0x3527CD8"
+    "address": "0x3527CD0"
   },
   {
     "value": "BuildInfo",
@@ -36261,7 +36261,7 @@
   },
   {
     "value": "batteryStatus",
-    "address": "0x3527898"
+    "address": "0x35278A0"
   },
   {
     "value": "deviceModel",
@@ -41949,7 +41949,7 @@
   },
   {
     "value": "CN",
-    "address": "0x359E080"
+    "address": "0x359E088"
   },
   {
     "value": "I18N-handlers.def",
@@ -46589,11 +46589,11 @@
   },
   {
     "value": "Chieftain Stone Hatchet",
-    "address": "0x3589A30"
+    "address": "0x3589A38"
   },
   {
     "value": "Urban Large Wood Storage",
-    "address": "0x35899F8"
+    "address": "0x35899F0"
   },
   {
     "value": "The King's Bucket",
@@ -46605,7 +46605,7 @@
   },
   {
     "value": "Gold Digger",
-    "address": "0x3589918"
+    "address": "0x3589920"
   },
   {
     "value": "Army Miner Hat",
@@ -46645,7 +46645,7 @@
   },
   {
     "value": "Autumn Hunter's Shirt",
-    "address": "0x3589650"
+    "address": "0x3589658"
   },
   {
     "value": "Jawbreaker",
@@ -68969,7 +68969,7 @@
   },
   {
     "value": "gc.alloc",
-    "address": "0x3527CE8"
+    "address": "0x3527CE0"
   },
   {
     "value": "gc.buffer",
@@ -69029,7 +69029,7 @@
   },
   {
     "value": "censornudity",
-    "address": "0x35278A8"
+    "address": "0x35278B0"
   },
   {
     "value": "global.censornudity",
@@ -79357,11 +79357,11 @@
   },
   {
     "value": "note.update",
-    "address": "0x3589A48"
+    "address": "0x3589A50"
   },
   {
     "value": "Notice Refreshes",
-    "address": "0x35899E8"
+    "address": "0x35899E0"
   },
   {
     "value": "walkDirX",
@@ -79369,7 +79369,7 @@
   },
   {
     "value": "walkDirZ",
-    "address": "0x3589970"
+    "address": "0x3589968"
   },
   {
     "value": "turnPose",
@@ -79377,7 +79377,7 @@
   },
   {
     "value": "GroundAlign",
-    "address": "0x35898E0"
+    "address": "0x35898D8"
   },
   {
     "value": "UpdateWalkSpeed",
@@ -79413,7 +79413,7 @@
   },
   {
     "value": "vt {0} {1}\n",
-    "address": "0x3589660"
+    "address": "0x3589668"
   },
   {
     "value": "f {1}/{1}/{1} {0}/{0}/{0} {2}/{2}/{2}\n",
@@ -79433,7 +79433,7 @@
   },
   {
     "value": "[OcclusionCulling] Resized HiZ Map to ",
-    "address": "0x35894E0"
+    "address": "0x35894E8"
   },
   {
     "value": " x ",
@@ -87257,7 +87257,7 @@
   },
   {
     "value": "_SolverResolution",
-    "address": "0x3566EC0"
+    "address": "0x3566EC8"
   },
   {
     "value": "_SolverSizeInWorld",
