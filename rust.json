@@ -48,7 +48,7 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 56070624,
+    "BaseEntity_TypeInfo": 56070616,
     "BasePlayer": {
         "Belt": 1728,
         "ClientCurrentDeathNote": 1504,
@@ -277,7 +277,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 56078680,
+    "MainCamera_TypeInfo": 56078664,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
