@@ -31657,7 +31657,7 @@
   },
   {
     "value": "Pressed",
-    "address": "0x3549580"
+    "address": "0x3549588"
   },
   {
     "value": "Selected",
@@ -54745,7 +54745,7 @@
   },
   {
     "value": "Egg Hunter AR",
-    "address": "0x3573AE0"
+    "address": "0x3573AE8"
   },
   {
     "value": "Sweet Garage Door",
@@ -64412,20 +64412,20 @@
     "address": "0x3549688"
   },
   {
-    "value": "NpcWalkAnimation.RunQueue",
-    "address": "0x3549650"
-  },
-  {
     "value": "LightGroupAtTime.RunList",
-    "address": "0x3549618"
+    "address": "0x3549660"
   },
   {
     "value": "LaserBeam.ProcessQueue",
-    "address": "0x35495E8"
+    "address": "0x3549620"
   },
   {
     "value": "ESPPlayerInfo.ProcessQueue",
-    "address": "0x3549590"
+    "address": "0x35495E8"
+  },
+  {
+    "value": "NpcWalkAnimation.RunQueue",
+    "address": "0x3549570"
   },
   {
     "value": "ScrollRectDisable.UpdateScrollRects",
@@ -87513,7 +87513,7 @@
   },
   {
     "value": "_WaterSSR_ThicknessParams",
-    "address": "0x3573AD8"
+    "address": "0x3573AE0"
   },
   {
     "value": "_WaterCaustics_Shallow_Texture0",
