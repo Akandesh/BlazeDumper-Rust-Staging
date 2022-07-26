@@ -369,7 +369,8 @@ namespace blazedumper {
         public const Int32 _lodGroup = 0x2E0; // LODGroup
         public const Int32 _currentGesture = 0x2E8; // RuntimeAnimatorController
         public const Int32 holdTypeLock = 0x2F0; // float
-        public const Int32 wasMountedRightAim = 0x2F4; // bool
+        public const Int32 hasHeldEntity = 0x2F4; // bool
+        public const Int32 wasMountedRightAim = 0x2F5; // bool
         public const Int32 cachedMask = 0x2F8; // int
         public const Int32 cachedConstructionMask = 0x2FC; // int
         public const Int32 WorkshopHeldEntity = 0x300; // HeldEntity

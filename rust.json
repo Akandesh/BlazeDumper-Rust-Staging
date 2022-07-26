@@ -357,6 +357,7 @@
         "fakeSpineBones": 96,
         "flinchLocation": 644,
         "hairNumber": 456,
+        "hasHeldEntity": 756,
         "headBone": 160,
         "holdTypeLock": 752,
         "isIncapacitated": 641,
@@ -409,7 +410,7 @@
         "visible": 648,
         "voiceVolume": 440,
         "wasCrawling": 776,
-        "wasMountedRightAim": 756
+        "wasMountedRightAim": 757
     },
     "RecoilProperties": {
         "ADSScale": 48,

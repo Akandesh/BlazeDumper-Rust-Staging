@@ -5853,7 +5853,7 @@
   },
   {
     "value": "ebcdic-gb-285+euro",
-    "address": "0x322CF78"
+    "address": "0x322CF70"
   },
   {
     "value": "ebcdic-international-500+euro",
@@ -26649,7 +26649,7 @@
   },
   {
     "value": "<ds.DataColumn.set_ReadOnly|API> {0}, {1}",
-    "address": "0x325BC80"
+    "address": "0x325BC78"
   },
   {
     "value": "<ds.DataColumn.set_Unique|API> {0}, {1}",
@@ -38617,7 +38617,7 @@
   },
   {
     "value": "ERROR: Cannot Match both Vertical & Horizontal.",
-    "address": "0x322CFE0"
+    "address": "0x322CFD8"
   },
   {
     "value": "Destroying Sub Text object[",
@@ -38629,7 +38629,7 @@
   },
   {
     "value": " assigned to ",
-    "address": "0x322CEF0"
+    "address": "0x322CEF8"
   },
   {
     "value": " is missing.",
@@ -59413,7 +59413,7 @@
   },
   {
     "value": "list_create_storage",
-    "address": "0x325BCA0"
+    "address": "0x325BCA8"
   },
   {
     "value": "Create Storage",
@@ -59425,7 +59425,7 @@
   },
   {
     "value": "Craft a Wooden Box",
-    "address": "0x325BC08"
+    "address": "0x325BC00"
   },
   {
     "value": "PLACE_WOODEN_BOX",
@@ -87285,7 +87285,7 @@
   },
   {
     "value": "WaterLevel.Factor",
-    "address": "0x326FCC0"
+    "address": "0x326FCC8"
   },
   {
     "value": "WaterLevel.Test",

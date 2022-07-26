@@ -353,7 +353,8 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t _lodGroup = 0x2E0; // LODGroup
         constexpr ::std::ptrdiff_t _currentGesture = 0x2E8; // RuntimeAnimatorController
         constexpr ::std::ptrdiff_t holdTypeLock = 0x2F0; // float
-        constexpr ::std::ptrdiff_t wasMountedRightAim = 0x2F4; // bool
+        constexpr ::std::ptrdiff_t hasHeldEntity = 0x2F4; // bool
+        constexpr ::std::ptrdiff_t wasMountedRightAim = 0x2F5; // bool
         constexpr ::std::ptrdiff_t cachedMask = 0x2F8; // int
         constexpr ::std::ptrdiff_t cachedConstructionMask = 0x2FC; // int
         constexpr ::std::ptrdiff_t WorkshopHeldEntity = 0x300; // HeldEntity
