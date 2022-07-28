@@ -2,9 +2,9 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x326E828;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3270450;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3280BF0;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x326F940;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3271580;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3281D40;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
