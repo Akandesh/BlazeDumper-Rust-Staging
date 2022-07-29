@@ -2,7 +2,7 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x326F940;
+    public const Int32 offset = 0x326F948;
     }
     public static class MainCamera_TypeInfo
     {
