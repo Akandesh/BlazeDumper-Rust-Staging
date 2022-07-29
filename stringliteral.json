@@ -7241,7 +7241,7 @@
   },
   {
     "value": "g",
-    "address": "0x3250AA8"
+    "address": "0x3250AA0"
   },
   {
     "value": "Unrecognized Guid format.",
@@ -9705,7 +9705,7 @@
   },
   {
     "value": "Uri already in use: ",
-    "address": "0x3245D70"
+    "address": "0x3245D68"
   },
   {
     "value": "http://schemas.microsoft.com/clr/assem/",
@@ -9725,7 +9725,7 @@
   },
   {
     "value": "%20",
-    "address": "0x3245C18"
+    "address": "0x3245C10"
   },
   {
     "value": "%3D",
@@ -10637,7 +10637,7 @@
   },
   {
     "value": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256",
-    "address": "0x3241BD0"
+    "address": "0x3241BD8"
   },
   {
     "value": "system.security.cryptography.rsapkcs1sha384signaturedescription",
@@ -10645,11 +10645,11 @@
   },
   {
     "value": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha384",
-    "address": "0x3241B48"
+    "address": "0x3241B50"
   },
   {
     "value": "system.security.cryptography.rsapkcs1sha512signaturedescription",
-    "address": "0x3241AF8"
+    "address": "0x3241AF0"
   },
   {
     "value": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512",
@@ -12769,7 +12769,7 @@
   },
   {
     "value": "Month",
-    "address": "0x3238608"
+    "address": "0x3238610"
   },
   {
     "value": "Week",
@@ -12777,7 +12777,7 @@
   },
   {
     "value": "Day",
-    "address": "0x3238568"
+    "address": "0x3238560"
   },
   {
     "value": "DayOfWeek",
@@ -20377,11 +20377,11 @@
   },
   {
     "value": "The Content-Length value must be greater than or equal to zero.",
-    "address": "0x32A0240"
+    "address": "0x32A0238"
   },
   {
     "value": "Content-Type",
-    "address": "0x32A01E8"
+    "address": "0x32A01F0"
   },
   {
     "value": "Cannot set null or blank methods on request.",
@@ -20441,7 +20441,7 @@
   },
   {
     "value": "Method not supported",
-    "address": "0x329FDB0"
+    "address": "0x329FDB8"
   },
   {
     "value": "I",
@@ -25861,7 +25861,7 @@
   },
   {
     "value": "#delete",
-    "address": "0x3288FF0"
+    "address": "0x3288FF8"
   },
   {
     "value": "^insert",
@@ -29161,7 +29161,7 @@
   },
   {
     "value": "_Text",
-    "address": "0x327C1C0"
+    "address": "0x327C1B8"
   },
   {
     "value": "CaseSensitive",
@@ -29181,7 +29181,7 @@
   },
   {
     "value": "sync",
-    "address": "0x327C070"
+    "address": "0x327C068"
   },
   {
     "value": "urn:schemas-microsoft-com:xml-updategram",
@@ -37513,11 +37513,11 @@
   },
   {
     "value": "Trying to dispose SimpleUID with ShouldPool set to false!",
-    "address": "0x325B7B0"
+    "address": "0x325B7A8"
   },
   {
     "value": "Trying to dispose SkullTrophy with ShouldPool set to false!",
-    "address": "0x325B778"
+    "address": "0x325B780"
   },
   {
     "value": "Trying to dispose SleepingBag with ShouldPool set to false!",
@@ -37585,7 +37585,7 @@
   },
   {
     "value": "Trying to dispose TargetDetectedAIEventData with ShouldPool set to false!",
-    "address": "0x325B330"
+    "address": "0x325B328"
   },
   {
     "value": "Trying to dispose Telephone with ShouldPool set to false!",
@@ -37613,7 +37613,7 @@
   },
   {
     "value": "Trying to dispose Tree with ShouldPool set to false!",
-    "address": "0x325B160"
+    "address": "0x325B168"
   },
   {
     "value": "Trying to dispose TreeList with ShouldPool set to false!",
@@ -42509,7 +42509,7 @@
   },
   {
     "value": "Unknown channel event callback is not set.",
-    "address": "0x3245AD8"
+    "address": "0x3245AE0"
   },
   {
     "value": "Channel Prefix ({0})",
@@ -43413,7 +43413,7 @@
   },
   {
     "value": "/Library/Application Support/SteelSeries Engine 3/coreProps.json",
-    "address": "0x3241B58"
+    "address": "0x3241B60"
   },
   {
     "value": "\r\n(define all-zones-list (list\r\n  one: two: three: four: five: six: seven: eight: nine:\r\n  ten: eleven: twelve: thirteen: fourteen: fifteen: sixteen: seventeen: eighteen: nineteen:\r\n  twenty: twenty-one: twenty-two: twenty-three: twenty-four: twenty-five: twenty-six: twenty-seven: twenty-eight: twenty-nine:\r\n  thirty: thirty-one: thirty-two: thirty-three: thirty-four: thirty-five: thirty-six: thirty-seven: thirty-eight: thirty-nine:\r\n  forty: forty-one: forty-two: forty-three: forty-four: forty-five: forty-six: forty-seven: forty-eight: forty-nine:\r\n  fifty: fifty-one: fifty-two: fifty-three: fifty-four: fifty-five: fifty-six: fifty-seven: fifty-eight: fifty-nine:\r\n  sixty: sixty-one: sixty-two: sixty-three: sixty-four: sixty-five: sixty-six: sixty-seven: sixty-eight: sixty-nine:\r\n  seventy: seventy-one: seventy-two: seventy-three: seventy-four: seventy-five: seventy-six: seventy-seven: seventy-eight: seventy-nine:\r\n  eighty: eighty-one: eighty-two: eighty-three: eighty-four: eighty-five: eighty-six: eighty-seven: eighty-eight: eighty-nine:\r\n  ninety: ninety-one: ninety-two: ninety-three: ninety-four: ninety-five: ninety-six: ninety-seven: ninety-eight: ninety-nine:\r\n  one-hundred: one-hundred-one: one-hundred-two: one-hundred-three:))\r\n\r\n(define clamp (lambda (v lower upper)\r\n  (min (list (max (list v lower)) upper))))\r\n\r\n;;; Fork of the builtin Generic-Event-Dispatcher, stripped down, with added delta time calculation\r\n(define Custom-Event-Dispatcher {\r\n  is-on: #t\r\n  process: nil\r\n  process-mutex: nil\r\n  context-frame: {}\r\n  period: 250\r\n  repeat-limit: 0\r\n  current-repeats: 0\r\n  event-type: AllEventTypes\r\n  is-disabled-event: #f\r\n\r\n  compute-period: (lambda () period)\r\n\r\n  compute-repeat-limit: (lambda () repeat-limit)\r\n\r\n  run-update-side-effect: (lambda ()) ;; Optional to implement\r\n  run-finish-side-effect: (lambda ()) ;; Optional to implement\r\n\r\n  run: (lambda (proc)\r\n    (let* ((dt 0.0))\r\n      (do ((finish #f finish))\r\n          (finish (run-finish-side-effect) (cleanup-function))\r\n        (set! dt (time (begin\r\n          (run-update-side-effect)\r\n          (update-function dt)\r\n          (set! finish (proc-sleep proc period))))))))\r\n\r\n  create-sync: (lambda ()\r\n    (when (nil? process-mutex)\r\n      (process-mutex:! self (make-channel 1))))\r\n\r\n  start: (lambda ()\r\n    (create-sync:> self)\r\n    (process-mutex<- nil)\r\n    (when (nil? process)\r\n      (process:! self (fork (lambda (p) (run:> self p)))))\r\n    (<-process-mutex))\r\n\r\n  stop: (lambda ()\r\n    (create-sync:> self)\r\n    (process-mutex<- nil)\r\n    (when (notnil? process)\r\n      (wake process)\r\n      (join process)\r\n      (process:! self nil))\r\n    (<-process-mutex))\r\n\r\n  update-function: (lambda (dt)) ;; Must be implemented by inheritors\r\n\r\n  cleanup-function: (lambda ())\r\n\r\n  deinitialize: (lambda ()\r\n    (stop:> self))\r\n})\r\n\r\n(define color-pulser {\r\n  proto*: Custom-Event-Dispatcher\r\n\r\n  period: 30\r\n  event-type: LightingType\r\n  is-on: #t\r\n  base-color: black-color\r\n  pulse-color: white-color\r\n  time-enabled: 0.0\r\n  duration: 1.0\r\n  \r\n  compute-time: (lambda () (clamp (/ time-enabled (* 1000.0 duration)) 0.0 1.0))\r\n  compute-percentage: (lambda (t) (* (- 1.0 (pow (- (* 2.0 t) 1.0) 2.0)) 100.0))\r\n  compute-color: (lambda (p) (color-between base-color pulse-color p))\r\n\r\n  run-update-side-effect: (lambda () (is-on:! self (not is-on)))\r\n  run-finish-side-effect: (lambda () (is-on:! self #t))\r\n  \r\n  update-function: (lambda (dt)\r\n    (let* ((time (compute-and-render-color)))\r\n      (begin\r\n        (time-enabled:! self (+ time-enabled dt))\r\n        (when (>= time 1.0)\r\n          (fork (lambda (proc) (stop:> self)))))))\r\n\r\n  compute-and-render-color: (lambda ()\r\n    (let* ((time (compute-time))\r\n           (percentage (compute-percentage time))\r\n           (color (compute-color percentage)))\r\n      (begin\r\n        (render-color color)\r\n        time)))\r\n\r\n  render-color: (lambda (color)\r\n    (on-device-all-connected 'rgb-per-key-zones show-on-zone: color all:)\r\n    (on-device-all-connected 'rgb-zoned-device show-on-zones: (make-list (length all-zones-list) color) all-zones-list))\r\n    \r\n  set-base-color: (lambda (c)\r\n    (base-color:! self c)\r\n    (compute-and-render-color))\r\n    \r\n  setup-and-enable: (lambda (c d)\r\n    (stop)\r\n    (pulse-color:! self c)\r\n    (duration:! self d)\r\n    (time-enabled:! self 0.0)\r\n    (start)\r\n    (compute-and-render-color))\r\n})\r\n\r\n(handler \"STATIC_COLOR\"\r\n  (lambda (data)\r\n    (send color-pulser set-base-color: (static-color-frame->code (colorParam: (frame: data))))))\r\n\r\n(handler \"PULSE_COLOR\"\r\n  (lambda (data)\r\n    (let* ((duration (value: data))\r\n           (color (static-color-frame->code (colorParam: (frame: data)))))\r\n      (send color-pulser setup-and-enable: color duration))))\r\n\r\n(add-event-per-key-zone-use \"PULSE_COLOR\" \"all\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-1-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-2-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-3-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-4-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-5-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-6-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-7-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-8-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-12-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-17-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-24-zone\")\r\n(add-event-zone-use-with-specifier \"PULSE_COLOR\" \"all\" \"rgb-103-zone\")\r\n",
@@ -45537,7 +45537,7 @@
   },
   {
     "value": "Deathwing Facemask",
-    "address": "0x3238610"
+    "address": "0x3238618"
   },
   {
     "value": "Deathwing Pants",
@@ -45545,7 +45545,7 @@
   },
   {
     "value": "Deathwing Vest",
-    "address": "0x3238550"
+    "address": "0x3238548"
   },
   {
     "value": "The Beast AK47",
@@ -51353,7 +51353,7 @@
   },
   {
     "value": "Witchhunter DBS",
-    "address": "0x321ED28"
+    "address": "0x321ED20"
   },
   {
     "value": "Egiptu Box",
@@ -51941,7 +51941,7 @@
   },
   {
     "value": "CHROMA FLAIR",
-    "address": "0x321C3B0"
+    "address": "0x321C3A8"
   },
   {
     "value": "Emerald Knife",
@@ -53145,7 +53145,7 @@
   },
   {
     "value": "Cloud Shot Crossbow",
-    "address": "0x32A0230"
+    "address": "0x32A0228"
   },
   {
     "value": "Peacemaker SMG",
@@ -53165,11 +53165,11 @@
   },
   {
     "value": "Morganite Rock",
-    "address": "0x32A00A0"
+    "address": "0x32A00A8"
   },
   {
     "value": "Bull Rage Door",
-    "address": "0x32A0070"
+    "address": "0x32A0078"
   },
   {
     "value": "Wolf Den Wooden Door",
@@ -53205,11 +53205,11 @@
   },
   {
     "value": "Ice Door",
-    "address": "0x329FDF0"
+    "address": "0x329FDE8"
   },
   {
     "value": "Rebar Knife",
-    "address": "0x329FD98"
+    "address": "0x329FDA0"
   },
   {
     "value": "Tempered Boots",
@@ -53669,7 +53669,7 @@
   },
   {
     "value": "Lightweight Roadsign Gloves",
-    "address": "0x329DD50"
+    "address": "0x329DD58"
   },
   {
     "value": "Notebook Crossbow",
@@ -58625,11 +58625,11 @@
   },
   {
     "value": "TOD_SCATTERING_SINGLE_PASS",
-    "address": "0x3289048"
+    "address": "0x3289040"
   },
   {
     "value": "TOD_BayerTexture",
-    "address": "0x3289000"
+    "address": "0x3289008"
   },
   {
     "value": "TOD_ScatterDensity",
@@ -61949,11 +61949,11 @@
   },
   {
     "value": "RPC Error in SetInheritedVelocity: ",
-    "address": "0x327C080"
+    "address": "0x327C078"
   },
   {
     "value": "CL_RPCMessage: SetWeaponDrawnDuration ",
-    "address": "0x327C038"
+    "address": "0x327C040"
   },
   {
     "value": "SetWeaponDrawnDuration",
@@ -70285,7 +70285,7 @@
   },
   {
     "value": "autocrouch",
-    "address": "0x325B790"
+    "address": "0x325B798"
   },
   {
     "value": "input.autocrouch",
@@ -72773,7 +72773,7 @@
   },
   {
     "value": "setclosepower",
-    "address": "0x3250AD8"
+    "address": "0x3250AE0"
   },
   {
     "value": "Menu_SetOpen",
@@ -75237,11 +75237,11 @@
   },
   {
     "value": "MenuWakeFrankenstein",
-    "address": "0x3245D98"
+    "address": "0x3245DA0"
   },
   {
     "value": "wakefrankenstein_desc",
-    "address": "0x3245D78"
+    "address": "0x3245D70"
   },
   {
     "value": "wakefrankenstein",
@@ -76181,11 +76181,11 @@
   },
   {
     "value": "include_others_desc",
-    "address": "0x3241B50"
+    "address": "0x3241B58"
   },
   {
     "value": "include_others",
-    "address": "0x3241B00"
+    "address": "0x3241AF8"
   },
   {
     "value": "HBHFSensor.OnRpcMessage",
@@ -78305,7 +78305,7 @@
   },
   {
     "value": "idle",
-    "address": "0x3238600"
+    "address": "0x3238608"
   },
   {
     "value": "use_self",
@@ -78313,7 +78313,7 @@
   },
   {
     "value": "use_other_wounded",
-    "address": "0x3238558"
+    "address": "0x3238550"
   },
   {
     "value": "use_other",
@@ -85913,11 +85913,11 @@
   },
   {
     "value": "InvHighResolution",
-    "address": "0x32A0220"
+    "address": "0x32A0218"
   },
   {
     "value": "LoResDB",
-    "address": "0x32A01E0"
+    "address": "0x32A01E8"
   },
   {
     "value": "HiResDB",
@@ -85937,11 +85937,11 @@
   },
   {
     "value": "Ambient Occlusion",
-    "address": "0x32A0078"
+    "address": "0x32A0080"
   },
   {
     "value": "APPLY_FORWARD_FOG",
-    "address": "0x32A0030"
+    "address": "0x32A0028"
   },
   {
     "value": "Ambient Occlusion Render",
@@ -85973,11 +85973,11 @@
   },
   {
     "value": "Hidden/ViewModel",
-    "address": "0x329FDE8"
+    "address": "0x329FDE0"
   },
   {
     "value": "Hidden/Rust/Standard Decal (Specular setup)",
-    "address": "0x329FD90"
+    "address": "0x329FD98"
   },
   {
     "value": "Hidden/Rust/Standard Decal",
