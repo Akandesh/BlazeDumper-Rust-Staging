@@ -233,7 +233,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 52985160,
+    "Facepunch_Input_TypeInfo": 52985152,
     "Item": {
         "_condition": 24,
         "_maxCondition": 28,
@@ -278,7 +278,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 52917624,
+    "MainCamera_TypeInfo": 52917640,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
