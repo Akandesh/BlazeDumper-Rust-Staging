@@ -2,9 +2,9 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3281300;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3283000;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x32937B8;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3287780;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3289478;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3299C48;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -125,7 +125,7 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t broadcastProtocol = 0x90; // uint
         constexpr ::std::ptrdiff_t links = 0x98; // List<EntityLink>
         constexpr ::std::ptrdiff_t linkedToNeighbours = 0xA0; // bool
-        constexpr ::std::ptrdiff_t _pendingFileRequests = 0xA8; // List<BaseEntity.ServerFileRequest>
+        constexpr ::std::ptrdiff_t _pendingFileRequests = 0xA8; // List<BaseEntity.PendingFileRequest>
         constexpr ::std::ptrdiff_t updateParentingAction = 0xB0; // Action
         constexpr ::std::ptrdiff_t addedToParentEntity = 0xB8; // BaseEntity
         constexpr ::std::ptrdiff_t itemSkin = 0xC0; // ItemSkin

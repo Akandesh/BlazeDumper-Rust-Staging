@@ -2,15 +2,15 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3281300;
+    public const Int32 offset = 0x3287780;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3283000;
+    public const Int32 offset = 0x3289478;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x32937B8;
+    public const Int32 offset = 0x3299C48;
     }
     public static class BasePlayer
     {
@@ -134,7 +134,7 @@ namespace blazedumper {
         public const Int32 broadcastProtocol = 0x90; // uint
         public const Int32 links = 0x98; // List<EntityLink>
         public const Int32 linkedToNeighbours = 0xA0; // bool
-        public const Int32 _pendingFileRequests = 0xA8; // List<BaseEntity.ServerFileRequest>
+        public const Int32 _pendingFileRequests = 0xA8; // List<BaseEntity.PendingFileRequest>
         public const Int32 updateParentingAction = 0xB0; // Action
         public const Int32 addedToParentEntity = 0xB8; // BaseEntity
         public const Int32 itemSkin = 0xC0; // ItemSkin
