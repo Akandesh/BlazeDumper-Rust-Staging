@@ -85560,12 +85560,12 @@
     "address": "0x32B8228"
   },
   {
-    "value": "treads_left",
+    "value": "TreadAnimator.wheelBones is null",
     "address": "0x32B81E8"
   },
   {
-    "value": "treads_right",
-    "address": "0x32B8178"
+    "value": "TreadAnimator.wheelBones contains null at index ",
+    "address": "0x32B8170"
   },
   {
     "value": "wheel_spin",
