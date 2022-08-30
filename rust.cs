@@ -6,7 +6,7 @@ namespace blazedumper {
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3289478;
+    public const Int32 offset = 0x3289480;
     }
     public static class Facepunch_Input_TypeInfo
     {
