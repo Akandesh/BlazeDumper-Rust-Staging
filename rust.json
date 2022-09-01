@@ -434,5 +434,6 @@
         "timeToTakeMin": 40,
         "useCurves": 80,
         "yawCurve": 72
-    }
+    },
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 52984976
 }
