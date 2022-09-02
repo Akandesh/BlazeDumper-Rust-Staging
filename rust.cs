@@ -16,6 +16,10 @@ namespace blazedumper {
     {
     public const Int32 offset = 0x3287CD8;
     }
+    public static class BaseGameMode_TypeInfo
+    {
+    public const Int32 offset = 0x3287D68;
+    }
     public static class BasePlayer
     {
         public const Int32 __menuOption_Climb = 0x240; // Option

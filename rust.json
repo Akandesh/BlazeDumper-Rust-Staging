@@ -49,6 +49,7 @@
         "updateParentingAction": 176
     },
     "BaseEntity_TypeInfo": 52987832,
+    "BaseGameMode_TypeInfo": 52985192,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
