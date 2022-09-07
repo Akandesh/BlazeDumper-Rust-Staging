@@ -7857,7 +7857,7 @@
   },
   {
     "value": "UNC paths should be of the form \\\\server\\share.",
-    "address": "0x3265EE8"
+    "address": "0x3265EE0"
   },
   {
     "value": "The specified path is not of a legal form.",
@@ -15429,7 +15429,7 @@
   },
   {
     "value": "empty",
-    "address": "0x3244AA0"
+    "address": "0x3244AA8"
   },
   {
     "value": "eltOnly",
@@ -20889,7 +20889,7 @@
   },
   {
     "value": "Created",
-    "address": "0x32B6510"
+    "address": "0x32B6508"
   },
   {
     "value": "Accepted",
@@ -40625,7 +40625,7 @@
   },
   {
     "value": "Road Type ",
-    "address": "0x3265EF8"
+    "address": "0x3265EF0"
   },
   {
     "value": "and renamed to '",
@@ -42005,11 +42005,11 @@
   },
   {
     "value": "CN",
-    "address": "0x325FDF8"
+    "address": "0x325FE00"
   },
   {
     "value": "I18N-handlers.def",
-    "address": "0x325FD98"
+    "address": "0x325FDA0"
   },
   {
     "value": "ArgRange_StringIndex",
@@ -48197,7 +48197,7 @@
   },
   {
     "value": "Brutal Jaws Garage Door",
-    "address": "0x3244A88"
+    "address": "0x3244A90"
   },
   {
     "value": "Pirate Wooden Door",
@@ -74773,7 +74773,7 @@
   },
   {
     "value": "SUN INTENSITY",
-    "address": "0x325FDF0"
+    "address": "0x325FDF8"
   },
   {
     "value": "Prefab name is \"",
@@ -80965,11 +80965,11 @@
   },
   {
     "value": "vehicleAimYawSpeed",
-    "address": "0x3244A80"
+    "address": "0x3244A88"
   },
   {
     "value": "onPhone",
-    "address": "0x3244A58"
+    "address": "0x3244A60"
   },
   {
     "value": "usePoseTransition",
@@ -86425,7 +86425,7 @@
   },
   {
     "value": "Ambient Occlusion Render",
-    "address": "0x32B6518"
+    "address": "0x32B6510"
   },
   {
     "value": "Ambient Occlusion Composite",
