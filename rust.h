@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x35F5AE0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3610A40;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x35F7B28;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x35F4E98;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x35F4F30;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x35F7D68;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3612CC8;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x35F9DC0;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x35F7120;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x35F71B8;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -399,11 +399,13 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t skin = 0x50; // ulong
         constexpr ::std::ptrdiff_t name = 0x58; // string
         constexpr ::std::ptrdiff_t text = 0x60; // string
-        constexpr ::std::ptrdiff_t flags = 0x70; // Item.Flag
-        constexpr ::std::ptrdiff_t contents = 0x78; // ItemContainer
-        constexpr ::std::ptrdiff_t parent = 0x80; // ItemContainer
-        constexpr ::std::ptrdiff_t worldEnt = 0x88; // EntityRef
-        constexpr ::std::ptrdiff_t heldEntity = 0x98; // EntityRef
+        constexpr ::std::ptrdiff_t cookTimeLeft = 0x68; // float
+        constexpr ::std::ptrdiff_t progressBar = 0x6C; // float
+        constexpr ::std::ptrdiff_t flags = 0x78; // Item.Flag
+        constexpr ::std::ptrdiff_t contents = 0x80; // ItemContainer
+        constexpr ::std::ptrdiff_t parent = 0x88; // ItemContainer
+        constexpr ::std::ptrdiff_t worldEnt = 0x90; // EntityRef
+        constexpr ::std::ptrdiff_t heldEntity = 0xA0; // EntityRef
     } // namespace Item
     namespace Model {
         constexpr ::std::ptrdiff_t collision = 0x18; // SphereCollider
