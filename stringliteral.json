@@ -19657,7 +19657,7 @@
   },
   {
     "value": "ENOMORE",
-    "address": "0x35F6780"
+    "address": "0x35F6778"
   },
   {
     "value": "Operation canceled",
@@ -32113,7 +32113,7 @@
   },
   {
     "value": "SteamGameId",
-    "address": "0x35BE1A0"
+    "address": "0x35BE198"
   },
   {
     "value": "SteamApi_Init returned false. Steam isn't running, couldn't find Steam, App ID is ureleased, Don't own App ID.",
@@ -32121,11 +32121,11 @@
   },
   {
     "value": "Invalid Socket",
-    "address": "0x35BE100"
+    "address": "0x35BE0F8"
   },
   {
     "value": "Invalid Connection",
-    "address": "0x35BE0A8"
+    "address": "0x35BE0B0"
   },
   {
     "value": "Sample Rate must be between 11025 and 48000",
@@ -52421,11 +52421,11 @@
   },
   {
     "value": "OPS SAR",
-    "address": "0x35F67E8"
+    "address": "0x35F67F0"
   },
   {
     "value": "Chaos Hatchet",
-    "address": "0x35F67A0"
+    "address": "0x35F6798"
   },
   {
     "value": "Chaos Pick Axe",
@@ -64876,27 +64876,27 @@
     "address": "0x35BE1F8"
   },
   {
-    "value": "LightGroupAtTime.RunList",
+    "value": "LaserBeam.ProcessQueue",
     "address": "0x35BE1D8"
   },
   {
-    "value": "LaserBeam.ProcessQueue",
-    "address": "0x35BE198"
-  },
-  {
     "value": "ESPPlayerInfo.ProcessQueue",
-    "address": "0x35BE148"
+    "address": "0x35BE1A8"
   },
   {
     "value": "NpcWalkAnimation.RunQueue",
-    "address": "0x35BE0E0"
+    "address": "0x35BE128"
   },
   {
     "value": "ScrollRectDisable.UpdateScrollRects",
-    "address": "0x35BE0C0"
+    "address": "0x35BE110"
   },
   {
     "value": "AlignedLineDrawer.ProcessQueue",
+    "address": "0x35BE0A8"
+  },
+  {
+    "value": "LightGroupAtTime.RunList",
     "address": "0x35BE068"
   },
   {
@@ -85189,7 +85189,7 @@
   },
   {
     "value": "_PotatoDetailWorldUVScale",
-    "address": "0x35F67C8"
+    "address": "0x35F67D0"
   },
   {
     "value": "_UVMIXMult",
