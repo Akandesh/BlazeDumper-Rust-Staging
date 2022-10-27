@@ -3,5 +3,5 @@
 🚀 Up to date offsets for Rust. Automatically kept up to date thanks to [rust-auto-dumper](https://github.com/Akandesh/rust-auto-dumper).
 
 
-### Last Update 27-10-2022 18:39:35
+### Last Update 27-10-2022 23:18:07
 - If there's something missing then open a issue and i'll try to add it asap.
