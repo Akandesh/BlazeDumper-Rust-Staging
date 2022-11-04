@@ -31265,7 +31265,7 @@
   },
   {
     "value": "SMALLDATE",
-    "address": "0x35F69E0"
+    "address": "0x35F69D8"
   },
   {
     "value": "VARBINARY",
@@ -64028,15 +64028,15 @@
     "address": "0x35F6A80"
   },
   {
-    "value": "<color=#",
-    "address": "0x35F6A30"
-  },
-  {
     "value": "  {0} {1}",
-    "address": "0x35F69D0"
+    "address": "0x35F6A18"
   },
   {
     "value": "\n{0} {1}",
+    "address": "0x35F69F8"
+  },
+  {
+    "value": "<color=#",
     "address": "0x35F6998"
   },
   {
@@ -80705,7 +80705,7 @@
   },
   {
     "value": "talk_desc",
-    "address": "0x363FA88"
+    "address": "0x363FA90"
   },
   {
     "value": "talk",
