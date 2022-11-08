@@ -4145,7 +4145,7 @@
   },
   {
     "value": "Tu",
-    "address": "0x3670178"
+    "address": "0x3670180"
   },
   {
     "value": "We",
@@ -10617,7 +10617,7 @@
   },
   {
     "value": "system.security.cryptography.rsapkcs1signaturedeformatter",
-    "address": "0x3653A58"
+    "address": "0x3653A50"
   },
   {
     "value": "system.security.cryptography.rsapkcs1signatureformatter",
@@ -15245,7 +15245,7 @@
   },
   {
     "value": "'restriction' or 'extension' child is required for complexType with simpleContent or complexContent child.",
-    "address": "0x363F500"
+    "address": "0x363F508"
   },
   {
     "value": "'restriction' or 'extension' child is required for complexType '{0}' in namespace '{1}', because it has a simpleContent or complexContent child.",
@@ -36913,7 +36913,7 @@
   },
   {
     "value": "Trying to dispose Corpse with ShouldPool set to false!",
-    "address": "0x3670168"
+    "address": "0x3670170"
   },
   {
     "value": "Trying to dispose Crane with ShouldPool set to false!",
@@ -48013,7 +48013,7 @@
   },
   {
     "value": "Marsh Lurker Gloves",
-    "address": "0x363F4F0"
+    "address": "0x363F4F8"
   },
   {
     "value": "Marsh Lurker Pants",
@@ -52253,7 +52253,7 @@
   },
   {
     "value": "Two Faced Stone Pickaxe",
-    "address": "0x362CAD0"
+    "address": "0x362CAD8"
   },
   {
     "value": "Two Faced Stone Hatchet",
@@ -69681,7 +69681,7 @@
   },
   {
     "value": "ent_find_radius",
-    "address": "0x3670160"
+    "address": "0x3670168"
   },
   {
     "value": "debug.ent_find_radius",
@@ -80781,7 +80781,7 @@
   },
   {
     "value": "_RgbTex1",
-    "address": "0x363F508"
+    "address": "0x363F510"
   },
   {
     "value": "_Saturation1",
