@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36546D8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x366F890;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36568A0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3653A90;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3653B30;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36546E8;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x366F8A0;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36568B8;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3653AA0;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3653B40;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -217,9 +217,10 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t needsCycle = 0x30F; // bool
         inline constexpr ::std::ptrdiff_t isCycling = 0x310; // bool
         inline constexpr ::std::ptrdiff_t aiming = 0x311; // bool
-        inline constexpr ::std::ptrdiff_t isBurstWeapon = 0x312; // bool
-        inline constexpr ::std::ptrdiff_t canChangeFireModes = 0x313; // bool
-        inline constexpr ::std::ptrdiff_t defaultOn = 0x314; // bool
+        inline constexpr ::std::ptrdiff_t useEmptyAmmoState = 0x312; // bool
+        inline constexpr ::std::ptrdiff_t isBurstWeapon = 0x313; // bool
+        inline constexpr ::std::ptrdiff_t canChangeFireModes = 0x314; // bool
+        inline constexpr ::std::ptrdiff_t defaultOn = 0x315; // bool
         inline constexpr ::std::ptrdiff_t internalBurstRecoilScale = 0x318; // float
         inline constexpr ::std::ptrdiff_t internalBurstFireRateScale = 0x31C; // float
         inline constexpr ::std::ptrdiff_t internalBurstAimConeScale = 0x320; // float

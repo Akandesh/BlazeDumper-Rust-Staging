@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36546D8;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x366F890;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36568A0;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3653A90;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3653B30;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36546E8;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x366F8A0;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36568B8;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3653AA0;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3653B40;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -217,9 +217,10 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t needsCycle = 0x30F; // bool
         constexpr ::std::ptrdiff_t isCycling = 0x310; // bool
         constexpr ::std::ptrdiff_t aiming = 0x311; // bool
-        constexpr ::std::ptrdiff_t isBurstWeapon = 0x312; // bool
-        constexpr ::std::ptrdiff_t canChangeFireModes = 0x313; // bool
-        constexpr ::std::ptrdiff_t defaultOn = 0x314; // bool
+        constexpr ::std::ptrdiff_t useEmptyAmmoState = 0x312; // bool
+        constexpr ::std::ptrdiff_t isBurstWeapon = 0x313; // bool
+        constexpr ::std::ptrdiff_t canChangeFireModes = 0x314; // bool
+        constexpr ::std::ptrdiff_t defaultOn = 0x315; // bool
         constexpr ::std::ptrdiff_t internalBurstRecoilScale = 0x318; // float
         constexpr ::std::ptrdiff_t internalBurstFireRateScale = 0x31C; // float
         constexpr ::std::ptrdiff_t internalBurstAimConeScale = 0x320; // float
