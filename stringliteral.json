@@ -4729,7 +4729,7 @@
   },
   {
     "value": "ii",
-    "address": "0x368C3D0"
+    "address": "0x368C3D8"
   },
   {
     "value": "is",
@@ -37497,7 +37497,7 @@
   },
   {
     "value": "Trying to dispose PlayerRelationships with ShouldPool set to false!",
-    "address": "0x368C3B8"
+    "address": "0x368C3C0"
   },
   {
     "value": "Trying to dispose ResearchTable with ShouldPool set to false!",
@@ -70265,7 +70265,7 @@
   },
   {
     "value": "decal",
-    "address": "0x368C3D8"
+    "address": "0x368C3E0"
   },
   {
     "value": "decal.cache",
