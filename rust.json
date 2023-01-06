@@ -48,7 +48,7 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 56977392,
+    "BaseEntity_TypeInfo": 56977384,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -334,7 +334,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 56986032,
+    "MainCamera_TypeInfo": 56986024,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
