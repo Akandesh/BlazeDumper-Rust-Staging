@@ -10,15 +10,15 @@ namespace blazedumper {
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x36589A8;
+    public const Int32 offset = 0x3658998;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3655B58;
+    public const Int32 offset = 0x3655B48;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3655BF8;
+    public const Int32 offset = 0x3655BF0;
     }
     public static class BasePlayer
     {

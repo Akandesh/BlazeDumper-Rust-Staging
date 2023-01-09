@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 56974328,
+    "BaseGameMode_TypeInfo": 56974320,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
@@ -334,7 +334,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 56986024,
+    "MainCamera_TypeInfo": 56986008,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -492,5 +492,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56974168
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56974152
 }
