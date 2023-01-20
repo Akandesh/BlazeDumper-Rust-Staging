@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3676FA0;
+    public const Int32 offset = 0x3676FF0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3692140;
+    public const Int32 offset = 0x36921A0;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3679150;
+    public const Int32 offset = 0x36791A8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3676308;
+    public const Int32 offset = 0x3676358;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x36763B8;
+    public const Int32 offset = 0x3676408;
     }
     public static class BasePlayer
     {
@@ -235,9 +235,10 @@ namespace blazedumper {
         public const Int32 needsCycle = 0x30F; // bool
         public const Int32 isCycling = 0x310; // bool
         public const Int32 aiming = 0x311; // bool
-        public const Int32 isBurstWeapon = 0x312; // bool
-        public const Int32 canChangeFireModes = 0x313; // bool
-        public const Int32 defaultOn = 0x314; // bool
+        public const Int32 useEmptyAmmoState = 0x312; // bool
+        public const Int32 isBurstWeapon = 0x313; // bool
+        public const Int32 canChangeFireModes = 0x314; // bool
+        public const Int32 defaultOn = 0x315; // bool
         public const Int32 internalBurstRecoilScale = 0x318; // float
         public const Int32 internalBurstFireRateScale = 0x31C; // float
         public const Int32 internalBurstAimConeScale = 0x320; // float
