@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x2EB2B08;
+    public const Int32 offset = 0x2EB0A68;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x2EFF2D0;
+    public const Int32 offset = 0x2EFD1D0;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x2F10A08;
+    public const Int32 offset = 0x2F0E908;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2EEFC50;
+    public const Int32 offset = 0x2EEDB38;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2EB2D78;
+    public const Int32 offset = 0x2EB0CD8;
     }
     public static class BasePlayer
     {
