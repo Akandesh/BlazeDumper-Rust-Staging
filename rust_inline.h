@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2EAEE20;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2EFBAA8;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2F0D220;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2EEBF70;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2EAF090;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2EB2018;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2EFED50;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2F104D0;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2EEF248;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2EB2288;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -238,9 +238,10 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t hipAimConeScale = 0x35C; // float
         inline constexpr ::std::ptrdiff_t hipAimConeOffset = 0x360; // float
         inline constexpr ::std::ptrdiff_t isReloading = 0x364; // bool
-        inline constexpr ::std::ptrdiff_t swaySampleTime = 0x368; // float
-        inline constexpr ::std::ptrdiff_t lastShotTime = 0x36C; // float
-        inline constexpr ::std::ptrdiff_t reloadPressTime = 0x370; // float
+        inline constexpr ::std::ptrdiff_t timeSinceReloadFinished = 0x368; // TimeSince
+        inline constexpr ::std::ptrdiff_t swaySampleTime = 0x36C; // float
+        inline constexpr ::std::ptrdiff_t lastShotTime = 0x370; // float
+        inline constexpr ::std::ptrdiff_t reloadPressTime = 0x374; // float
         inline constexpr ::std::ptrdiff_t ammoTypePreReload = 0x378; // ItemDefinition
         inline constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x380; // int
         inline constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x384; // int

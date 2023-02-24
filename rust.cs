@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x2EAEE20;
+    public const Int32 offset = 0x2EB2018;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x2EFBAA8;
+    public const Int32 offset = 0x2EFED50;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x2F0D220;
+    public const Int32 offset = 0x2F104D0;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2EEBF70;
+    public const Int32 offset = 0x2EEF248;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2EAF090;
+    public const Int32 offset = 0x2EB2288;
     }
     public static class BasePlayer
     {
@@ -256,9 +256,10 @@ namespace blazedumper {
         public const Int32 hipAimConeScale = 0x35C; // float
         public const Int32 hipAimConeOffset = 0x360; // float
         public const Int32 isReloading = 0x364; // bool
-        public const Int32 swaySampleTime = 0x368; // float
-        public const Int32 lastShotTime = 0x36C; // float
-        public const Int32 reloadPressTime = 0x370; // float
+        public const Int32 timeSinceReloadFinished = 0x368; // TimeSince
+        public const Int32 swaySampleTime = 0x36C; // float
+        public const Int32 lastShotTime = 0x370; // float
+        public const Int32 reloadPressTime = 0x374; // float
         public const Int32 ammoTypePreReload = 0x378; // ItemDefinition
         public const Int32 fractionalReloadDesiredCount = 0x380; // int
         public const Int32 fractionalReloadNumAdded = 0x384; // int
