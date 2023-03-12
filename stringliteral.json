@@ -81768,7 +81768,7 @@
     "address": "0x2F4DB58"
   },
   {
-    "value": "https://functions-rust-api.azurewebsites.net/api/public/analytics/rust/client",
+    "value": "https://functions-rust-api-staging.azurewebsites.net/api/public/analytics/rust/server",
     "address": "0x2F4DB60"
   },
   {
@@ -81804,7 +81804,7 @@
     "address": "0x2F4DC28"
   },
   {
-    "value": "https://functions-rust-api.azurewebsites.net/api/public/analytics/rust/server",
+    "value": "https://functions-rust-api.azurewebsites.net/api/public/analytics/rust/client",
     "address": "0x2F4DC30"
   },
   {
