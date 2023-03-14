@@ -277,7 +277,7 @@
         "cachedUpkeepCostFraction": 1440,
         "cachedUpkeepPeriodMinutes": 1436
     },
-    "Facepunch_Input_TypeInfo": 49453208,
+    "Facepunch_Input_TypeInfo": 49453216,
     "FishingBobber": {
         "HorizontalMoveSpeed": 608,
         "PullAwayMoveSpeed": 612,
@@ -336,7 +336,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 49524768,
+    "MainCamera_TypeInfo": 49524776,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -494,5 +494,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 49388664
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 49388672
 }
