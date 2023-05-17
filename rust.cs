@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x2F609C8;
+    public const Int32 offset = 0x2F609E0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x2FAFC48;
+    public const Int32 offset = 0x2FAFC50;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x2FC1250;
+    public const Int32 offset = 0x2FC1260;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2F9F388;
+    public const Int32 offset = 0x2F9F3A0;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2F60C38;
+    public const Int32 offset = 0x2F60C50;
     }
     public static class BasePlayer
     {
@@ -438,14 +438,15 @@ namespace blazedumper {
         public const Int32 instanceData = 0x48; // Item.InstanceData
         public const Int32 skin = 0x50; // ulong
         public const Int32 name = 0x58; // string
-        public const Int32 text = 0x60; // string
-        public const Int32 cookTimeLeft = 0x68; // float
-        public const Int32 progressBar = 0x6C; // float
-        public const Int32 flags = 0x78; // Item.Flag
-        public const Int32 contents = 0x80; // ItemContainer
-        public const Int32 parent = 0x88; // ItemContainer
-        public const Int32 worldEnt = 0x90; // EntityRef
-        public const Int32 heldEntity = 0xA0; // EntityRef
+        public const Int32 streamerName = 0x60; // string
+        public const Int32 text = 0x68; // string
+        public const Int32 cookTimeLeft = 0x70; // float
+        public const Int32 progressBar = 0x74; // float
+        public const Int32 flags = 0x80; // Item.Flag
+        public const Int32 contents = 0x88; // ItemContainer
+        public const Int32 parent = 0x90; // ItemContainer
+        public const Int32 worldEnt = 0x98; // EntityRef
+        public const Int32 heldEntity = 0xA8; // EntityRef
     }
     public static class Model
     {
