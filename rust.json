@@ -281,7 +281,7 @@
         "cachedUpkeepCostFraction": 1656,
         "cachedUpkeepPeriodMinutes": 1652
     },
-    "Facepunch_Input_TypeInfo": 50007560,
+    "Facepunch_Input_TypeInfo": 50007568,
     "FishingBobber": {
         "HorizontalMoveSpeed": 632,
         "PullAwayMoveSpeed": 636,
@@ -341,7 +341,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 50078744,
+    "MainCamera_TypeInfo": 50078752,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
