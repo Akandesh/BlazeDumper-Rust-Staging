@@ -2,141 +2,141 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x2F62AC0;
+    public const Int32 offset = 0x2F5CAB0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x2FB1EB8;
+    public const Int32 offset = 0x2FABEA0;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x2FC34C0;
+    public const Int32 offset = 0x2FBD4A8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2FA1498;
+    public const Int32 offset = 0x2F9B488;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2F62D30;
+    public const Int32 offset = 0x2F5CD20;
     }
     public static class BasePlayer
     {
-        public const Int32 __menuOption_Climb = 0x258; // Option
-        public const Int32 __menuOption_Drink = 0x2C8; // Option
-        public const Int32 __menuOption_InviteToTeam = 0x338; // Option
-        public const Int32 __menuOption_Menu_AssistPlayer = 0x3A8; // Option
-        public const Int32 __menuOption_Menu_LootPlayer = 0x418; // Option
-        public const Int32 __menuOption_Promote = 0x488; // Option
-        public const Int32 __menuOption_SaltWater = 0x4F8; // Option
-        public const Int32 playerModel = 0x568; // PlayerModel
-        public const Int32 Frozen = 0x570; // bool
-        public const Int32 voiceRecorder = 0x578; // PlayerVoiceRecorder
-        public const Int32 voiceSpeaker = 0x580; // PlayerVoiceSpeaker
-        public const Int32 input = 0x588; // PlayerInput
-        public const Int32 movement = 0x590; // BaseMovement
-        public const Int32 collision = 0x598; // BaseCollision
-        public const Int32 _lookingAt = 0x5A0; // GameObject
-        public const Int32 _lookingAtEntity = 0x5A8; // BaseEntity
-        public const Int32 _lookingAtCollider = 0x5B0; // Collider
-        public const Int32 lookingAtPoint = 0x5B8; // Vector3
-        public const Int32 wakeTime = 0x5C4; // float
-        public const Int32 needsClothesRebuild = 0x5C8; // bool
-        public const Int32 wasSleeping = 0x5C9; // bool
-        public const Int32 wokeUpBefore = 0x5CA; // bool
-        public const Int32 wasDead = 0x5CB; // bool
-        public const Int32 lastClothesHash = 0x5CC; // uint
-        public const Int32 lastOpenSoundPlay = 0x5D0; // TimeSince
-        public const Int32 currentViewMode = 0x5D4; // BasePlayer.CameraMode
-        public const Int32 selectedViewMode = 0x5D8; // BasePlayer.CameraMode
-        public const Int32 lastRevivePoint = 0x5DC; // Vector3
-        public const Int32 lastReviveDirection = 0x5E8; // Vector3
-        public const Int32 IsWearingDiveGoggles = 0x5F4; // bool
-        public const Int32 GestureViewModel = 0x5F8; // ViewModel
-        public const Int32 timeSinceUpdatedLookingAt = 0x600; // RealTimeSince
-        public const Int32 nextTopologyTestTime = 0x604; // float
-        public const Int32 usePressTime = 0x608; // float
-        public const Int32 useHeldTime = 0x60C; // float
-        public const Int32 lookingAtTest = 0x610; // HitTest
-        public const Int32 cachedWaterDrinkingPoint = 0x618; // Vector3
-        public const Int32 gestureList = 0x628; // GestureCollection
-        public const Int32 gestureFinishedTime = 0x630; // TimeUntil
-        public const Int32 blockHeldInputTimer = 0x634; // TimeSince
-        public const Int32 currentGesture = 0x638; // GestureConfig
-        public const Int32 disabledHeldEntity = 0x640; // HeldEntity
-        public const Int32 nextGestureMenuOpenTime = 0x648; // float
-        public const Int32 lastGestureCancel = 0x64C; // TimeSince
-        public const Int32 client_lastHelloTime = 0x650; // float
-        public const Int32 currentTeam = 0x658; // ulong
-        public const Int32 clientTeam = 0x660; // PlayerTeam
-        public const Int32 lastReceivedTeamTime = 0x668; // float
-        public const Int32 lastPresenceTeamId = 0x670; // ulong
-        public const Int32 lastPresenceTeamSize = 0x678; // int
-        public const Int32 playerGroupKey = 0x680; // string
-        public const Int32 playerGroupSizeKey = 0x688; // string
-        public const Int32 clActiveItem = 0x690; // ItemId
-        public const Int32 ClientCurrentMapNotes = 0x698; // List<MapNote>
-        public const Int32 ClientCurrentDeathNote = 0x6A0; // MapNote
-        public const Int32 keepOpenMapInterface = 0x6A8; // bool
-        public const Int32 missions = 0x6B0; // List<BaseMission.MissionInstance>
-        public const Int32 _activeMission = 0x6B8; // int
-        public const Int32 modelState = 0x6C0; // ModelState
-        public const Int32 mounted = 0x6C8; // EntityRef
-        public const Int32 nextSeatSwapTime = 0x6D8; // float
-        public const Int32 PetEntity = 0x6E0; // BaseEntity
-        public const Int32 lastPetCommandIssuedTime = 0x6E8; // float
-        public const Int32 PetPrefabID = 0x6EC; // uint
-        public const Int32 PetID = 0x6F0; // NetworkableId
-        public const Int32 ClientCurrentPings = 0x6F8; // List<MapNote>
-        public const Int32 tapInProcess = 0x700; // bool
-        public const Int32 lastPingTap = 0x704; // TimeSince
-        public const Int32 cachedBuildingPrivilegeTime = 0x708; // float
-        public const Int32 cachedBuildingPrivilege = 0x710; // BuildingPrivlidge
-        public const Int32 maxProjectileID = 0x718; // int
-        public const Int32 lastUpdateTime = 0x71C; // float
-        public const Int32 cachedThreatLevel = 0x720; // float
-        public const Int32 serverTickRate = 0x724; // int
-        public const Int32 clientTickRate = 0x728; // int
-        public const Int32 serverTickInterval = 0x72C; // float
-        public const Int32 clientTickInterval = 0x730; // float
-        public const Int32 lastSentTickTime = 0x734; // float
-        public const Int32 lastTickStopwatch = 0x738; // Stopwatch
-        public const Int32 lastSentTick = 0x740; // PlayerTick
-        public const Int32 nextVisThink = 0x748; // float
-        public const Int32 lastTimeSeen = 0x74C; // float
-        public const Int32 debugPrevVisible = 0x750; // bool
-        public const Int32 fallDamageEffect = 0x758; // GameObjectRef
-        public const Int32 drownEffect = 0x760; // GameObjectRef
-        public const Int32 playerFlags = 0x768; // BasePlayer.PlayerFlags
-        public const Int32 eyes = 0x770; // PlayerEyes
-        public const Int32 inventory = 0x778; // PlayerInventory
-        public const Int32 blueprints = 0x780; // PlayerBlueprints
-        public const Int32 metabolism = 0x788; // PlayerMetabolism
-        public const Int32 modifiers = 0x790; // PlayerModifiers
-        public const Int32 playerCollider = 0x798; // CapsuleCollider
-        public const Int32 Belt = 0x7A0; // PlayerBelt
-        public const Int32 playerRigidbody = 0x7A8; // Rigidbody
-        public const Int32 userID = 0x7B0; // ulong
-        public const Int32 UserIDString = 0x7B8; // string
-        public const Int32 gamemodeteam = 0x7C0; // int
-        public const Int32 reputation = 0x7C4; // int
-        public const Int32 _displayName = 0x7C8; // string
-        public const Int32 _lastSetName = 0x7D0; // string
-        public const Int32 playerColliderStanding = 0x7D8; // BasePlayer.CapsuleColliderInfo
-        public const Int32 playerColliderDucked = 0x7EC; // BasePlayer.CapsuleColliderInfo
-        public const Int32 playerColliderCrawling = 0x800; // BasePlayer.CapsuleColliderInfo
-        public const Int32 playerColliderLyingDown = 0x814; // BasePlayer.CapsuleColliderInfo
-        public const Int32 cachedProtection = 0x828; // ProtectionProperties
-        public const Int32 lastHeadshotSoundTime = 0x830; // float
-        public const Int32 nextColliderRefreshTime = 0x834; // float
-        public const Int32 clothingBlocksAiming = 0x838; // bool
-        public const Int32 clothingMoveSpeedReduction = 0x83C; // float
-        public const Int32 clothingWaterSpeedBonus = 0x840; // float
-        public const Int32 clothingAccuracyBonus = 0x844; // float
-        public const Int32 equippingBlocked = 0x848; // bool
-        public const Int32 eggVision = 0x84C; // float
-        public const Int32 activeTelephone = 0x850; // PhoneController
-        public const Int32 designingAIEntity = 0x858; // BaseEntity
+        public const Int32 __menuOption_Climb = 0x250; // Option
+        public const Int32 __menuOption_Drink = 0x2B8; // Option
+        public const Int32 __menuOption_InviteToTeam = 0x320; // Option
+        public const Int32 __menuOption_Menu_AssistPlayer = 0x388; // Option
+        public const Int32 __menuOption_Menu_LootPlayer = 0x3F0; // Option
+        public const Int32 __menuOption_Promote = 0x458; // Option
+        public const Int32 __menuOption_SaltWater = 0x4C0; // Option
+        public const Int32 playerModel = 0x528; // PlayerModel
+        public const Int32 Frozen = 0x530; // bool
+        public const Int32 voiceRecorder = 0x538; // PlayerVoiceRecorder
+        public const Int32 voiceSpeaker = 0x540; // PlayerVoiceSpeaker
+        public const Int32 input = 0x548; // PlayerInput
+        public const Int32 movement = 0x550; // BaseMovement
+        public const Int32 collision = 0x558; // BaseCollision
+        public const Int32 _lookingAt = 0x560; // GameObject
+        public const Int32 _lookingAtEntity = 0x568; // BaseEntity
+        public const Int32 _lookingAtCollider = 0x570; // Collider
+        public const Int32 lookingAtPoint = 0x578; // Vector3
+        public const Int32 wakeTime = 0x584; // float
+        public const Int32 needsClothesRebuild = 0x588; // bool
+        public const Int32 wasSleeping = 0x589; // bool
+        public const Int32 wokeUpBefore = 0x58A; // bool
+        public const Int32 wasDead = 0x58B; // bool
+        public const Int32 lastClothesHash = 0x58C; // uint
+        public const Int32 lastOpenSoundPlay = 0x590; // TimeSince
+        public const Int32 currentViewMode = 0x594; // BasePlayer.CameraMode
+        public const Int32 selectedViewMode = 0x598; // BasePlayer.CameraMode
+        public const Int32 lastRevivePoint = 0x59C; // Vector3
+        public const Int32 lastReviveDirection = 0x5A8; // Vector3
+        public const Int32 IsWearingDiveGoggles = 0x5B4; // bool
+        public const Int32 GestureViewModel = 0x5B8; // ViewModel
+        public const Int32 timeSinceUpdatedLookingAt = 0x5C0; // RealTimeSince
+        public const Int32 nextTopologyTestTime = 0x5C4; // float
+        public const Int32 usePressTime = 0x5C8; // float
+        public const Int32 useHeldTime = 0x5CC; // float
+        public const Int32 lookingAtTest = 0x5D0; // HitTest
+        public const Int32 cachedWaterDrinkingPoint = 0x5D8; // Vector3
+        public const Int32 gestureList = 0x5E8; // GestureCollection
+        public const Int32 gestureFinishedTime = 0x5F0; // TimeUntil
+        public const Int32 blockHeldInputTimer = 0x5F4; // TimeSince
+        public const Int32 currentGesture = 0x5F8; // GestureConfig
+        public const Int32 disabledHeldEntity = 0x600; // HeldEntity
+        public const Int32 nextGestureMenuOpenTime = 0x608; // float
+        public const Int32 lastGestureCancel = 0x60C; // TimeSince
+        public const Int32 client_lastHelloTime = 0x610; // float
+        public const Int32 currentTeam = 0x618; // ulong
+        public const Int32 clientTeam = 0x620; // PlayerTeam
+        public const Int32 lastReceivedTeamTime = 0x628; // float
+        public const Int32 lastPresenceTeamId = 0x630; // ulong
+        public const Int32 lastPresenceTeamSize = 0x638; // int
+        public const Int32 playerGroupKey = 0x640; // string
+        public const Int32 playerGroupSizeKey = 0x648; // string
+        public const Int32 clActiveItem = 0x650; // ItemId
+        public const Int32 ClientCurrentMapNotes = 0x658; // List<MapNote>
+        public const Int32 ClientCurrentDeathNote = 0x660; // MapNote
+        public const Int32 keepOpenMapInterface = 0x668; // bool
+        public const Int32 missions = 0x670; // List<BaseMission.MissionInstance>
+        public const Int32 _activeMission = 0x678; // int
+        public const Int32 modelState = 0x680; // ModelState
+        public const Int32 mounted = 0x688; // EntityRef
+        public const Int32 nextSeatSwapTime = 0x698; // float
+        public const Int32 PetEntity = 0x6A0; // BaseEntity
+        public const Int32 lastPetCommandIssuedTime = 0x6A8; // float
+        public const Int32 PetPrefabID = 0x6AC; // uint
+        public const Int32 PetID = 0x6B0; // NetworkableId
+        public const Int32 ClientCurrentPings = 0x6B8; // List<MapNote>
+        public const Int32 tapInProcess = 0x6C0; // bool
+        public const Int32 lastPingTap = 0x6C4; // TimeSince
+        public const Int32 cachedBuildingPrivilegeTime = 0x6C8; // float
+        public const Int32 cachedBuildingPrivilege = 0x6D0; // BuildingPrivlidge
+        public const Int32 maxProjectileID = 0x6D8; // int
+        public const Int32 lastUpdateTime = 0x6DC; // float
+        public const Int32 cachedThreatLevel = 0x6E0; // float
+        public const Int32 serverTickRate = 0x6E4; // int
+        public const Int32 clientTickRate = 0x6E8; // int
+        public const Int32 serverTickInterval = 0x6EC; // float
+        public const Int32 clientTickInterval = 0x6F0; // float
+        public const Int32 lastSentTickTime = 0x6F4; // float
+        public const Int32 lastTickStopwatch = 0x6F8; // Stopwatch
+        public const Int32 lastSentTick = 0x700; // PlayerTick
+        public const Int32 nextVisThink = 0x708; // float
+        public const Int32 lastTimeSeen = 0x70C; // float
+        public const Int32 debugPrevVisible = 0x710; // bool
+        public const Int32 fallDamageEffect = 0x718; // GameObjectRef
+        public const Int32 drownEffect = 0x720; // GameObjectRef
+        public const Int32 playerFlags = 0x728; // BasePlayer.PlayerFlags
+        public const Int32 eyes = 0x730; // PlayerEyes
+        public const Int32 inventory = 0x738; // PlayerInventory
+        public const Int32 blueprints = 0x740; // PlayerBlueprints
+        public const Int32 metabolism = 0x748; // PlayerMetabolism
+        public const Int32 modifiers = 0x750; // PlayerModifiers
+        public const Int32 playerCollider = 0x758; // CapsuleCollider
+        public const Int32 Belt = 0x760; // PlayerBelt
+        public const Int32 playerRigidbody = 0x768; // Rigidbody
+        public const Int32 userID = 0x770; // ulong
+        public const Int32 UserIDString = 0x778; // string
+        public const Int32 gamemodeteam = 0x780; // int
+        public const Int32 reputation = 0x784; // int
+        public const Int32 _displayName = 0x788; // string
+        public const Int32 _lastSetName = 0x790; // string
+        public const Int32 playerColliderStanding = 0x798; // BasePlayer.CapsuleColliderInfo
+        public const Int32 playerColliderDucked = 0x7AC; // BasePlayer.CapsuleColliderInfo
+        public const Int32 playerColliderCrawling = 0x7C0; // BasePlayer.CapsuleColliderInfo
+        public const Int32 playerColliderLyingDown = 0x7D4; // BasePlayer.CapsuleColliderInfo
+        public const Int32 cachedProtection = 0x7E8; // ProtectionProperties
+        public const Int32 lastHeadshotSoundTime = 0x7F0; // float
+        public const Int32 nextColliderRefreshTime = 0x7F4; // float
+        public const Int32 clothingBlocksAiming = 0x7F8; // bool
+        public const Int32 clothingMoveSpeedReduction = 0x7FC; // float
+        public const Int32 clothingWaterSpeedBonus = 0x800; // float
+        public const Int32 clothingAccuracyBonus = 0x804; // float
+        public const Int32 equippingBlocked = 0x808; // bool
+        public const Int32 eggVision = 0x80C; // float
+        public const Int32 activeTelephone = 0x810; // PhoneController
+        public const Int32 designingAIEntity = 0x818; // BaseEntity
     }
     public static class BaseEntity
     {
@@ -173,34 +173,34 @@ namespace blazedumper {
     public static class BaseCombatEntity
     {
         public const Int32 __menuOption_Menu_Pickup = 0x168; // Option
-        public const Int32 skeletonProperties = 0x1D8; // SkeletonProperties
-        public const Int32 baseProtection = 0x1E0; // ProtectionProperties
-        public const Int32 startHealth = 0x1E8; // float
-        public const Int32 pickup = 0x1F0; // BaseCombatEntity.Pickup
-        public const Int32 repair = 0x210; // BaseCombatEntity.Repair
-        public const Int32 ShowHealthInfo = 0x238; // bool
-        public const Int32 lifestate = 0x23C; // BaseCombatEntity.LifeState
-        public const Int32 sendsHitNotification = 0x240; // bool
-        public const Int32 sendsMeleeHitNotification = 0x241; // bool
-        public const Int32 markAttackerHostile = 0x242; // bool
-        public const Int32 _health = 0x244; // float
-        public const Int32 _maxHealth = 0x248; // float
-        public const Int32 faction = 0x24C; // BaseCombatEntity.Faction
-        public const Int32 deathTime = 0x250; // float
-        public const Int32 lastNotifyFrame = 0x254; // int
+        public const Int32 skeletonProperties = 0x1D0; // SkeletonProperties
+        public const Int32 baseProtection = 0x1D8; // ProtectionProperties
+        public const Int32 startHealth = 0x1E0; // float
+        public const Int32 pickup = 0x1E8; // BaseCombatEntity.Pickup
+        public const Int32 repair = 0x208; // BaseCombatEntity.Repair
+        public const Int32 ShowHealthInfo = 0x230; // bool
+        public const Int32 lifestate = 0x234; // BaseCombatEntity.LifeState
+        public const Int32 sendsHitNotification = 0x238; // bool
+        public const Int32 sendsMeleeHitNotification = 0x239; // bool
+        public const Int32 markAttackerHostile = 0x23A; // bool
+        public const Int32 _health = 0x23C; // float
+        public const Int32 _maxHealth = 0x240; // float
+        public const Int32 faction = 0x244; // BaseCombatEntity.Faction
+        public const Int32 deathTime = 0x248; // float
+        public const Int32 lastNotifyFrame = 0x24C; // int
     }
     public static class BuildingPrivlidge
     {
-        public const Int32 __menuOption_Menu_MaxAuth = 0x430; // Option
-        public const Int32 __menuOption_Menu_RotateVM = 0x4A0; // Option
-        public const Int32 __menuOption_MenuAuthorize = 0x510; // Option
-        public const Int32 __menuOption_MenuClearList = 0x580; // Option
-        public const Int32 __menuOption_MenuDeauthorize = 0x5F0; // Option
-        public const Int32 authorizedPlayers = 0x660; // List<PlayerNameID>
-        public const Int32 allowedConstructionItems = 0x668; // List<ItemDefinition>
-        public const Int32 cachedProtectedMinutes = 0x670; // float
-        public const Int32 cachedUpkeepPeriodMinutes = 0x674; // float
-        public const Int32 cachedUpkeepCostFraction = 0x678; // float
+        public const Int32 __menuOption_Menu_MaxAuth = 0x410; // Option
+        public const Int32 __menuOption_Menu_RotateVM = 0x478; // Option
+        public const Int32 __menuOption_MenuAuthorize = 0x4E0; // Option
+        public const Int32 __menuOption_MenuClearList = 0x548; // Option
+        public const Int32 __menuOption_MenuDeauthorize = 0x5B0; // Option
+        public const Int32 authorizedPlayers = 0x618; // List<PlayerNameID>
+        public const Int32 allowedConstructionItems = 0x620; // List<ItemDefinition>
+        public const Int32 cachedProtectedMinutes = 0x628; // float
+        public const Int32 cachedUpkeepPeriodMinutes = 0x62C; // float
+        public const Int32 cachedUpkeepCostFraction = 0x630; // float
     }
     public static class BaseProjectile
     {
@@ -520,16 +520,16 @@ namespace blazedumper {
     }
     public static class FishingBobber
     {
-        public const Int32 centerOfMass = 0x258; // Transform
-        public const Int32 myRigidBody = 0x260; // Rigidbody
-        public const Int32 lineAttachPoint = 0x268; // Transform
-        public const Int32 bobberRoot = 0x270; // Transform
-        public const Int32 HorizontalMoveSpeed = 0x278; // float
-        public const Int32 PullAwayMoveSpeed = 0x27C; // float
-        public const Int32 SidewaysInputForce = 0x280; // float
-        public const Int32 ReelInMoveSpeed = 0x284; // float
-        public const Int32 fishLerp = 0x288; // float
-        public const Int32 lastPosition = 0x28C; // Vector3
+        public const Int32 centerOfMass = 0x250; // Transform
+        public const Int32 myRigidBody = 0x258; // Rigidbody
+        public const Int32 lineAttachPoint = 0x260; // Transform
+        public const Int32 bobberRoot = 0x268; // Transform
+        public const Int32 HorizontalMoveSpeed = 0x270; // float
+        public const Int32 PullAwayMoveSpeed = 0x274; // float
+        public const Int32 SidewaysInputForce = 0x278; // float
+        public const Int32 ReelInMoveSpeed = 0x27C; // float
+        public const Int32 fishLerp = 0x280; // float
+        public const Int32 lastPosition = 0x284; // Vector3
     }
     public static class OcclusionCulling
     {
