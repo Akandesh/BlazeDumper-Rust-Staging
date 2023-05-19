@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2F62A90;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2FB1E58;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2FC3468;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2FA1460;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2F62D00;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2F62AC0;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2FB1EB8;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2FC34C0;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2FA1498;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2F62D30;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x258; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2C8; // Option
