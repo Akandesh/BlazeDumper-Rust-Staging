@@ -174,16 +174,16 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t lastNotifyFrame = 0x24C; // int
     } // namespace BaseCombatEntity
     namespace BuildingPrivlidge {
-        inline constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x410; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x478; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x4E0; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x548; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x5B0; // Option
-        inline constexpr ::std::ptrdiff_t authorizedPlayers = 0x618; // List<PlayerNameID>
-        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x620; // List<ItemDefinition>
-        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x628; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x62C; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x630; // float
+        inline constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x418; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x480; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x4E8; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x550; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x5B8; // Option
+        inline constexpr ::std::ptrdiff_t authorizedPlayers = 0x620; // List<PlayerNameID>
+        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x628; // List<ItemDefinition>
+        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x630; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x634; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x638; // float
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         inline constexpr ::std::ptrdiff_t NoiseRadius = 0x280; // float

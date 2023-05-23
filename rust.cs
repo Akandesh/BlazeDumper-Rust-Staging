@@ -191,16 +191,16 @@ namespace blazedumper {
     }
     public static class BuildingPrivlidge
     {
-        public const Int32 __menuOption_Menu_MaxAuth = 0x410; // Option
-        public const Int32 __menuOption_Menu_RotateVM = 0x478; // Option
-        public const Int32 __menuOption_MenuAuthorize = 0x4E0; // Option
-        public const Int32 __menuOption_MenuClearList = 0x548; // Option
-        public const Int32 __menuOption_MenuDeauthorize = 0x5B0; // Option
-        public const Int32 authorizedPlayers = 0x618; // List<PlayerNameID>
-        public const Int32 allowedConstructionItems = 0x620; // List<ItemDefinition>
-        public const Int32 cachedProtectedMinutes = 0x628; // float
-        public const Int32 cachedUpkeepPeriodMinutes = 0x62C; // float
-        public const Int32 cachedUpkeepCostFraction = 0x630; // float
+        public const Int32 __menuOption_Menu_MaxAuth = 0x418; // Option
+        public const Int32 __menuOption_Menu_RotateVM = 0x480; // Option
+        public const Int32 __menuOption_MenuAuthorize = 0x4E8; // Option
+        public const Int32 __menuOption_MenuClearList = 0x550; // Option
+        public const Int32 __menuOption_MenuDeauthorize = 0x5B8; // Option
+        public const Int32 authorizedPlayers = 0x620; // List<PlayerNameID>
+        public const Int32 allowedConstructionItems = 0x628; // List<ItemDefinition>
+        public const Int32 cachedProtectedMinutes = 0x630; // float
+        public const Int32 cachedUpkeepPeriodMinutes = 0x634; // float
+        public const Int32 cachedUpkeepCostFraction = 0x638; // float
     }
     public static class BaseProjectile
     {

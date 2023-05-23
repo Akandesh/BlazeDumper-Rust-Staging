@@ -174,16 +174,16 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t lastNotifyFrame = 0x24C; // int
     } // namespace BaseCombatEntity
     namespace BuildingPrivlidge {
-        constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x410; // Option
-        constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x478; // Option
-        constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x4E0; // Option
-        constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x548; // Option
-        constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x5B0; // Option
-        constexpr ::std::ptrdiff_t authorizedPlayers = 0x618; // List<PlayerNameID>
-        constexpr ::std::ptrdiff_t allowedConstructionItems = 0x620; // List<ItemDefinition>
-        constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x628; // float
-        constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x62C; // float
-        constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x630; // float
+        constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x418; // Option
+        constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x480; // Option
+        constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x4E8; // Option
+        constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x550; // Option
+        constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x5B8; // Option
+        constexpr ::std::ptrdiff_t authorizedPlayers = 0x620; // List<PlayerNameID>
+        constexpr ::std::ptrdiff_t allowedConstructionItems = 0x628; // List<ItemDefinition>
+        constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x630; // float
+        constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x634; // float
+        constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x638; // float
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         constexpr ::std::ptrdiff_t NoiseRadius = 0x280; // float
