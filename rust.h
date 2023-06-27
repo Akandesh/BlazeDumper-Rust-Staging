@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2F8CFE0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2FDD138;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2FEEE38;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2FCB798;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2F8D250;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2FAE1F0;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2FFE348;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3010520;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2FECA78;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2FAE460;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x250; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2B8; // Option
@@ -399,8 +399,9 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t flags = 0x20; // int
         constexpr ::std::ptrdiff_t poseType = 0x24; // int
         constexpr ::std::ptrdiff_t inheritedVelocity = 0x28; // Vector3
-        constexpr ::std::ptrdiff_t ShouldPool = 0x34; // bool
-        constexpr ::std::ptrdiff_t _disposed = 0x35; // bool
+        constexpr ::std::ptrdiff_t ladderType = 0x34; // int
+        constexpr ::std::ptrdiff_t ShouldPool = 0x38; // bool
+        constexpr ::std::ptrdiff_t _disposed = 0x39; // bool
     } // namespace ModelState
     namespace Item {
         constexpr ::std::ptrdiff_t _condition = 0x10; // float

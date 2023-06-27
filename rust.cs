@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x2F8CFE0;
+    public const Int32 offset = 0x2FAE1F0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x2FDD138;
+    public const Int32 offset = 0x2FFE348;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x2FEEE38;
+    public const Int32 offset = 0x3010520;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2FCB798;
+    public const Int32 offset = 0x2FECA78;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x2F8D250;
+    public const Int32 offset = 0x2FAE460;
     }
     public static class BasePlayer
     {
@@ -422,8 +422,9 @@ namespace blazedumper {
         public const Int32 flags = 0x20; // int
         public const Int32 poseType = 0x24; // int
         public const Int32 inheritedVelocity = 0x28; // Vector3
-        public const Int32 ShouldPool = 0x34; // bool
-        public const Int32 _disposed = 0x35; // bool
+        public const Int32 ladderType = 0x34; // int
+        public const Int32 ShouldPool = 0x38; // bool
+        public const Int32 _disposed = 0x39; // bool
     }
     public static class Item
     {
