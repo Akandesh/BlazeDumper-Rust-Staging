@@ -4,7 +4,7 @@
 namespace blazedumper {
     constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2FAB218;
     constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2FFB088;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x300CD50;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x300CD98;
     constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2FE9AD0;
     constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2FAB488;
     namespace BasePlayer {
