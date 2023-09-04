@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x334F878;
+    public const Int32 offset = 0x334F700;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x33A75C8;
+    public const Int32 offset = 0x33A7500;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x33BBB60;
+    public const Int32 offset = 0x33BBB98;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x338F298;
+    public const Int32 offset = 0x338F218;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x334FB08;
+    public const Int32 offset = 0x334F990;
     }
     public static class BasePlayer
     {
@@ -91,6 +91,7 @@ namespace blazedumper {
         public const Int32 modelState = 0x770; // ModelState
         public const Int32 mounted = 0x778; // EntityRef
         public const Int32 nextSeatSwapTime = 0x788; // float
+        public const Int32 mountInputHeldDuringDismount = 0x78C; // bool
         public const Int32 PetEntity = 0x790; // BaseEntity
         public const Int32 lastPetCommandIssuedTime = 0x798; // float
         public const Int32 PetPrefabID = 0x79C; // uint

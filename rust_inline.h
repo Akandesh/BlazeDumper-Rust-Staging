@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x334F878;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33A75C8;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x33BBB60;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x338F298;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x334FB08;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x334F700;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33A7500;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x33BBB98;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x338F218;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x334F990;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x260; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2D0; // Option
@@ -77,6 +77,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t modelState = 0x770; // ModelState
         inline constexpr ::std::ptrdiff_t mounted = 0x778; // EntityRef
         inline constexpr ::std::ptrdiff_t nextSeatSwapTime = 0x788; // float
+        inline constexpr ::std::ptrdiff_t mountInputHeldDuringDismount = 0x78C; // bool
         inline constexpr ::std::ptrdiff_t PetEntity = 0x790; // BaseEntity
         inline constexpr ::std::ptrdiff_t lastPetCommandIssuedTime = 0x798; // float
         inline constexpr ::std::ptrdiff_t PetPrefabID = 0x79C; // uint
