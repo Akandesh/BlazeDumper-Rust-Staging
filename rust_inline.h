@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x335D900;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33B5BD0;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x33CA0B8;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x339D2D8;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x335DB98;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3363A70;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33BBDB8;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x33D0380;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x33A3428;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3363D00;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x260; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2D0; // Option
@@ -25,6 +25,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t movement = 0x610; // BaseMovement
         inline constexpr ::std::ptrdiff_t collision = 0x618; // BaseCollision
         inline constexpr ::std::ptrdiff_t bagCount = 0x620; // int
+        inline constexpr ::std::ptrdiff_t modelInitUnderwear = 0x624; // uint
         inline constexpr ::std::ptrdiff_t _lookingAt = 0x628; // GameObject
         inline constexpr ::std::ptrdiff_t _lookingAtEntity = 0x630; // BaseEntity
         inline constexpr ::std::ptrdiff_t _lookingAtCollider = 0x638; // Collider

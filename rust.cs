@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x335D900;
+    public const Int32 offset = 0x3363A70;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x33B5BD0;
+    public const Int32 offset = 0x33BBDB8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x33CA0B8;
+    public const Int32 offset = 0x33D0380;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x339D2D8;
+    public const Int32 offset = 0x33A3428;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x335DB98;
+    public const Int32 offset = 0x3363D00;
     }
     public static class BasePlayer
     {
@@ -39,6 +39,7 @@ namespace blazedumper {
         public const Int32 movement = 0x610; // BaseMovement
         public const Int32 collision = 0x618; // BaseCollision
         public const Int32 bagCount = 0x620; // int
+        public const Int32 modelInitUnderwear = 0x624; // uint
         public const Int32 _lookingAt = 0x628; // GameObject
         public const Int32 _lookingAtEntity = 0x630; // BaseEntity
         public const Int32 _lookingAtCollider = 0x638; // Collider
