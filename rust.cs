@@ -6,11 +6,11 @@ namespace blazedumper {
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x33C25E0;
+    public const Int32 offset = 0x33C25E8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x33D6CA8;
+    public const Int32 offset = 0x33D6CB0;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
@@ -18,7 +18,7 @@ namespace blazedumper {
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x336A0B0;
+    public const Int32 offset = 0x336A0B8;
     }
     public static class BasePlayer
     {
