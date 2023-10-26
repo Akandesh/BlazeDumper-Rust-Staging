@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 54109152,
+    "BaseEntity_TypeInfo": 54109464,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 54109816,
+    "BaseGameMode_TypeInfo": 54110120,
     "BasePlayer": {
         "Belt": 2280,
         "ClientCurrentDeathNote": 2016,
@@ -293,7 +293,7 @@
         "cachedUpkeepCostFraction": 1816,
         "cachedUpkeepPeriodMinutes": 1812
     },
-    "Facepunch_Input_TypeInfo": 54472552,
+    "Facepunch_Input_TypeInfo": 54473056,
     "FishingBobber": {
         "HorizontalMoveSpeed": 656,
         "PullAwayMoveSpeed": 660,
@@ -309,27 +309,28 @@
     "Item": {
         "_condition": 16,
         "_maxCondition": 20,
+        "ammoCount": 112,
         "amount": 44,
         "busyTime": 52,
-        "contents": 136,
-        "cookTimeLeft": 112,
+        "contents": 144,
+        "cookTimeLeft": 120,
         "dirty": 40,
-        "flags": 128,
+        "flags": 136,
         "fuel": 60,
-        "heldEntity": 168,
+        "heldEntity": 176,
         "info": 24,
         "instanceData": 72,
         "isServer": 64,
         "name": 88,
-        "parent": 144,
+        "parent": 152,
         "position": 48,
-        "progressBar": 116,
+        "progressBar": 124,
         "removeTime": 56,
         "skin": 80,
         "streamerName": 96,
         "text": 104,
         "uid": 32,
-        "worldEnt": 152
+        "worldEnt": 160
     },
     "ItemContainer": {
         "allowedContents": 20,
@@ -353,7 +354,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 54559232,
+    "MainCamera_TypeInfo": 54559736,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -561,5 +562,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 54367616
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 54367880
 }
