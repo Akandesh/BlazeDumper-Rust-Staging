@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x339D5A8;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33F61E8;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x340B478;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x33DC6F8;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x339D840;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x339E570;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x33F7190;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x340C418;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x33DD6A0;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x339E800;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x270; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2F0; // Option
@@ -540,9 +540,10 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t invViewProjMatrix = 0x158; // Matrix4x4
         constexpr ::std::ptrdiff_t useNativePath = 0x198; // bool
         constexpr ::std::ptrdiff_t static_instance = 0x70; // OcclusionCulling
-        constexpr ::std::ptrdiff_t static__enabled = 0x80; // bool
-        constexpr ::std::ptrdiff_t static__safeMode = 0x81; // bool
-        constexpr ::std::ptrdiff_t static__debugShow = 0x84; // OcclusionCulling.DebugFilter
+        constexpr ::std::ptrdiff_t static_Passthrough = 0x78; // bool
+        constexpr ::std::ptrdiff_t static__enabled = 0x88; // bool
+        constexpr ::std::ptrdiff_t static__safeMode = 0x89; // bool
+        constexpr ::std::ptrdiff_t static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         constexpr ::std::ptrdiff_t debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
         constexpr ::std::ptrdiff_t debugMipMat = 0x1A8; // Material
         constexpr ::std::ptrdiff_t downscaleMat = 0x1B0; // Material

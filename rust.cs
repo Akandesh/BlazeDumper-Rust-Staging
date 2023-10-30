@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x339D5A8;
+    public const Int32 offset = 0x339E570;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x33F61E8;
+    public const Int32 offset = 0x33F7190;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x340B478;
+    public const Int32 offset = 0x340C418;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x33DC6F8;
+    public const Int32 offset = 0x33DD6A0;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x339D840;
+    public const Int32 offset = 0x339E800;
     }
     public static class BasePlayer
     {
@@ -569,9 +569,10 @@ namespace blazedumper {
         public const Int32 invViewProjMatrix = 0x158; // Matrix4x4
         public const Int32 useNativePath = 0x198; // bool
         public const Int32 static_instance = 0x70; // OcclusionCulling
-        public const Int32 static__enabled = 0x80; // bool
-        public const Int32 static__safeMode = 0x81; // bool
-        public const Int32 static__debugShow = 0x84; // OcclusionCulling.DebugFilter
+        public const Int32 static_Passthrough = 0x78; // bool
+        public const Int32 static__enabled = 0x88; // bool
+        public const Int32 static__safeMode = 0x89; // bool
+        public const Int32 static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         public const Int32 debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
         public const Int32 debugMipMat = 0x1A8; // Material
         public const Int32 downscaleMat = 0x1B0; // Material
