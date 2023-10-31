@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 54130032,
+    "BaseEntity_TypeInfo": 54130064,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 54130688,
+    "BaseGameMode_TypeInfo": 54130728,
     "BasePlayer": {
         "Belt": 2280,
         "ClientCurrentDeathNote": 2016,
