@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 54846928,
+    "BaseEntity_TypeInfo": 54838672,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 54847624,
+    "BaseGameMode_TypeInfo": 54839360,
     "BasePlayer": {
         "Belt": 2296,
         "ClientCurrentDeathNote": 2016,
@@ -296,7 +296,7 @@
         "cachedUpkeepCostFraction": 1816,
         "cachedUpkeepPeriodMinutes": 1812
     },
-    "Facepunch_Input_TypeInfo": 55212344,
+    "Facepunch_Input_TypeInfo": 55203672,
     "FishingBobber": {
         "HorizontalMoveSpeed": 656,
         "PullAwayMoveSpeed": 660,
@@ -357,7 +357,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 55300168,
+    "MainCamera_TypeInfo": 55291496,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -549,11 +549,13 @@
         "aimconeCurve": 104,
         "aimconeCurveScale": 96,
         "aimconeProbabilityCurve": 112,
+        "ammoAimconeScaleMultiProjectile": 120,
+        "ammoAimconeScaleSingleProjectile": 124,
         "clampPitch": 56,
         "curvesAsScalar": 81,
         "maxRecoilRadius": 88,
         "movementPenalty": 52,
-        "newRecoilOverride": 120,
+        "newRecoilOverride": 128,
         "overrideAimconeWithCurve": 92,
         "pitchCurve": 64,
         "recoilPitchMax": 36,
@@ -566,5 +568,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 55105592
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 55096880
 }

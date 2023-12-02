@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x344E5D0;
+    public const Int32 offset = 0x344C590;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x34A7938;
+    public const Int32 offset = 0x34A5758;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x34BD048;
+    public const Int32 offset = 0x34BAE68;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x348D838;
+    public const Int32 offset = 0x348B630;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x344E888;
+    public const Int32 offset = 0x344C840;
     }
     public static class BasePlayer
     {
@@ -503,7 +503,9 @@ namespace blazedumper {
         public const Int32 aimconeCurveScale = 0x60; // float
         public const Int32 aimconeCurve = 0x68; // AnimationCurve
         public const Int32 aimconeProbabilityCurve = 0x70; // AnimationCurve
-        public const Int32 newRecoilOverride = 0x78; // RecoilProperties
+        public const Int32 ammoAimconeScaleMultiProjectile = 0x78; // float
+        public const Int32 ammoAimconeScaleSingleProjectile = 0x7C; // float
+        public const Int32 newRecoilOverride = 0x80; // RecoilProperties
     }
     public static class BaseFishingRod
     {

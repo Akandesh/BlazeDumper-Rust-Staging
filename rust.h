@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x344E5D0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34A7938;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34BD048;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x348D838;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x344E888;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x344C590;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34A5758;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34BAE68;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x348B630;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x344C840;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x270; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2F0; // Option
@@ -477,7 +477,9 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t aimconeCurveScale = 0x60; // float
         constexpr ::std::ptrdiff_t aimconeCurve = 0x68; // AnimationCurve
         constexpr ::std::ptrdiff_t aimconeProbabilityCurve = 0x70; // AnimationCurve
-        constexpr ::std::ptrdiff_t newRecoilOverride = 0x78; // RecoilProperties
+        constexpr ::std::ptrdiff_t ammoAimconeScaleMultiProjectile = 0x78; // float
+        constexpr ::std::ptrdiff_t ammoAimconeScaleSingleProjectile = 0x7C; // float
+        constexpr ::std::ptrdiff_t newRecoilOverride = 0x80; // RecoilProperties
     } // namespace RecoilProperties
     namespace BaseFishingRod {
         constexpr ::std::ptrdiff_t FishingBobberRef = 0x1F8; // GameObjectRef
