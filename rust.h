@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x347FFE0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34D9768;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34EEE70;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x34BF460;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3480298;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3482230;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34DBA00;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34F1108;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x34C1628;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x34824E8;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x270; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2F0; // Option
@@ -300,6 +300,7 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t entityOwner = 0x60; // BaseEntity
         constexpr ::std::ptrdiff_t isServer = 0x68; // bool
         constexpr ::std::ptrdiff_t maxStackSize = 0x6C; // int
+        constexpr ::std::ptrdiff_t containerVolume = 0x70; // int
     } // namespace ItemContainer
     namespace PlayerModel {
         constexpr ::std::ptrdiff_t collision = 0x18; // BoxCollider
