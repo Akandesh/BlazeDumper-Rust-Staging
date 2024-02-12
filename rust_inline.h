@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x343CBD8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34969F0;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34ABE28;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x347AE48;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x343CE90;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x343CC80;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3496AB8;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34ABEF8;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x347AF20;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x343CF38;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -200,11 +200,12 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x598; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x618; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x698; // Option
-        inline constexpr ::std::ptrdiff_t authorizedPlayers = 0x718; // List<PlayerNameID>
-        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x720; // List<ItemDefinition>
-        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x728; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x72C; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x730; // float
+        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x718; // List<ItemDefinition>
+        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x720; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x724; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x728; // float
+        inline constexpr ::std::ptrdiff_t clientAuthed = 0x72C; // bool
+        inline constexpr ::std::ptrdiff_t clientAnyAuthed = 0x72D; // bool
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         inline constexpr ::std::ptrdiff_t NoiseRadius = 0x290; // float

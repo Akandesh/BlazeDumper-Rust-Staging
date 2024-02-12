@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x343CBD8;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x34969F0;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34ABE28;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x347AE48;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x343CE90;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x343CC80;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3496AB8;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x34ABEF8;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x347AF20;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x343CF38;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -200,11 +200,12 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x598; // Option
         constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x618; // Option
         constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x698; // Option
-        constexpr ::std::ptrdiff_t authorizedPlayers = 0x718; // List<PlayerNameID>
-        constexpr ::std::ptrdiff_t allowedConstructionItems = 0x720; // List<ItemDefinition>
-        constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x728; // float
-        constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x72C; // float
-        constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x730; // float
+        constexpr ::std::ptrdiff_t allowedConstructionItems = 0x718; // List<ItemDefinition>
+        constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x720; // float
+        constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x724; // float
+        constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x728; // float
+        constexpr ::std::ptrdiff_t clientAuthed = 0x72C; // bool
+        constexpr ::std::ptrdiff_t clientAnyAuthed = 0x72D; // bool
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         constexpr ::std::ptrdiff_t NoiseRadius = 0x290; // float

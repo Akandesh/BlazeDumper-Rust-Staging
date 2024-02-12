@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x343CBD8;
+    public const Int32 offset = 0x343CC80;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x34969F0;
+    public const Int32 offset = 0x3496AB8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x34ABE28;
+    public const Int32 offset = 0x34ABEF8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x347AE48;
+    public const Int32 offset = 0x347AF20;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x343CE90;
+    public const Int32 offset = 0x343CF38;
     }
     public static class BasePlayer
     {
@@ -217,11 +217,12 @@ namespace blazedumper {
         public const Int32 __menuOption_MenuAuthorize = 0x598; // Option
         public const Int32 __menuOption_MenuClearList = 0x618; // Option
         public const Int32 __menuOption_MenuDeauthorize = 0x698; // Option
-        public const Int32 authorizedPlayers = 0x718; // List<PlayerNameID>
-        public const Int32 allowedConstructionItems = 0x720; // List<ItemDefinition>
-        public const Int32 cachedProtectedMinutes = 0x728; // float
-        public const Int32 cachedUpkeepPeriodMinutes = 0x72C; // float
-        public const Int32 cachedUpkeepCostFraction = 0x730; // float
+        public const Int32 allowedConstructionItems = 0x718; // List<ItemDefinition>
+        public const Int32 cachedProtectedMinutes = 0x720; // float
+        public const Int32 cachedUpkeepPeriodMinutes = 0x724; // float
+        public const Int32 cachedUpkeepCostFraction = 0x728; // float
+        public const Int32 clientAuthed = 0x72C; // bool
+        public const Int32 clientAnyAuthed = 0x72D; // bool
     }
     public static class BaseProjectile
     {
