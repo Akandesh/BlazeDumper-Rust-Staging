@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3881EC0;
+    public const Int32 offset = 0x3885440;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x38EA9F8;
+    public const Int32 offset = 0x38EE1C0;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3863E60;
+    public const Int32 offset = 0x38675C0;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x38BEAE8;
+    public const Int32 offset = 0x38C20C0;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3882190;
+    public const Int32 offset = 0x3885710;
     }
     public static class BasePlayer
     {
@@ -307,6 +307,9 @@ namespace blazedumper {
         public const Int32 containerWear = 0x30; // ItemContainer
         public const Int32 crafting = 0x38; // ItemCrafter
         public const Int32 loot = 0x40; // PlayerLoot
+        public const Int32 lastSet = 0x48; // List<ItemIcon>
+        public const Int32 cachedResult = 0x50; // PlayerInventory.WearCheckResult
+        public const Int32 returnItems = 0x60; // List<Item>
     }
     public static class ItemContainer
     {

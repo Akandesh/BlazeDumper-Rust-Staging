@@ -50,7 +50,7 @@
         "triggers": 320,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 59252416,
+    "BaseEntity_TypeInfo": 59266112,
     "BaseFishingRod": {
         "BobberPreview": 600,
         "ConditionLossOnFail": 580,
@@ -83,7 +83,7 @@
         "strainSoundDef": 616,
         "tensionBreakSoundDef": 632
     },
-    "BaseGameMode_TypeInfo": 59253136,
+    "BaseGameMode_TypeInfo": 59266832,
     "BasePlayer": {
         "Belt": 2336,
         "ClientCurrentDeathNote": 2048,
@@ -301,7 +301,7 @@
         "clientAnyAuthed": 1837,
         "clientAuthed": 1836
     },
-    "Facepunch_Input_TypeInfo": 59681272,
+    "Facepunch_Input_TypeInfo": 59695552,
     "FishingBobber": {
         "HorizontalMoveSpeed": 680,
         "PullAwayMoveSpeed": 684,
@@ -363,7 +363,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 59129440,
+    "MainCamera_TypeInfo": 59143616,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -435,11 +435,14 @@
         "showStats": 25
     },
     "PlayerInventory": {
+        "cachedResult": 80,
         "containerBelt": 40,
         "containerMain": 32,
         "containerWear": 48,
         "crafting": 56,
-        "loot": 64
+        "lastSet": 72,
+        "loot": 64,
+        "returnItems": 96
     },
     "PlayerModel": {
         "AdditionalSpineBones": 840,
@@ -574,5 +577,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 59501288
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 59515072
 }

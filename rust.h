@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3881EC0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x38EA9F8;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3863E60;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x38BEAE8;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3882190;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3885440;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x38EE1C0;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x38675C0;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x38C20C0;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3885710;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -287,6 +287,9 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t containerWear = 0x30; // ItemContainer
         constexpr ::std::ptrdiff_t crafting = 0x38; // ItemCrafter
         constexpr ::std::ptrdiff_t loot = 0x40; // PlayerLoot
+        constexpr ::std::ptrdiff_t lastSet = 0x48; // List<ItemIcon>
+        constexpr ::std::ptrdiff_t cachedResult = 0x50; // PlayerInventory.WearCheckResult
+        constexpr ::std::ptrdiff_t returnItems = 0x60; // List<Item>
     } // namespace PlayerInventory
     namespace ItemContainer {
         constexpr ::std::ptrdiff_t flags = 0x10; // ItemContainer.Flag
