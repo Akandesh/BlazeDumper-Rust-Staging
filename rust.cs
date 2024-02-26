@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3885440;
+    public const Int32 offset = 0x39D7078;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x38EE1C0;
+    public const Int32 offset = 0x39A02E8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x38675C0;
+    public const Int32 offset = 0x39B9EA0;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x38C20C0;
+    public const Int32 offset = 0x3A12118;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3885710;
+    public const Int32 offset = 0x39D7340;
     }
     public static class BasePlayer
     {
@@ -121,9 +121,10 @@ namespace blazedumper {
         public const Int32 lastSentTickTime = 0x8B4; // float
         public const Int32 lastTickStopwatch = 0x8B8; // Stopwatch
         public const Int32 lastSentTick = 0x8C0; // PlayerTick
-        public const Int32 nextVisThink = 0x8C8; // float
-        public const Int32 lastTimeSeen = 0x8CC; // float
-        public const Int32 debugPrevVisible = 0x8D0; // bool
+        public const Int32 CurrentTutorialAllowance = 0x8C8; // BasePlayer.TutorialItemAllowance
+        public const Int32 nextVisThink = 0x8CC; // float
+        public const Int32 lastTimeSeen = 0x8D0; // float
+        public const Int32 debugPrevVisible = 0x8D4; // bool
         public const Int32 fallDamageEffect = 0x8D8; // GameObjectRef
         public const Int32 drownEffect = 0x8E0; // GameObjectRef
         public const Int32 playerFlags = 0x8E8; // BasePlayer.PlayerFlags
@@ -432,12 +433,16 @@ namespace blazedumper {
         public const Int32 overrideRightHandIkWeight = 0x324; // float
         public const Int32 smoothLookDir = 0x328; // Vector3
         public const Int32 lastSafeLookDir = 0x334; // Vector3
-        public const Int32 Shoulders = 0x340; // Transform[]
-        public const Int32 AdditionalSpineBones = 0x348; // Transform[]
-        public const Int32 LegParts = 0x350; // List<SkinnedMeshRenderer>
-        public const Int32 fakeSpineBones = 0x358; // Transform[]
-        public const Int32 extraLeanBack = 0x360; // float
-        public const Int32 timeInArmsMode = 0x368; // float
+        public const Int32 cinematicLookAt = 0x340; // Vector3
+        public const Int32 lastCinematicLookAt = 0x34C; // Vector3
+        public const Int32 cinematicLookAtWeight = 0x358; // float
+        public const Int32 cinematicTargetWeight = 0x35C; // float
+        public const Int32 Shoulders = 0x360; // Transform[]
+        public const Int32 AdditionalSpineBones = 0x368; // Transform[]
+        public const Int32 LegParts = 0x370; // List<SkinnedMeshRenderer>
+        public const Int32 fakeSpineBones = 0x378; // Transform[]
+        public const Int32 extraLeanBack = 0x380; // float
+        public const Int32 timeInArmsMode = 0x388; // float
     }
     public static class ModelState
     {

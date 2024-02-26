@@ -50,7 +50,7 @@
         "triggers": 320,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 59266112,
+    "BaseEntity_TypeInfo": 60649592,
     "BaseFishingRod": {
         "BobberPreview": 600,
         "ConditionLossOnFail": 580,
@@ -83,12 +83,13 @@
         "strainSoundDef": 616,
         "tensionBreakSoundDef": 632
     },
-    "BaseGameMode_TypeInfo": 59266832,
+    "BaseGameMode_TypeInfo": 60650304,
     "BasePlayer": {
         "Belt": 2336,
         "ClientCurrentDeathNote": 2048,
         "ClientCurrentMapNotes": 2040,
         "ClientCurrentPings": 2136,
+        "CurrentTutorialAllowance": 2248,
         "Frozen": 1688,
         "GestureViewModel": 1848,
         "HasMountedClothing": 1796,
@@ -142,7 +143,7 @@
         "currentGesture": 1944,
         "currentTeam": 1976,
         "currentViewMode": 1808,
-        "debugPrevVisible": 2256,
+        "debugPrevVisible": 2260,
         "designingAIEntity": 2520,
         "disabledHeldEntity": 1952,
         "drownEffect": 2272,
@@ -173,7 +174,7 @@
         "lastSentTickTime": 2228,
         "lastSpectateCameraUpdate": 2200,
         "lastTickStopwatch": 2232,
-        "lastTimeSeen": 2252,
+        "lastTimeSeen": 2256,
         "lastUpdateTime": 2204,
         "lookingAtPoint": 1776,
         "lookingAtTest": 1888,
@@ -191,7 +192,7 @@
         "nextGestureMenuOpenTime": 1960,
         "nextSeatSwapTime": 2104,
         "nextTopologyTestTime": 1876,
-        "nextVisThink": 2248,
+        "nextVisThink": 2252,
         "playerCollider": 2328,
         "playerColliderCrawling": 2432,
         "playerColliderDucked": 2412,
@@ -301,7 +302,7 @@
         "clientAnyAuthed": 1837,
         "clientAuthed": 1836
     },
-    "Facepunch_Input_TypeInfo": 59695552,
+    "Facepunch_Input_TypeInfo": 60424936,
     "FishingBobber": {
         "HorizontalMoveSpeed": 680,
         "PullAwayMoveSpeed": 684,
@@ -363,7 +364,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 59143616,
+    "MainCamera_TypeInfo": 60530336,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -445,7 +446,7 @@
         "returnItems": 96
     },
     "PlayerModel": {
-        "AdditionalSpineBones": 840,
+        "AdditionalSpineBones": 872,
         "AimAngles": 400,
         "CinematicAnimationController": 256,
         "CinematicAvatar": 272,
@@ -458,10 +459,10 @@
         "InCinematic": 608,
         "InGesture": 592,
         "IsNpc": 712,
-        "LegParts": 848,
+        "LegParts": 880,
         "LookAngles": 416,
         "MaleSkin": 320,
-        "Shoulders": 832,
+        "Shoulders": 864,
         "SleepGesture": 288,
         "SpineBones": 88,
         "StandToIncapacitatedGesture": 304,
@@ -487,12 +488,15 @@
         "cachedRightFootPos": 752,
         "censorshipCube": 32,
         "censorshipCubeBreasts": 40,
+        "cinematicLookAt": 832,
+        "cinematicLookAtWeight": 856,
+        "cinematicTargetWeight": 860,
         "collision": 24,
         "defaultAnimatorController": 616,
         "drawShadowOnly": 548,
-        "extraLeanBack": 864,
+        "extraLeanBack": 896,
         "eyeController": 72,
-        "fakeSpineBones": 856,
+        "fakeSpineBones": 888,
         "fallingTime": 520,
         "flinchLocation": 552,
         "hairNumber": 360,
@@ -502,6 +506,7 @@
         "isIncapacitated": 549,
         "isLocalPlayer": 569,
         "jawBone": 48,
+        "lastCinematicLookAt": 844,
         "lastSafeLookDir": 820,
         "leftFootBone": 96,
         "leftFootTargetPosition": 228,
@@ -542,7 +547,7 @@
         "steeringTargetDegrees": 196,
         "subsurfaceProfile": 336,
         "tempPoseType": 380,
-        "timeInArmsMode": 872,
+        "timeInArmsMode": 904,
         "timeSinceLeftFootTest": 720,
         "timeSinceReactionStart": 716,
         "timeSinceRightFootTest": 748,
@@ -577,5 +582,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 59515072
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 60891416
 }

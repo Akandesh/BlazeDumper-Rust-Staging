@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3885440;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x38EE1C0;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x38675C0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x38C20C0;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3885710;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x39D7078;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x39A02E8;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x39B9EA0;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3A12118;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x39D7340;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -107,9 +107,10 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t lastSentTickTime = 0x8B4; // float
         inline constexpr ::std::ptrdiff_t lastTickStopwatch = 0x8B8; // Stopwatch
         inline constexpr ::std::ptrdiff_t lastSentTick = 0x8C0; // PlayerTick
-        inline constexpr ::std::ptrdiff_t nextVisThink = 0x8C8; // float
-        inline constexpr ::std::ptrdiff_t lastTimeSeen = 0x8CC; // float
-        inline constexpr ::std::ptrdiff_t debugPrevVisible = 0x8D0; // bool
+        inline constexpr ::std::ptrdiff_t CurrentTutorialAllowance = 0x8C8; // BasePlayer.TutorialItemAllowance
+        inline constexpr ::std::ptrdiff_t nextVisThink = 0x8CC; // float
+        inline constexpr ::std::ptrdiff_t lastTimeSeen = 0x8D0; // float
+        inline constexpr ::std::ptrdiff_t debugPrevVisible = 0x8D4; // bool
         inline constexpr ::std::ptrdiff_t fallDamageEffect = 0x8D8; // GameObjectRef
         inline constexpr ::std::ptrdiff_t drownEffect = 0x8E0; // GameObjectRef
         inline constexpr ::std::ptrdiff_t playerFlags = 0x8E8; // BasePlayer.PlayerFlags
@@ -410,12 +411,16 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t overrideRightHandIkWeight = 0x324; // float
         inline constexpr ::std::ptrdiff_t smoothLookDir = 0x328; // Vector3
         inline constexpr ::std::ptrdiff_t lastSafeLookDir = 0x334; // Vector3
-        inline constexpr ::std::ptrdiff_t Shoulders = 0x340; // Transform[]
-        inline constexpr ::std::ptrdiff_t AdditionalSpineBones = 0x348; // Transform[]
-        inline constexpr ::std::ptrdiff_t LegParts = 0x350; // List<SkinnedMeshRenderer>
-        inline constexpr ::std::ptrdiff_t fakeSpineBones = 0x358; // Transform[]
-        inline constexpr ::std::ptrdiff_t extraLeanBack = 0x360; // float
-        inline constexpr ::std::ptrdiff_t timeInArmsMode = 0x368; // float
+        inline constexpr ::std::ptrdiff_t cinematicLookAt = 0x340; // Vector3
+        inline constexpr ::std::ptrdiff_t lastCinematicLookAt = 0x34C; // Vector3
+        inline constexpr ::std::ptrdiff_t cinematicLookAtWeight = 0x358; // float
+        inline constexpr ::std::ptrdiff_t cinematicTargetWeight = 0x35C; // float
+        inline constexpr ::std::ptrdiff_t Shoulders = 0x360; // Transform[]
+        inline constexpr ::std::ptrdiff_t AdditionalSpineBones = 0x368; // Transform[]
+        inline constexpr ::std::ptrdiff_t LegParts = 0x370; // List<SkinnedMeshRenderer>
+        inline constexpr ::std::ptrdiff_t fakeSpineBones = 0x378; // Transform[]
+        inline constexpr ::std::ptrdiff_t extraLeanBack = 0x380; // float
+        inline constexpr ::std::ptrdiff_t timeInArmsMode = 0x388; // float
     } // namespace PlayerModel
     namespace ModelState {
         inline constexpr ::std::ptrdiff_t waterLevel = 0x10; // float
