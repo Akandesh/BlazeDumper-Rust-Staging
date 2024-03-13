@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x39DA1F0;
+    public const Int32 offset = 0x39DE4C0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x39A3308;
+    public const Int32 offset = 0x39A7660;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x39BCF10;
+    public const Int32 offset = 0x39C12C8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3A15578;
+    public const Int32 offset = 0x3A196D8;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x39DA4C0;
+    public const Int32 offset = 0x39DE790;
     }
     public static class BasePlayer
     {
@@ -441,9 +441,10 @@ namespace blazedumper {
         public const Int32 Shoulders = 0x360; // Transform[]
         public const Int32 AdditionalSpineBones = 0x368; // Transform[]
         public const Int32 LegParts = 0x370; // List<SkinnedMeshRenderer>
-        public const Int32 fakeSpineBones = 0x378; // Transform[]
-        public const Int32 extraLeanBack = 0x380; // float
-        public const Int32 timeInArmsMode = 0x388; // float
+        public const Int32 fadeToggles = 0x378; // List<WearableFadeToggle>
+        public const Int32 fakeSpineBones = 0x380; // Transform[]
+        public const Int32 extraLeanBack = 0x388; // float
+        public const Int32 timeInArmsMode = 0x390; // float
     }
     public static class ModelState
     {
