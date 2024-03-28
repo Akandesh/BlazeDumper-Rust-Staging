@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3A754A8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3A40188;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3A5AA70;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3AAFC30;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3A75788;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3AB7940;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3A826C0;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3A9CF18;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3AF1DA8;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3AB7C28;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -38,6 +38,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t wokeUpBefore = 0x702; // bool
         inline constexpr ::std::ptrdiff_t wasDead = 0x703; // bool
         inline constexpr ::std::ptrdiff_t HasMountedClothing = 0x704; // bool
+        inline constexpr ::std::ptrdiff_t HasWearableClothing = 0x705; // bool
         inline constexpr ::std::ptrdiff_t lastClothesHash = 0x708; // uint
         inline constexpr ::std::ptrdiff_t lastOpenSoundPlay = 0x70C; // TimeSince
         inline constexpr ::std::ptrdiff_t currentViewMode = 0x710; // BasePlayer.CameraMode
@@ -208,6 +209,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x728; // float
         inline constexpr ::std::ptrdiff_t clientAuthed = 0x72C; // bool
         inline constexpr ::std::ptrdiff_t clientAnyAuthed = 0x72D; // bool
+        inline constexpr ::std::ptrdiff_t lastProtectedMinuteUpdate = 0x730; // DateTime
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         inline constexpr ::std::ptrdiff_t NoiseRadius = 0x290; // float

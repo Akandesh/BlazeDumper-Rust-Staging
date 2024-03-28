@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3A754A8;
+    public const Int32 offset = 0x3AB7940;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3A40188;
+    public const Int32 offset = 0x3A826C0;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3A5AA70;
+    public const Int32 offset = 0x3A9CF18;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3AAFC30;
+    public const Int32 offset = 0x3AF1DA8;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3A75788;
+    public const Int32 offset = 0x3AB7C28;
     }
     public static class BasePlayer
     {
@@ -52,6 +52,7 @@ namespace blazedumper {
         public const Int32 wokeUpBefore = 0x702; // bool
         public const Int32 wasDead = 0x703; // bool
         public const Int32 HasMountedClothing = 0x704; // bool
+        public const Int32 HasWearableClothing = 0x705; // bool
         public const Int32 lastClothesHash = 0x708; // uint
         public const Int32 lastOpenSoundPlay = 0x70C; // TimeSince
         public const Int32 currentViewMode = 0x710; // BasePlayer.CameraMode
@@ -225,6 +226,7 @@ namespace blazedumper {
         public const Int32 cachedUpkeepCostFraction = 0x728; // float
         public const Int32 clientAuthed = 0x72C; // bool
         public const Int32 clientAnyAuthed = 0x72D; // bool
+        public const Int32 lastProtectedMinuteUpdate = 0x730; // DateTime
     }
     public static class BaseProjectile
     {
