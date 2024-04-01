@@ -50,7 +50,7 @@
         "triggers": 320,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 61569368,
+    "BaseEntity_TypeInfo": 61574056,
     "BaseFishingRod": {
         "BobberPreview": 600,
         "ConditionLossOnFail": 580,
@@ -83,7 +83,7 @@
         "strainSoundDef": 616,
         "tensionBreakSoundDef": 632
     },
-    "BaseGameMode_TypeInfo": 61570112,
+    "BaseGameMode_TypeInfo": 61574800,
     "BasePlayer": {
         "Belt": 2344,
         "ClientCurrentDeathNote": 2048,
@@ -114,7 +114,7 @@
         "_lookingAt": 1752,
         "_lookingAtCollider": 1768,
         "_lookingAtEntity": 1760,
-        "activeTelephone": 2520,
+        "activeTelephone": 2528,
         "bagCount": 1736,
         "blockHeldInputTimer": 1940,
         "blueprints": 2312,
@@ -135,21 +135,21 @@
         "clientTickInterval": 2224,
         "clientTickRate": 2216,
         "client_lastHelloTime": 1968,
-        "clothingAccuracyBonus": 2508,
-        "clothingBlocksAiming": 2496,
-        "clothingMoveSpeedReduction": 2500,
-        "clothingWaterSpeedBonus": 2504,
+        "clothingAccuracyBonus": 2512,
+        "clothingBlocksAiming": 2500,
+        "clothingMoveSpeedReduction": 2504,
+        "clothingWaterSpeedBonus": 2508,
         "collision": 1728,
         "currentClientRespawnInformation": 1856,
         "currentGesture": 1944,
         "currentTeam": 1976,
         "currentViewMode": 1808,
         "debugPrevVisible": 2264,
-        "designingAIEntity": 2528,
+        "designingAIEntity": 2536,
         "disabledHeldEntity": 1952,
         "drownEffect": 2280,
-        "eggVision": 2516,
-        "equippingBlocked": 2512,
+        "eggVision": 2520,
+        "equippingBlocked": 2516,
         "eyes": 2296,
         "fallDamageEffect": 2272,
         "gamemodeteam": 2376,
@@ -221,6 +221,7 @@
         "wakeTime": 1788,
         "wasDead": 1795,
         "wasSleeping": 1793,
+        "weaponMoveSpeedScale": 2496,
         "wokeUpBefore": 1794
     },
     "BaseProjectile": {
@@ -305,7 +306,7 @@
         "clientAuthed": 1836,
         "lastProtectedMinuteUpdate": 1840
     },
-    "Facepunch_Input_TypeInfo": 61351640,
+    "Facepunch_Input_TypeInfo": 61356328,
     "FishingBobber": {
         "HorizontalMoveSpeed": 680,
         "PullAwayMoveSpeed": 684,
@@ -362,12 +363,14 @@
         "uid": 48
     },
     "Magazine": {
+        "allowAmmoSwitching": 41,
+        "allowPlayerReloading": 40,
         "ammoType": 32,
         "capacity": 24,
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 61460272,
+    "MainCamera_TypeInfo": 61464960,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -586,5 +589,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 61808056
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 61812760
 }

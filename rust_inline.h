@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3AB7958;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3A826D8;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3A9CF30;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3AF1DB8;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3AB7C40;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3AB8BA8;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3A83928;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3A9E180;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3AF3018;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3AB8E90;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -137,14 +137,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t cachedProtection = 0x9B0; // ProtectionProperties
         inline constexpr ::std::ptrdiff_t lastHeadshotSoundTime = 0x9B8; // float
         inline constexpr ::std::ptrdiff_t nextColliderRefreshTime = 0x9BC; // float
-        inline constexpr ::std::ptrdiff_t clothingBlocksAiming = 0x9C0; // bool
-        inline constexpr ::std::ptrdiff_t clothingMoveSpeedReduction = 0x9C4; // float
-        inline constexpr ::std::ptrdiff_t clothingWaterSpeedBonus = 0x9C8; // float
-        inline constexpr ::std::ptrdiff_t clothingAccuracyBonus = 0x9CC; // float
-        inline constexpr ::std::ptrdiff_t equippingBlocked = 0x9D0; // bool
-        inline constexpr ::std::ptrdiff_t eggVision = 0x9D4; // float
-        inline constexpr ::std::ptrdiff_t activeTelephone = 0x9D8; // PhoneController
-        inline constexpr ::std::ptrdiff_t designingAIEntity = 0x9E0; // BaseEntity
+        inline constexpr ::std::ptrdiff_t weaponMoveSpeedScale = 0x9C0; // float
+        inline constexpr ::std::ptrdiff_t clothingBlocksAiming = 0x9C4; // bool
+        inline constexpr ::std::ptrdiff_t clothingMoveSpeedReduction = 0x9C8; // float
+        inline constexpr ::std::ptrdiff_t clothingWaterSpeedBonus = 0x9CC; // float
+        inline constexpr ::std::ptrdiff_t clothingAccuracyBonus = 0x9D0; // float
+        inline constexpr ::std::ptrdiff_t equippingBlocked = 0x9D4; // bool
+        inline constexpr ::std::ptrdiff_t eggVision = 0x9D8; // float
+        inline constexpr ::std::ptrdiff_t activeTelephone = 0x9E0; // PhoneController
+        inline constexpr ::std::ptrdiff_t designingAIEntity = 0x9E8; // BaseEntity
     } // namespace BasePlayer
     namespace BaseEntity {
         inline constexpr ::std::ptrdiff_t ragdoll = 0x78; // Ragdoll
@@ -284,6 +285,8 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t capacity = 0x18; // int
         inline constexpr ::std::ptrdiff_t contents = 0x1C; // int
         inline constexpr ::std::ptrdiff_t ammoType = 0x20; // ItemDefinition
+        inline constexpr ::std::ptrdiff_t allowPlayerReloading = 0x28; // bool
+        inline constexpr ::std::ptrdiff_t allowAmmoSwitching = 0x29; // bool
     } // namespace Magazine
     namespace PlayerInventory {
         inline constexpr ::std::ptrdiff_t containerMain = 0x20; // ItemContainer

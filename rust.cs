@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3AB7958;
+    public const Int32 offset = 0x3AB8BA8;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3A826D8;
+    public const Int32 offset = 0x3A83928;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3A9CF30;
+    public const Int32 offset = 0x3A9E180;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3AF1DB8;
+    public const Int32 offset = 0x3AF3018;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3AB7C40;
+    public const Int32 offset = 0x3AB8E90;
     }
     public static class BasePlayer
     {
@@ -151,14 +151,15 @@ namespace blazedumper {
         public const Int32 cachedProtection = 0x9B0; // ProtectionProperties
         public const Int32 lastHeadshotSoundTime = 0x9B8; // float
         public const Int32 nextColliderRefreshTime = 0x9BC; // float
-        public const Int32 clothingBlocksAiming = 0x9C0; // bool
-        public const Int32 clothingMoveSpeedReduction = 0x9C4; // float
-        public const Int32 clothingWaterSpeedBonus = 0x9C8; // float
-        public const Int32 clothingAccuracyBonus = 0x9CC; // float
-        public const Int32 equippingBlocked = 0x9D0; // bool
-        public const Int32 eggVision = 0x9D4; // float
-        public const Int32 activeTelephone = 0x9D8; // PhoneController
-        public const Int32 designingAIEntity = 0x9E0; // BaseEntity
+        public const Int32 weaponMoveSpeedScale = 0x9C0; // float
+        public const Int32 clothingBlocksAiming = 0x9C4; // bool
+        public const Int32 clothingMoveSpeedReduction = 0x9C8; // float
+        public const Int32 clothingWaterSpeedBonus = 0x9CC; // float
+        public const Int32 clothingAccuracyBonus = 0x9D0; // float
+        public const Int32 equippingBlocked = 0x9D4; // bool
+        public const Int32 eggVision = 0x9D8; // float
+        public const Int32 activeTelephone = 0x9E0; // PhoneController
+        public const Int32 designingAIEntity = 0x9E8; // BaseEntity
     }
     public static class BaseEntity
     {
@@ -303,6 +304,8 @@ namespace blazedumper {
         public const Int32 capacity = 0x18; // int
         public const Int32 contents = 0x1C; // int
         public const Int32 ammoType = 0x20; // ItemDefinition
+        public const Int32 allowPlayerReloading = 0x28; // bool
+        public const Int32 allowAmmoSwitching = 0x29; // bool
     }
     public static class PlayerInventory
     {
