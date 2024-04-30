@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3B457C0;
+    public const Int32 offset = 0x3B468A0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3B1A790;
+    public const Int32 offset = 0x3B1B858;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3B31750;
+    public const Int32 offset = 0x3B32830;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3B75D48;
+    public const Int32 offset = 0x3B76E10;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3B45A20;
+    public const Int32 offset = 0x3B46B00;
     }
     public static class BasePlayer
     {
@@ -215,18 +215,20 @@ namespace blazedumper {
     }
     public static class BuildingPrivlidge
     {
-        public const Int32 __menuOption_Menu_MaxAuth = 0x470; // Option
-        public const Int32 __menuOption_Menu_RotateVM = 0x4E0; // Option
-        public const Int32 __menuOption_MenuAuthorize = 0x550; // Option
-        public const Int32 __menuOption_MenuClearList = 0x5C0; // Option
-        public const Int32 __menuOption_MenuDeauthorize = 0x630; // Option
-        public const Int32 allowedConstructionItems = 0x6A0; // List<ItemDefinition>
-        public const Int32 cachedProtectedMinutes = 0x6A8; // float
-        public const Int32 cachedUpkeepPeriodMinutes = 0x6AC; // float
-        public const Int32 cachedUpkeepCostFraction = 0x6B0; // float
-        public const Int32 clientAuthed = 0x6B4; // bool
-        public const Int32 clientAnyAuthed = 0x6B5; // bool
-        public const Int32 lastProtectedMinuteUpdate = 0x6B8; // DateTime
+        public const Int32 __menuOption_Menu_AssignToFriend = 0x470; // Option
+        public const Int32 __menuOption_Menu_MaxAuth = 0x4E0; // Option
+        public const Int32 __menuOption_Menu_RotateVM = 0x550; // Option
+        public const Int32 __menuOption_MenuAuthorize = 0x5C0; // Option
+        public const Int32 __menuOption_MenuClearList = 0x630; // Option
+        public const Int32 __menuOption_MenuDeauthorize = 0x6A0; // Option
+        public const Int32 assignDialog = 0x710; // GameObject
+        public const Int32 allowedConstructionItems = 0x720; // List<ItemDefinition>
+        public const Int32 cachedProtectedMinutes = 0x728; // float
+        public const Int32 cachedUpkeepPeriodMinutes = 0x72C; // float
+        public const Int32 cachedUpkeepCostFraction = 0x730; // float
+        public const Int32 clientAuthed = 0x734; // bool
+        public const Int32 clientAnyAuthed = 0x735; // bool
+        public const Int32 lastProtectedMinuteUpdate = 0x738; // DateTime
     }
     public static class BaseProjectile
     {

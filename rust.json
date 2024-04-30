@@ -50,7 +50,7 @@
         "triggers": 328,
         "updateParentingAction": 280
     },
-    "BaseEntity_TypeInfo": 62150592,
+    "BaseEntity_TypeInfo": 62154912,
     "BaseFishingRod": {
         "BobberPreview": 608,
         "ConditionLossOnFail": 588,
@@ -83,7 +83,7 @@
         "strainSoundDef": 624,
         "tensionBreakSoundDef": 640
     },
-    "BaseGameMode_TypeInfo": 62151200,
+    "BaseGameMode_TypeInfo": 62155520,
     "BasePlayer": {
         "Belt": 2096,
         "ClientCurrentDeathNote": 1800,
@@ -292,20 +292,22 @@
         "useEmptyAmmoState": 810
     },
     "BuildingPrivledge": {
-        "__menuOption_MenuAuthorize": 1360,
-        "__menuOption_MenuClearList": 1472,
-        "__menuOption_MenuDeauthorize": 1584,
-        "__menuOption_Menu_MaxAuth": 1136,
-        "__menuOption_Menu_RotateVM": 1248,
-        "allowedConstructionItems": 1696,
-        "cachedProtectedMinutes": 1704,
-        "cachedUpkeepCostFraction": 1712,
-        "cachedUpkeepPeriodMinutes": 1708,
-        "clientAnyAuthed": 1717,
-        "clientAuthed": 1716,
-        "lastProtectedMinuteUpdate": 1720
+        "__menuOption_MenuAuthorize": 1472,
+        "__menuOption_MenuClearList": 1584,
+        "__menuOption_MenuDeauthorize": 1696,
+        "__menuOption_Menu_AssignToFriend": 1136,
+        "__menuOption_Menu_MaxAuth": 1248,
+        "__menuOption_Menu_RotateVM": 1360,
+        "allowedConstructionItems": 1824,
+        "assignDialog": 1808,
+        "cachedProtectedMinutes": 1832,
+        "cachedUpkeepCostFraction": 1840,
+        "cachedUpkeepPeriodMinutes": 1836,
+        "clientAnyAuthed": 1845,
+        "clientAuthed": 1844,
+        "lastProtectedMinuteUpdate": 1848
     },
-    "Facepunch_Input_TypeInfo": 61974416,
+    "Facepunch_Input_TypeInfo": 61978712,
     "FishingBobber": {
         "HorizontalMoveSpeed": 672,
         "PullAwayMoveSpeed": 676,
@@ -369,7 +371,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 62068560,
+    "MainCamera_TypeInfo": 62072880,
     "Model": {
         "_lodGroup": 112,
         "animator": 64,
@@ -589,5 +591,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 62348616
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 62352912
 }

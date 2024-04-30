@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3B457C0;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3B1A790;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3B31750;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3B75D48;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3B45A20;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3B468A0;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3B1B858;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3B32830;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3B76E10;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3B46B00;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x280; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x2F0; // Option
@@ -198,18 +198,20 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t lastNotifyFrame = 0x27C; // int
     } // namespace BaseCombatEntity
     namespace BuildingPrivlidge {
-        inline constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x470; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x4E0; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x550; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x5C0; // Option
-        inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x630; // Option
-        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x6A0; // List<ItemDefinition>
-        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x6A8; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x6AC; // float
-        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x6B0; // float
-        inline constexpr ::std::ptrdiff_t clientAuthed = 0x6B4; // bool
-        inline constexpr ::std::ptrdiff_t clientAnyAuthed = 0x6B5; // bool
-        inline constexpr ::std::ptrdiff_t lastProtectedMinuteUpdate = 0x6B8; // DateTime
+        inline constexpr ::std::ptrdiff_t __menuOption_Menu_AssignToFriend = 0x470; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x4E0; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x550; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuAuthorize = 0x5C0; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuClearList = 0x630; // Option
+        inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x6A0; // Option
+        inline constexpr ::std::ptrdiff_t assignDialog = 0x710; // GameObject
+        inline constexpr ::std::ptrdiff_t allowedConstructionItems = 0x720; // List<ItemDefinition>
+        inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x728; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x72C; // float
+        inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x730; // float
+        inline constexpr ::std::ptrdiff_t clientAuthed = 0x734; // bool
+        inline constexpr ::std::ptrdiff_t clientAnyAuthed = 0x735; // bool
+        inline constexpr ::std::ptrdiff_t lastProtectedMinuteUpdate = 0x738; // DateTime
     } // namespace BuildingPrivlidge
     namespace BaseProjectile {
         inline constexpr ::std::ptrdiff_t NoiseRadius = 0x298; // float
