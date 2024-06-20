@@ -2,43 +2,47 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x3C65D20;
+        public const Int32 offset = 0x3C65D20;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3C39CB8;
+        public const Int32 offset = 0x3C39CB8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3C52278;
+        public const Int32 offset = 0x3C52278;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3C95190;
+        public const Int32 offset = 0x3C95190;
     }
     public static class ConVar_Admin_TypeInfo
     {
-    public const Int32 offset = 0x3C5B0B0;
+        public const Int32 offset = 0x3C5B0B0;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3C65F90;
+        public const Int32 offset = 0x3C65F90;
     }
     public static class TOD_Sky_TypeInfo
     {
-    public const Int32 offset = 0x3C24928;
+        public const Int32 offset = 0x3C24928;
     }
     public static class BasePlayer_TypeInfo
     {
-    public const Int32 offset = 0x3C66D50;
+        public const Int32 offset = 0x3C66D50;
     }
     public static class ConVar_Graphics_TypeInfo
     {
-    public const Int32 offset = 0x3C1BBF0;
+        public const Int32 offset = 0x3C1BBF0;
     }
     public static class OcclusionCulling_TypeInfo
     {
-    public const Int32 offset = 0x3C66CC8;
+        public const Int32 offset = 0x3C66CC8;
+    }
+    public static class BaseNetworkable_TypeInfo
+    {
+        public const Int32 offset = 0x3C66948;
     }
     public static class BasePlayer
     {
@@ -673,5 +677,54 @@ namespace blazedumper {
         public const Int32 offsetAngles = 0xBC; // Vector3
         public const Int32 ignoredButtons = 0xC8; // int
         public const Int32 hasKeyFocus = 0xCC; // bool
+    }
+    public static class ItemDefinition
+    {
+        public const Int32 itemid = 0x20; // int
+        public const Int32 shortname = 0x28; // string
+        public const Int32 displayName = 0x30; // Translate.Phrase
+        public const Int32 displayDescription = 0x38; // Translate.Phrase
+        public const Int32 iconSprite = 0x40; // Sprite
+        public const Int32 category = 0x48; // ItemCategory
+        public const Int32 selectionPanel = 0x4C; // ItemSelectionPanel
+        public const Int32 maxDraggable = 0x50; // int
+        public const Int32 itemType = 0x54; // ItemContainer.ContentsType
+        public const Int32 amountType = 0x58; // ItemDefinition.AmountType
+        public const Int32 occupySlots = 0x5C; // ItemSlot
+        public const Int32 stackable = 0x60; // int
+        public const Int32 volume = 0x64; // int
+        public const Int32 quickDespawn = 0x68; // bool
+        public const Int32 blockStealingInSafeZone = 0x69; // bool
+        public const Int32 tutorialAllowance = 0x6C; // BasePlayer.TutorialItemAllowance
+        public const Int32 rarity = 0x70; // Rarity
+        public const Int32 despawnRarity = 0x74; // Rarity
+        public const Int32 spawnAsBlueprint = 0x78; // bool
+        public const Int32 inventoryGrabSound = 0x80; // SoundDefinition
+        public const Int32 inventoryDropSound = 0x88; // SoundDefinition
+        public const Int32 physImpactSoundDef = 0x90; // SoundDefinition
+        public const Int32 condition = 0x98; // ItemDefinition.Condition
+        public const Int32 hidden = 0xB0; // bool
+        public const Int32 flags = 0xB4; // ItemDefinition.Flag
+        public const Int32 hideSelectedPanel = 0xB8; // bool
+        public const Int32 steamItem = 0xC0; // SteamInventoryItem
+        public const Int32 steamDlc = 0xC8; // SteamDLCItem
+        public const Int32 Parent = 0xD0; // ItemDefinition
+        public const Int32 worldModelPrefab = 0xD8; // GameObjectRef
+        public const Int32 treatAsComponentForRepairs = 0xE8; // bool
+        public const Int32 AlignWorldModelOnDrop = 0xE9; // bool
+        public const Int32 WorldModelDropOffset = 0xEC; // Vector3
+        public const Int32 isRedirectOf = 0xF8; // ItemDefinition
+        public const Int32 redirectVendingBehaviour = 0x100; // ItemDefinition.RedirectVendingBehaviour
+        public const Int32 itemMods = 0x108; // ItemMod[]
+        public const Int32 Traits = 0x110; // BaseEntity.TraitFlag
+        public const Int32 _skins2 = 0x120; // IPlayerItemDefinition[]
+        public const Int32 panel = 0x128; // GameObject
+        public const Int32 ItemModWearable = 0x130; // ItemModWearable
+        public const Int32 ItemModBurnable = 0x138; // ItemModBurnable
+        public const Int32 ItemModCookable = 0x140; // ItemModCookable
+        public const Int32 isHoldable = 0x148; // bool
+        public const Int32 isUsable = 0x149; // bool
+        public const Int32 CraftableWithSkin = 0x14A; // bool
+        public const Int32 Children = 0x150; // ItemDefinition[]
     }
 } // namespace blazedumper
