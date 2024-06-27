@@ -51,7 +51,7 @@
         "triggers": 336,
         "updateParentingAction": 288
     },
-    "BaseEntity_TypeInfo": 63400256,
+    "BaseEntity_TypeInfo": 63404520,
     "BaseFishingRod": {
         "BobberPreview": 616,
         "ConditionLossOnFail": 596,
@@ -84,8 +84,8 @@
         "strainSoundDef": 632,
         "tensionBreakSoundDef": 648
     },
-    "BaseGameMode_TypeInfo": 63400880,
-    "BaseNetworkable_TypeInfo": 63403376,
+    "BaseGameMode_TypeInfo": 63405144,
+    "BaseNetworkable_TypeInfo": 63407640,
     "BasePlayer": {
         "Belt": 2752,
         "ClientCurrentDeathNote": 2472,
@@ -225,7 +225,7 @@
         "weaponMoveSpeedScale": 2904,
         "wokeUpBefore": 2218
     },
-    "BasePlayer_TypeInfo": 63404416,
+    "BasePlayer_TypeInfo": 63408680,
     "BaseProjectile": {
         "MuzzlePoint": 720,
         "NoiseRadius": 672,
@@ -310,9 +310,9 @@
         "clientAuthed": 1940,
         "lastProtectedMinuteUpdate": 1944
     },
-    "ConVar_Admin_TypeInfo": 63355248,
-    "ConVar_Graphics_TypeInfo": 63096408,
-    "Facepunch_Input_TypeInfo": 63219488,
+    "ConVar_Admin_TypeInfo": 63359440,
+    "ConVar_Graphics_TypeInfo": 63100816,
+    "Facepunch_Input_TypeInfo": 63224112,
     "FishingBobber": {
         "HorizontalMoveSpeed": 688,
         "PullAwayMoveSpeed": 692,
@@ -424,7 +424,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 63319264,
+    "MainCamera_TypeInfo": 63323888,
     "Model": {
         "_lodGroup": 112,
         "animator": 64,
@@ -491,7 +491,7 @@
         "showScreenBounds": 26,
         "showStats": 25
     },
-    "OcclusionCulling_TypeInfo": 63404904,
+    "OcclusionCulling_TypeInfo": 63409584,
     "PlayerEyes": {
         "IsAltLookingLegsThreshold": 140,
         "bodyRotation": 76,
@@ -742,6 +742,6 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63593776,
-    "TOD_Sky_TypeInfo": 63133208
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63598056,
+    "TOD_Sky_TypeInfo": 63137616
 }

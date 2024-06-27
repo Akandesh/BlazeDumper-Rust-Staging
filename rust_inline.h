@@ -2,17 +2,17 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C76940;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C4A720;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C62CE0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CA5D30;
-    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C6B970;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C76BB0;
-    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C35618;
-    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C77980;
-    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C2C658;
-    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C77B68;
-    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C77570;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C779E8;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C4B930;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C63EF0;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CA6DE8;
+    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C6C9D0;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C77C58;
+    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C36750;
+    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C78A28;
+    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C2D790;
+    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C78DB0;
+    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C78618;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x290; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
