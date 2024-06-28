@@ -2,47 +2,47 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-        public const Int32 offset = 0x3C779E8;
+        public const Int32 offset = 0x3C79A38;
     }
     public static class Facepunch_Input_TypeInfo
     {
-        public const Int32 offset = 0x3C4B930;
+        public const Int32 offset = 0x3C4D908;
     }
     public static class MainCamera_TypeInfo
     {
-        public const Int32 offset = 0x3C63EF0;
+        public const Int32 offset = 0x3C65EC8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x3CA6DE8;
+        public const Int32 offset = 0x3CA8E50;
     }
     public static class ConVar_Admin_TypeInfo
     {
-        public const Int32 offset = 0x3C6C9D0;
+        public const Int32 offset = 0x3C6E9A8;
     }
     public static class BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x3C77C58;
+        public const Int32 offset = 0x3C79CA8;
     }
     public static class TOD_Sky_TypeInfo
     {
-        public const Int32 offset = 0x3C36750;
+        public const Int32 offset = 0x3C38650;
     }
     public static class BasePlayer_TypeInfo
     {
-        public const Int32 offset = 0x3C78A28;
+        public const Int32 offset = 0x3C7AA78;
     }
     public static class ConVar_Graphics_TypeInfo
     {
-        public const Int32 offset = 0x3C2D790;
+        public const Int32 offset = 0x3C2F768;
     }
     public static class OcclusionCulling_TypeInfo
     {
-        public const Int32 offset = 0x3C78DB0;
+        public const Int32 offset = 0x3C7AE00;
     }
     public static class BaseNetworkable_TypeInfo
     {
-        public const Int32 offset = 0x3C78618;
+        public const Int32 offset = 0x3C7A668;
     }
     public static class BasePlayer
     {
@@ -493,8 +493,9 @@ namespace blazedumper {
         public const Int32 guideRotation = 0x44; // Vector3
         public const Int32 guidePrefab = 0x50; // uint
         public const Int32 guideValid = 0x54; // bool
-        public const Int32 ShouldPool = 0x55; // bool
-        public const Int32 _disposed = 0x56; // bool
+        public const Int32 guideVersion = 0x58; // int
+        public const Int32 ShouldPool = 0x5C; // bool
+        public const Int32 _disposed = 0x5D; // bool
     }
     public static class Item
     {

@@ -51,7 +51,7 @@
         "triggers": 336,
         "updateParentingAction": 288
     },
-    "BaseEntity_TypeInfo": 63404520,
+    "BaseEntity_TypeInfo": 63412792,
     "BaseFishingRod": {
         "BobberPreview": 616,
         "ConditionLossOnFail": 596,
@@ -84,8 +84,8 @@
         "strainSoundDef": 632,
         "tensionBreakSoundDef": 648
     },
-    "BaseGameMode_TypeInfo": 63405144,
-    "BaseNetworkable_TypeInfo": 63407640,
+    "BaseGameMode_TypeInfo": 63413416,
+    "BaseNetworkable_TypeInfo": 63415912,
     "BasePlayer": {
         "Belt": 2752,
         "ClientCurrentDeathNote": 2472,
@@ -225,7 +225,7 @@
         "weaponMoveSpeedScale": 2904,
         "wokeUpBefore": 2218
     },
-    "BasePlayer_TypeInfo": 63408680,
+    "BasePlayer_TypeInfo": 63416952,
     "BaseProjectile": {
         "MuzzlePoint": 720,
         "NoiseRadius": 672,
@@ -310,9 +310,9 @@
         "clientAuthed": 1940,
         "lastProtectedMinuteUpdate": 1944
     },
-    "ConVar_Admin_TypeInfo": 63359440,
-    "ConVar_Graphics_TypeInfo": 63100816,
-    "Facepunch_Input_TypeInfo": 63224112,
+    "ConVar_Admin_TypeInfo": 63367592,
+    "ConVar_Graphics_TypeInfo": 63108968,
+    "Facepunch_Input_TypeInfo": 63232264,
     "FishingBobber": {
         "HorizontalMoveSpeed": 688,
         "PullAwayMoveSpeed": 692,
@@ -424,7 +424,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 63323888,
+    "MainCamera_TypeInfo": 63332040,
     "Model": {
         "_lodGroup": 112,
         "animator": 64,
@@ -439,13 +439,14 @@
         "skin": 104
     },
     "ModelState": {
-        "ShouldPool": 85,
-        "_disposed": 86,
+        "ShouldPool": 92,
+        "_disposed": 93,
         "flags": 32,
         "guidePosition": 56,
         "guidePrefab": 80,
         "guideRotation": 68,
         "guideValid": 84,
+        "guideVersion": 88,
         "inheritedVelocity": 40,
         "ladderType": 52,
         "lookDir": 20,
@@ -491,7 +492,7 @@
         "showScreenBounds": 26,
         "showStats": 25
     },
-    "OcclusionCulling_TypeInfo": 63409584,
+    "OcclusionCulling_TypeInfo": 63417856,
     "PlayerEyes": {
         "IsAltLookingLegsThreshold": 140,
         "bodyRotation": 76,
@@ -742,6 +743,6 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63598056,
-    "TOD_Sky_TypeInfo": 63137616
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63606352,
+    "TOD_Sky_TypeInfo": 63145552
 }

@@ -2,17 +2,17 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C779E8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C4B930;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C63EF0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CA6DE8;
-    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C6C9D0;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C77C58;
-    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C36750;
-    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C78A28;
-    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C2D790;
-    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C78DB0;
-    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C78618;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C79A38;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C4D908;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C65EC8;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CA8E50;
+    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C6E9A8;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C79CA8;
+    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C38650;
+    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C7AA78;
+    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C2F768;
+    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C7AE00;
+    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C7A668;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x290; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -452,8 +452,9 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t guideRotation = 0x44; // Vector3
         inline constexpr ::std::ptrdiff_t guidePrefab = 0x50; // uint
         inline constexpr ::std::ptrdiff_t guideValid = 0x54; // bool
-        inline constexpr ::std::ptrdiff_t ShouldPool = 0x55; // bool
-        inline constexpr ::std::ptrdiff_t _disposed = 0x56; // bool
+        inline constexpr ::std::ptrdiff_t guideVersion = 0x58; // int
+        inline constexpr ::std::ptrdiff_t ShouldPool = 0x5C; // bool
+        inline constexpr ::std::ptrdiff_t _disposed = 0x5D; // bool
     } // namespace ModelState
     namespace Item {
         inline constexpr ::std::ptrdiff_t _condition = 0x10; // float
