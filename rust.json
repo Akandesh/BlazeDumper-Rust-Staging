@@ -312,6 +312,7 @@
     },
     "ConVar_Admin_TypeInfo": 63385152,
     "ConVar_Graphics_TypeInfo": 63126528,
+    "ConsoleSystem_Index_TypeInfo": 63432896,
     "Facepunch_Input_TypeInfo": 63249824,
     "FishingBobber": {
         "HorizontalMoveSpeed": 688,
@@ -416,6 +417,20 @@
         "volume": 100,
         "worldModelPrefab": 216
     },
+    "ItemModProjectile": {
+        "ammoType": 48,
+        "attackEffectOverride": 80,
+        "barrelConditionLoss": 88,
+        "category": 96,
+        "mods": 40,
+        "numProjectiles": 52,
+        "projectileObject": 32,
+        "projectileSpread": 56,
+        "projectileVelocity": 60,
+        "projectileVelocitySpread": 64,
+        "spreadScalar": 72,
+        "useCurve": 68
+    },
     "Magazine": {
         "allowAmmoSwitching": 41,
         "allowPlayerReloading": 40,
@@ -474,6 +489,14 @@
         "matrixToFloatTemp": 72,
         "prevViewProjMatrix": 288,
         "projMatrix": 160,
+        "static_Passthrough": 120,
+        "static__debugShow": 140,
+        "static__enabled": 136,
+        "static__safeMode": 137,
+        "static_dynamicSet": 96,
+        "static_gridSet": 104,
+        "static_instance": 112,
+        "static_staticSet": 88,
         "useAsyncReadAPI": 41,
         "useNativePath": 416,
         "usePixelShaderFallback": 40,
