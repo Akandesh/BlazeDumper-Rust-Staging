@@ -2,51 +2,51 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-        public const Int32 offset = 0x3C7DF40;
+        public const Int32 offset = 0x3C7DF98;
     }
     public static class Facepunch_Input_TypeInfo
     {
-        public const Int32 offset = 0x3C51DA0;
+        public const Int32 offset = 0x3C51DE0;
     }
     public static class MainCamera_TypeInfo
     {
-        public const Int32 offset = 0x3C6A360;
+        public const Int32 offset = 0x3C6A3A0;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x3CAD368;
+        public const Int32 offset = 0x3CAD3C0;
     }
     public static class ConVar_Admin_TypeInfo
     {
-        public const Int32 offset = 0x3C72E40;
+        public const Int32 offset = 0x3C72E80;
     }
     public static class BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x3C7E1B0;
+        public const Int32 offset = 0x3C7E208;
     }
     public static class TOD_Sky_TypeInfo
     {
-        public const Int32 offset = 0x3C3CA10;
+        public const Int32 offset = 0x3C3CA50;
     }
     public static class ConsoleSystem_Index_TypeInfo
     {
-        public const Int32 offset = 0x3C7E8C0;
+        public const Int32 offset = 0x3C7E918;
     }
     public static class BasePlayer_TypeInfo
     {
-        public const Int32 offset = 0x3C7EF80;
+        public const Int32 offset = 0x3C7EFD8;
     }
     public static class ConVar_Graphics_TypeInfo
     {
-        public const Int32 offset = 0x3C33C00;
+        public const Int32 offset = 0x3C33C40;
     }
     public static class OcclusionCulling_TypeInfo
     {
-        public const Int32 offset = 0x3C7F308;
+        public const Int32 offset = 0x3C7F360;
     }
     public static class BaseNetworkable_TypeInfo
     {
-        public const Int32 offset = 0x3C7EB70;
+        public const Int32 offset = 0x3C7EBC8;
     }
     public static class BasePlayer
     {
