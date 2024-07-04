@@ -2,18 +2,18 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C7DEC0;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C51D10;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C6A2D0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CAD2E8;
-    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C72DB0;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C7E130;
-    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C3C8A8;
-    inline constexpr ::std::ptrdiff_t ConsoleSystem_Index_TypeInfo = 0x3C7E770;
-    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C7EF00;
-    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C33B70;
-    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C7F288;
-    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C7EAF0;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3C7EEF0;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3C52D30;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3C6B2F0;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3CAE318;
+    inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C73DD0;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C7F160;
+    inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3C3D8C8;
+    inline constexpr ::std::ptrdiff_t ConsoleSystem_Index_TypeInfo = 0x3C7F7A0;
+    inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C7FF30;
+    inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3C34B90;
+    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C802B8;
+    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C7FB20;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x290; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
