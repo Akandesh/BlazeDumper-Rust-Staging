@@ -2,7 +2,7 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-        public const Int32 offset = 0x469E2A8;
+        public const Int32 offset = 0x469E2D8;
     }
     public static class Facepunch_Input_TypeInfo
     {
@@ -10,166 +10,166 @@ namespace blazedumper {
     }
     public static class MainCamera_TypeInfo
     {
-        public const Int32 offset = 0x469E008;
+        public const Int32 offset = 0x469E000;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x46AE750;
+        public const Int32 offset = 0x46AE840;
     }
     public static class BaseGameMode_TypeInfo
     {
-        public const Int32 offset = 0x46AC350;
+        public const Int32 offset = 0x46AC2F0;
     }
     public static class TOD_Sky_TypeInfo
     {
-        public const Int32 offset = 0x46D4570;
+        public const Int32 offset = 0x46D45B0;
     }
     public static class ConsoleSystem_Index_TypeInfo
     {
-        public const Int32 offset = 0x468A898;
+        public const Int32 offset = 0x468A660;
     }
     public static class BasePlayer_TypeInfo
     {
-        public const Int32 offset = 0x469DFE0;
+        public const Int32 offset = 0x469DFD8;
     }
     public static class OcclusionCulling_TypeInfo
     {
-        public const Int32 offset = 0x46ABF10;
+        public const Int32 offset = 0x46ABE90;
     }
     public static class BaseNetworkable_TypeInfo
     {
-        public const Int32 offset = 0x46AA0C8;
+        public const Int32 offset = 0x46AA1A0;
     }
     public static class BasePlayer
     {
-        public const Int32 _3b8e3f55fc7e7914e99b52c1983ff81cb4e15d5b = 0x290; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _59100a9bd28648895c25e297966167ed66888c53 = 0x308; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _b1bff2f5f4dc0e02b8e22ed046c0883c1a2f1775 = 0x380; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _f2994e322943dc6b2317a35a1514f7fb60dd967c = 0x3F8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _6a4bdd1d38012a1a50e768172138d9990d6cb8d7 = 0x470; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _b662321b682fa1cf96722b8ed2d46719e7c31397 = 0x4E8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _c5ed7aadee13d9d08807ab7f118957d1ef2a728f = 0x560; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _dfb3095d64a59f32b2e54d0a6e13c45f3daa859c = 0x5D8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _7d2e2a11c7a4789a795b0c79995bc4821792ab4d = 0x650; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _d448083ac976536df427faa288f00d48d26e0d86 = 0x6C8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _0bf86658fadbd0eef8dc2a15bb97601ed1f45aed = 0x740; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _51941cd3c19d87bec8c185c8d7300c651c9df932 = 0x7B8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _f16b29b136d06faa7067e9dcd536201f0311d59c = 0x830; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _55797ad7c144223b1736f8cc199ff2dfaa94895e = 0x8A8; // long
-        public const Int32 _badfeb46510b1b438a6bd383330e4b49e57ea291 = 0x8B0; // PlayerModel
-        public const Int32 _9843f14d8cdb13f46d20f2e6502a352389f2e0ec = 0x8B8; // bool
-        public const Int32 _ecc327f14006dd56356f31407354830007d3efc1 = 0x8B9; // bool
-        public const Int32 _504ccc254646511ad2d3dd8a35763525ba0523b9 = 0x8C0; // PlayerVoiceRecorder
-        public const Int32 _020f2ac88a0a4d6c4f76f172610d49af59d83ed8 = 0x8C8; // PlayerVoiceSpeaker
-        public const Int32 _081e5b7fe7afdc4db5bf809e4d5a1496f85d1ada = 0x8D0; // PlayerInput
-        public const Int32 _4a20ee7cecf94df124d1eb4e8712a8330952417c = 0x8D8; // BaseMovement
-        public const Int32 _f968544c6e25bc8fb1da98a39b1fbfa49b8d59fe = 0x8E0; // BaseCollision
-        public const Int32 _bf52600b8fd57b284550579be0749eabe3d11ee4 = 0x8E8; // int
-        public const Int32 _d94db5aeaa024a0288ff5fafbd4ee4e7ef590a77 = 0x8EC; // int
-        public const Int32 _fa016a7c327b288a843d7e50d5a5d1d58c2510b0 = 0x8F0; // uint
-        public const Int32 _b24c9522cc67403a67eb8fba8e11305cccd852e0 = 0x8F8; // GameObject
-        public const Int32 _d91f667d469fca6832a74b014cf731652c9aef22 = 0x900; // BaseEntity
-        public const Int32 _067f1cd1944d8c3f26b5eacad192875f0ed191df = 0x908; // Collider
-        public const Int32 _cad2930301fdad893f391b8735ab48caa39c4126 = 0x910; // Vector3
-        public const Int32 _75b22c8e3172490de553acc6d184e6f464fcbe94 = 0x91C; // float
-        public const Int32 _bd2c1a5d444619ba72d6ade79a26a9011f50d224 = 0x920; // bool
-        public const Int32 _738ebed678a31d109f51ae08e32b9674f14388ee = 0x921; // bool
-        public const Int32 _5184afc67bcc93a3f4e256f5d0912eb0bfccd501 = 0x922; // bool
-        public const Int32 _c69ebc46c98de78406d6cff1eaeeb1e15c8cdba3 = 0x923; // bool
-        public const Int32 _b1d6114fba9ed235c2290cec324c88a904ba8198 = 0x924; // bool
-        public const Int32 _acd14e29de241f02091ad0d1385c6cb6719f911b = 0x925; // bool
-        public const Int32 _7e8b9a650eeda854c22d1ab5c0717f1818de3013 = 0x928; // uint
-        public const Int32 _b67dd0c1450fc47250338b80f84b41113e36429f = 0x92C; // TimeSince
-        public const Int32 _821f93ff78e318beb829587e10f0f95178bf717d = 0x930; // BasePlayer.CameraMode
-        public const Int32 _01a8aa475f29c97d845666f42f5abcafb5b76d4c = 0x934; // BasePlayer.CameraMode
-        public const Int32 _d7189092bba7338376340bca0fbe9a775294fbd6 = 0x938; // Vector3
-        public const Int32 _895f620520c0ade2dccb54d18ef3de36fb79baa0 = 0x944; // Vector3
-        public const Int32 _38437ebcdb42a05afe989e1ae67adf8786f03f11 = 0x950; // bool
+        public const Int32 _a2cfffb2d4c67c675e0de871ea833fc65b5915e0 = 0x290; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _292545c54fb431bb7cbca698310d29d5d7ab42aa = 0x308; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _567735f842edec36e49ba400b522fd2b1f1983ac = 0x380; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _91fb974b080ae56c4a8926d8ffb9906970ef0b72 = 0x3F8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _b174faed2ede8a7d898b6b9f874e3f5a9682a7bf = 0x470; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _8c11cb2d6f7efb874a66ac65c542fa16c6f47a97 = 0x4E8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _18f0913b443cba94dc2f3ad07c8f9a7df02272b4 = 0x560; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _47422b611d20ca94af4b72d14f5fafcceeb09039 = 0x5D8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _c5c3107653f7e6f48f4dc9908c5d2bdc47e6cc38 = 0x650; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _d6fe984c24523244a331d4fd5fbd41e4e090e1f6 = 0x6C8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _f8dfc110fb66272a60a302a6ed3cf68120dcd657 = 0x740; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _e718de788ddd3b697c91eedfa3464be15909b3f9 = 0x7B8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _74c84f63d3df4fdbaef68f05e7e9f5d04ae09bf3 = 0x830; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _6a6ea8f5a4ef7f20235b43613886dc444a0ff633 = 0x8A8; // long
+        public const Int32 _2234651eaf9f4195ca74d13d1bede30a902fe809 = 0x8B0; // PlayerModel
+        public const Int32 _466f9ad5989e9e736c56b9d4bf95c869023b20e1 = 0x8B8; // bool
+        public const Int32 _8ccc5b421a4356b49147941f3730d706b817c85d = 0x8B9; // bool
+        public const Int32 _39d74b3e5172bc82d4fd275d0a7277e4352b5a37 = 0x8C0; // PlayerVoiceRecorder
+        public const Int32 _0f75d82e6e7aa5eba5d291d9d0f14954c67f3c3c = 0x8C8; // PlayerVoiceSpeaker
+        public const Int32 _832f6f8fe1cc99d47d5754d62a0181dbb2e54bf4 = 0x8D0; // PlayerInput
+        public const Int32 _eedeecb1872ba9eacae4d131cfdb3ac5bed2cf97 = 0x8D8; // BaseMovement
+        public const Int32 _397a0581a79d92b3563cedbaacbef57f18aea4ae = 0x8E0; // BaseCollision
+        public const Int32 _e0bd1126c0a928b1a927bc62d261ee33874394cc = 0x8E8; // int
+        public const Int32 _ca89c5e81d02226d06cdbd787cf395c88b776f68 = 0x8EC; // int
+        public const Int32 _9d934e390027801692c593356468833ca7296311 = 0x8F0; // uint
+        public const Int32 _520145df59f7d5b48c58203abdb2912c3f72a1cb = 0x8F8; // GameObject
+        public const Int32 _48fe9603c7b23c5e287e82bfd660418fbe8fe207 = 0x900; // BaseEntity
+        public const Int32 _cf6dbe0271fc7d8b5691183b77212f22ebfdb013 = 0x908; // Collider
+        public const Int32 _a010291260725526ee186ba2d2e62af1b098a568 = 0x910; // Vector3
+        public const Int32 _85ece7b2914290e2884e74d5538fd62b5e675402 = 0x91C; // float
+        public const Int32 _37c85246ca68106ed8845507adef38cdf8210cd8 = 0x920; // bool
+        public const Int32 _ef49bcd3097706eb2144db4699729f414cc83120 = 0x921; // bool
+        public const Int32 _0648d6285fab4ecb62a6570ba429b938ee7bc87f = 0x922; // bool
+        public const Int32 _f68aa1368387267ca4d3a40b302bfec314e00e5c = 0x923; // bool
+        public const Int32 _16a38e40dbb4e73636ad01a4fe35c068f8fccc95 = 0x924; // bool
+        public const Int32 _28bf8d1c9afe638a19578d7a43b888f68710a1c5 = 0x925; // bool
+        public const Int32 _8eff6db1d0e5725a0c3118479b459835513c88d6 = 0x928; // uint
+        public const Int32 _59645d1afb9e52765c451a89a4a6e530247c9850 = 0x92C; // TimeSince
+        public const Int32 _75d53b6ababd00aa0ff3a73c6612c9ba2f155660 = 0x930; // BasePlayer.CameraMode
+        public const Int32 _bcd5695cebf09c24624fb5b42c7586a74d87a7e7 = 0x934; // BasePlayer.CameraMode
+        public const Int32 _2be6910b2d67597d6484693181a08ad70328c562 = 0x938; // Vector3
+        public const Int32 _1268ea81a25e467058c084639589652905dc2460 = 0x944; // Vector3
+        public const Int32 _2ecf52d0bc2ac0ae9443c93283757866fe3785ee = 0x950; // bool
         public const Int32 GestureViewModel = 0x958; // ViewModel
-        public const Int32 _d0433bb23cfa3876a867bb1c0de1a5234f05ea0a = 0x960; // RespawnInformation
-        public const Int32 _317e7291315460852f0054d9fead399dd370b89a = 0x968; // float
-        public const Int32 _237f68354f269c548d50f2f056deee202a7fc4e9 = 0x96C; // TimeSince
-        public const Int32 _18e0b9176307fb196793efc0723d11e8a2087970 = 0x970; // RealTimeSince
-        public const Int32 _18382ef407c6de2a50d71eed4d5205c4da2ab480 = 0x974; // float
-        public const Int32 _cbd7a0a1e02968cd657b7e50ef372378cc1ec1d0 = 0x978; // float
-        public const Int32 _58f9f59dda8903a046a1924c49a0afc54172c719 = 0x97C; // float
-        public const Int32 _35b75a56ab58076301856a57c1f029898c361cef = 0x980; // %81ae8a405eb5f1c3a9391910cd979e79536f8914
-        public const Int32 _eef13cbdcbddef45738feb9eadf4495b35cb3db7 = 0x988; // Vector3
-        public const Int32 _c8f423a17d1978a19fcb5703e4782b6fdb97dfd3 = 0x994; // bool
-        public const Int32 _c688cb7aed35a02274227e6cb750a26966153771 = 0x9A0; // Queue<string>
+        public const Int32 _9efcb14a5ad33eb9e393eff3be778019c4cd959f = 0x960; // RespawnInformation
+        public const Int32 _4735f6e586347a7e866a708830d437fb26781e62 = 0x968; // float
+        public const Int32 _d462392a2daf13b29b49f5c5c56db2ff619e6193 = 0x96C; // TimeSince
+        public const Int32 _35585d0166d91ed3826475ac3ec4161235951570 = 0x970; // RealTimeSince
+        public const Int32 _3c8c3da71b19be49ec679edf094c0f7ede01ae78 = 0x974; // float
+        public const Int32 _ff3337351a9267284161e4bb492d09d2555fb4c2 = 0x978; // float
+        public const Int32 _9f159bcbd0955be3705d71286d527463485038df = 0x97C; // float
+        public const Int32 _1c7e2e2dfdb3c0872b2e091c6505ae1377703ec1 = 0x980; // %6af134ffbd68e4c9800742bef6bc0040ada4afaa
+        public const Int32 _87a3a440391d58727331ec1f5d1f9b7d51901fd0 = 0x988; // Vector3
+        public const Int32 _01a0f37ec8533629de001099e5b72783d582f7eb = 0x994; // bool
+        public const Int32 _a04535fad60b9bfccf604d69b715231213e9f614 = 0x9A0; // Queue<string>
         public const Int32 gestureList = 0x9A8; // GestureCollection
-        public const Int32 _8652d436d8cd1a8bdd6e628e610e631a76b7e168 = 0x9B0; // TimeUntil
-        public const Int32 _201018b3fd310d265a1a0c174a54a88b1b8995e2 = 0x9B4; // TimeSince
-        public const Int32 _f3b7c456bbcd4ef0563d54c0c4f248e31035b051 = 0x9B8; // GestureConfig
-        public const Int32 _3e4498f3f290521a2a8a5e2a2d120157cf520be2 = 0x9C0; // HeldEntity
-        public const Int32 _28585a47e3a9b6db23209e7b11e307a7ea35a1ab = 0x9C8; // float
-        public const Int32 _fe620f1dddb83b5ecc1f8408212ecae3a6c047de = 0x9CC; // float
+        public const Int32 _a4a88d3163b107567bffa53c106f28cb8aa26c64 = 0x9B0; // TimeUntil
+        public const Int32 _1bd2a6718fba6a19b0b967e5fe21217b565bd884 = 0x9B4; // TimeSince
+        public const Int32 _f5f489cbecd2e88f269bc8e9328ffaebc08d39b6 = 0x9B8; // GestureConfig
+        public const Int32 _b7598feb13bb1a2d5955c5f2f143bc82dfd9348d = 0x9C0; // HeldEntity
+        public const Int32 _348b6770bb19dc208092423980f7289da8150b08 = 0x9C8; // float
+        public const Int32 _1933d41e52bc15cebfaf6ae1dcae2d7c759ba208 = 0x9CC; // float
         public const Int32 currentTeam = 0x9D0; // ulong
-        public const Int32 _8029f03404f75039b40c603ee0e699e470e5ecaa = 0x9D8; // PlayerTeam
-        public const Int32 _1fccfb3844e4f730346e9d055470846735162213 = 0x9E0; // ListHashSet<ulong>
-        public const Int32 _e2730a7414ffb9de5bc6de6126ac3c022c544242 = 0x9E8; // float
-        public const Int32 _b88b1415eb2b136b3dd54f2d0abe0afac227a4cb = 0x9F0; // ulong
-        public const Int32 _6ccd8ad507ac11239c11ec63d97c5031419ff184 = 0x9F8; // int
-        public const Int32 _f57d45c9fd666088b78eaf3674170e4889f05e1a = 0xA00; // string
-        public const Int32 _666d388cda8a2788ac1401dbbc26f67b51a54055 = 0xA08; // string
-        public const Int32 _7480e92edd4c87f3e86a8aec2f9b6ccdaaf82487 = 0xA18; // List<MapNote>
-        public const Int32 _e6e3293b74dadeac6abc56c0a64af27639a3c403 = 0xA20; // MapNote
-        public const Int32 _f3bd5191297b7b8be2a77ad15bb4bbfe07a7f9c1 = 0xA28; // bool
-        public const Int32 missions = 0xA30; // List<BaseMission.%2255564945773848e42735fefc8b30e66da1cb74>
-        public const Int32 _20087b889fab2cde68ba2c05c8a85eaf3c5e9455 = 0xA38; // int
-        public const Int32 _bcf623969f5176e8ca21394a364fc1cd9d1faa4a = 0xA40; // ModelState
-        public const Int32 _9327eb8f92e0d3fb885f3a7aaa0d00879b2aff25 = 0xA48; // %0a47fe3f21f9dd8572a0b638cffd29ba2048fba0
-        public const Int32 _bc893088b2e82de0d9951ef06aebb453c47c06f5 = 0xA58; // float
-        public const Int32 _5f3a32e50a09d43b6d13664548689e13a678be5c = 0xA5C; // bool
+        public const Int32 _17950e779bcc3c591a9b9b671803bf1204f1975b = 0x9D8; // PlayerTeam
+        public const Int32 _57eded5694959459932c806e804cd9dea0ea429f = 0x9E0; // ListHashSet<ulong>
+        public const Int32 _80c5b553b5da8b6da1562227851aa96228c495c1 = 0x9E8; // float
+        public const Int32 _d1eac569cdf32b1034cc0dc4b473065141f0384d = 0x9F0; // ulong
+        public const Int32 _44bb22b732180b1b549346746eca4003cb7226a2 = 0x9F8; // int
+        public const Int32 _4c567423d258dd4ccab0bbc87170e78121c2200b = 0xA00; // string
+        public const Int32 _3595428f27cf3ad920dbc6c8a2282b2aa389ca03 = 0xA08; // string
+        public const Int32 _3350c3be6e5728f225f4f964d91303eda38169ce = 0xA18; // List<MapNote>
+        public const Int32 _daf5133d6e23c3a540729e2c40b71fbe41643661 = 0xA20; // MapNote
+        public const Int32 _04621a6c839e5fdbd043870aace33ab3519f9fe9 = 0xA28; // bool
+        public const Int32 missions = 0xA30; // List<BaseMission.%d29696efe08d8f881c7852afb25aa9054c1de445>
+        public const Int32 _85b18a52ee6fda797f4521fb81f0b1d90bfa85fc = 0xA38; // int
+        public const Int32 _47206ec716ad0528afe6fcd83c91bc058d194000 = 0xA40; // ModelState
+        public const Int32 _2719bc2445279350c40d5d5c23cef208b2630533 = 0xA48; // %ad5776c9de79bfabb374476a9309ebaa2905d9a6
+        public const Int32 _dc3c5b1d75e1f53ada495fb271e7efcd5cf83ea2 = 0xA58; // float
+        public const Int32 _0d46f5af3d0d7fddd579588749808398521f4bd2 = 0xA5C; // bool
         public const Int32 PetEntity = 0xA60; // BaseEntity
-        public const Int32 _124c66b2f8344288bf0aa70cb852cc7e5c9429fd = 0xA68; // float
-        public const Int32 _1b3899c3182cf489cac97d0ba1d4cc8f8c2e784e = 0xA6C; // uint
-        public const Int32 _198eedf4c2a26ff5357bda8a353f3be7fd6910b6 = 0xA70; // NetworkableId
-        public const Int32 _2c3f6d8d9436ce6dc69590afb0609ec3b758c62e = 0xA78; // List<MapNote>
-        public const Int32 _a5829bfd03740e87970e3f526ae6046b540dd13d = 0xA80; // bool
-        public const Int32 _6a71460e25218e6f905c25bcc7097f55d72e2da0 = 0xA84; // TimeSince
-        public const Int32 _efc697dc99de8278b5d505218490e4582fef58c2 = 0xA88; // float
-        public const Int32 _0576f25d73c807a5ba17dc23176037a0ddd7f4f3 = 0xA90; // BuildingPrivlidge
-        public const Int32 _0428371a48f64ac30b5a84bf8a71ca12d51169d2 = 0xA98; // float
-        public const Int32 _e35711da4d629b636e454b6528b1578f5c0fdb19 = 0xA9C; // bool
-        public const Int32 _508f54c7144b431a8bd042ce5b22c4fe3c8964e6 = 0xAA0; // float
-        public const Int32 _3652022154358653a8a45b5567f3b7fb4b1cb16f = 0xAA4; // bool
-        public const Int32 _a133632a485f127248c13c815bdde48c40acd144 = 0xAA8; // BaseEntity
-        public const Int32 _ad76235b67638bad15563e8741f2dd0dc8e91fd8 = 0xAB0; // float
-        public const Int32 _82bfcc8eca6620dd6e8e2a04987521712616a63a = 0xAB4; // int
-        public const Int32 _2c3c1f66d78be1daddd79f6ad48bcf0756f26beb = 0xAB8; // TimeSince
-        public const Int32 _5145f5babed456dc35f710c4527b1165c22b11c9 = 0xABC; // float
-        public const Int32 _fa78a88d6dfc2cfc9dfa29281a51548bc3a808eb = 0xAC0; // float
-        public const Int32 _77ad5c4ec628c6d88dc18bb474cb90ae43497a7e = 0xAC8; // Stopwatch
-        public const Int32 _b353c40a93204845821a569f77e0a33c006742c9 = 0xAD0; // PlayerTick
-        public const Int32 _10a5426e6ef1f7dd8b1ee56b082205726952468f = 0xAD8; // BasePlayer.TutorialItemAllowance
-        public const Int32 _3bc0dbc91a2f151f2982664a7f0ad831680deb9b = 0xADC; // float
-        public const Int32 _4147f24effe4ec95584f994aa913d3f5a170b0bb = 0xAE0; // float
-        public const Int32 _0478dd0c00231f65e87a9c86ec2302e105dbcc51 = 0xAE4; // float
-        public const Int32 _a9e8ab08682a25f2657d28ec87846dce18b2ff12 = 0xAE8; // bool
+        public const Int32 _6e46fd7807c031bdacd214834e4f969afc5f7f40 = 0xA68; // float
+        public const Int32 _e3451ada1ddc14125a017d3664e95fc3216ba98b = 0xA6C; // uint
+        public const Int32 _15879b3688d4902fc2fb17e72dbe2f8a2ebd039c = 0xA70; // NetworkableId
+        public const Int32 _8823ada8ca2f1895b48260b47a119e6b2ce214c6 = 0xA78; // List<MapNote>
+        public const Int32 _21066efc19b3130217e2d2da7f5454a7ad193c19 = 0xA80; // bool
+        public const Int32 _9c4a97dd49d91663bb435ed5876363716cdff50f = 0xA84; // TimeSince
+        public const Int32 _2290917a0435e80c89571b367f436cb43a7a29de = 0xA88; // float
+        public const Int32 _27647fd5b358840b9b49e6ede9c001fb3eb10875 = 0xA90; // BuildingPrivlidge
+        public const Int32 _0ef3973e5dff91486bf72f4715b4f6d8473b124c = 0xA98; // float
+        public const Int32 _bbc8af85a159173c6562e4ea25443ef9e7fea066 = 0xA9C; // bool
+        public const Int32 _6c694eaa5dbaa369c8db922fd5de0cd9f6c3bde1 = 0xAA0; // float
+        public const Int32 _197b6933b0f2f02856ebec35eb7aaccc819beef5 = 0xAA4; // bool
+        public const Int32 _688d1fb481c441da106e23775bc25d7926ecf02d = 0xAA8; // BaseEntity
+        public const Int32 _df5b2169899e496b7741e7f8a76a2ec411199745 = 0xAB0; // float
+        public const Int32 _9af137576fb8e8b0ccf6360b1b401e20d4f1ab08 = 0xAB4; // int
+        public const Int32 _a690f94298aa68aeeea78d4af5a668b78c45d868 = 0xAB8; // TimeSince
+        public const Int32 _e777f0a884e972dcfaeecea8a542ed068947bf05 = 0xABC; // float
+        public const Int32 _804bb8a2890d7f7a20d1d05caf541b1699706f4b = 0xAC0; // float
+        public const Int32 _31308e538a0cedd125ccfb87cfa31bc075ad9e24 = 0xAC8; // Stopwatch
+        public const Int32 _11f2fc96c1914953c990de19307211ae7dab0011 = 0xAD0; // PlayerTick
+        public const Int32 _329a8a98c253ab1276c2664ee01076daee065d8d = 0xAD8; // BasePlayer.TutorialItemAllowance
+        public const Int32 _cd1f6bb794f00d568b2fbebccbfa09b0b945ee4b = 0xADC; // float
+        public const Int32 _28527ca9e0e87c5c9ed2febc05eaa15f4a84b0d0 = 0xAE0; // float
+        public const Int32 _b02bb9c34972bf9d785d34418df290f0b99e8ddd = 0xAE4; // float
+        public const Int32 _7926e1b8141a088dec76f45e58ded8164fd01cfa = 0xAE8; // bool
         public const Int32 fallDamageEffect = 0xAF0; // GameObjectRef
         public const Int32 drownEffect = 0xAF8; // GameObjectRef
         public const Int32 playerFlags = 0xB00; // BasePlayer.PlayerFlags
-        public const Int32 _b12749c2c8fbe575f31de028f46381d6c8429d32 = 0xB08; // %6f019ef5b7fdb7442c2dd53a0f65c22f96f27ff8<PlayerEyes>
-        public const Int32 _6bf739922321ebeccb67051e5a34e8d6fdf76058 = 0xB10; // %6f019ef5b7fdb7442c2dd53a0f65c22f96f27ff8<PlayerInventory>
-        public const Int32 _9093cbbf643947d768cb9db2b6551a302926118b = 0xB18; // PlayerBlueprints
-        public const Int32 _035921be1c0e57ed72554af2b0955e37f562b9d3 = 0xB20; // PlayerMetabolism
-        public const Int32 _9a964c7be67bc227940d3a6e4c07a8504964b2e6 = 0xB28; // PlayerModifiers
-        public const Int32 _162f6ed7c259b000ea4acdea600da3468d058795 = 0xB30; // %6f019ef5b7fdb7442c2dd53a0f65c22f96f27ff8<CapsuleCollider>
-        public const Int32 _42334036d9e3d3160437b178072ff5f434393984 = 0xB38; // %e1349ece484b4f352c54a4333426d8fac5cecaeb
-        public const Int32 _e159919c062c261955b5617019e7010f806d57ae = 0xB40; // Rigidbody
-        public const Int32 _d1d83a436e77b26e0319ab187ffcc3e6f87d6a3c = 0xB50; // string
-        public const Int32 _010bf5e7010d0bee14c5531740eb8623654799ef = 0xB58; // int
-        public const Int32 _de69b46c6d407e8181d8c1c0408c8dd82238cb9d = 0xB5C; // int
-        public const Int32 _ef592fb88564da5764cf3c7b081d1a063c68b05b = 0xB60; // string
-        public const Int32 _b8e415f0a3e009ca215ecf6a79cab3d22ebf3785 = 0xB68; // string
-        public const Int32 _993512c1f491035c46b5c15e5ee897d4fe532107 = 0xB70; // BasePlayer.CapsuleColliderInfo
-        public const Int32 _94aee970f0929bfa634dffcad637884e3bc8a338 = 0xB84; // BasePlayer.CapsuleColliderInfo
-        public const Int32 _13f1ca9488b6f8344f9738977e9019045935e7ad = 0xB98; // BasePlayer.CapsuleColliderInfo
-        public const Int32 _35a13c170c226950290b93fc864bcee54a6069ad = 0xBAC; // BasePlayer.CapsuleColliderInfo
-        public const Int32 _eab49b94278aa4932dbce18d7ed6f6988b2ba50e = 0xBC0; // ProtectionProperties
-        public const Int32 _57e0a1e97575a4ddd7348bbad201bdbcbb2e5573 = 0xBC8; // float
-        public const Int32 _99ac43f5952d209039bfefc031c517962a72727f = 0xBCC; // float
+        public const Int32 _4137885ff23fde3f0d837e07f4acff6e6e662bd1 = 0xB08; // %07e9ef770185b8ad56f02e2732c8583d0363f11a<PlayerEyes>
+        public const Int32 _bdfbcab4cf0bf4eb14da7e10c52abbb9bb210dcb = 0xB10; // %07e9ef770185b8ad56f02e2732c8583d0363f11a<PlayerInventory>
+        public const Int32 _e28365e8ab967bc238da74ff36aa6a0d4f8a6eff = 0xB18; // PlayerBlueprints
+        public const Int32 _cc3dbf177b6872a76c45445efdae77f846f91420 = 0xB20; // PlayerMetabolism
+        public const Int32 _437b8ec9ee6695c54422534e0e86d35372489fbf = 0xB28; // PlayerModifiers
+        public const Int32 _ee2e13a68c8883031bb2f886ccb1972219a4eeca = 0xB30; // %07e9ef770185b8ad56f02e2732c8583d0363f11a<CapsuleCollider>
+        public const Int32 _b4ad95e73938cf43f742cc7300bca66fd2be9367 = 0xB38; // %e18719ef9df4bbecb1f611364c918c690d954162
+        public const Int32 _c43df4a2c4ad5f85775ababfa246ec73e3c47e7a = 0xB40; // Rigidbody
+        public const Int32 _bc66d9a8e5183bc97b34debfe0c3a76d85831403 = 0xB50; // string
+        public const Int32 _b468cddd8fa156cac7b2569f20e0a01a23024e3a = 0xB58; // int
+        public const Int32 _934b4586ffb4ed8ced34397369b403138f8035ac = 0xB5C; // int
+        public const Int32 _f6b1bf168e8249a3487b88c8a26c8fa1691a1ace = 0xB60; // string
+        public const Int32 _7c02b5d52d1cd06000e867515569a2c0ccc8617b = 0xB68; // string
+        public const Int32 _473bdb19fbf8117e5d62524ecfcaaa49ba9a0a6e = 0xB70; // BasePlayer.CapsuleColliderInfo
+        public const Int32 _fb75b1caff7a639b1cc45bc04a1174efbb13e61a = 0xB84; // BasePlayer.CapsuleColliderInfo
+        public const Int32 _4602a08923e3343c47aaf1061b865b32888b7b1e = 0xB98; // BasePlayer.CapsuleColliderInfo
+        public const Int32 _d313a4b381230753df1e730179b8c9f574c5effa = 0xBAC; // BasePlayer.CapsuleColliderInfo
+        public const Int32 _ed6b36204f406c1962ff3bf1b93a9865a4b705e1 = 0xBC0; // ProtectionProperties
+        public const Int32 _be6b6cbe6630d7d0d0dd0b19562593b57b0ebe02 = 0xBC8; // float
+        public const Int32 _f181a77c6ce95fd300602a6f848617fd7b72db81 = 0xBCC; // float
         public const Int32 weaponMoveSpeedScale = 0xBD0; // float
         public const Int32 clothingBlocksAiming = 0xBD4; // bool
         public const Int32 clothingMoveSpeedReduction = 0xBD8; // float
@@ -177,47 +177,47 @@ namespace blazedumper {
         public const Int32 clothingAccuracyBonus = 0xBE0; // float
         public const Int32 equippingBlocked = 0xBE4; // bool
         public const Int32 eggVision = 0xBE8; // float
-        public const Int32 _bc1ad6ac145f6219583654918e4435046c1f1eae = 0xBF0; // PhoneController
+        public const Int32 _ac20f8c0cd6a9e150f5d100286e6938d0460dc30 = 0xBF0; // PhoneController
         public const Int32 designingAIEntity = 0xBF8; // BaseEntity
     }
     public static class BaseEntity
     {
-        public const Int32 _30d8fa202b38c6d146c43c82062f24b544ab0b81 = 0x80; // Ragdoll
-        public const Int32 _c671347a7207555fb500f1039953d73d0a9a425f = 0x88; // %7e4904d7f3893b16960af16416e2330d69636219
-        public const Int32 _2b44ba06615bdd9115d1c5ff563a51357f96f993 = 0x90; // float
-        public const Int32 _78ac9e563593596ec5f93461a57be03fb1f8ffd1 = 0x98; // List<%b227a51b55e3df8a75f31698d9cd685534b8421a>
+        public const Int32 _078fc24cd9b43488a28e376c4b8bdd8a2e8916aa = 0x80; // Ragdoll
+        public const Int32 _6ca57d4fb041f852ea3a1143a200e0e61ff754a4 = 0x88; // %0cdfa01e85aa7d3c21ec0cf820144eef8bc54b10
+        public const Int32 _4e42d5fbf2e10ff0a952de9d02993f71087ccc05 = 0x90; // float
+        public const Int32 _ce477e9a2351bae81be7604162749d4d757aa760 = 0x98; // List<%6d8cf3a8addc14103d92a69f88418ace3b5dd02d>
         public const Int32 bounds = 0xA0; // Bounds
         public const Int32 impactEffect = 0xB8; // GameObjectRef
         public const Int32 enableSaving = 0xC0; // bool
         public const Int32 syncPosition = 0xC1; // bool
         public const Int32 model = 0xC8; // Model
         public const Int32 flags = 0xD0; // BaseEntity.Flags
-        public const Int32 _ab2bc91bbebdd0c72fb79bb880b7c603e7e64634 = 0xD4; // uint
-        public const Int32 _90bee6714aeef7868e215e3c4c840df1ed2e45aa = 0xD8; // ulong
-        public const Int32 _ef84c179c57734253fb861e56c3ba82305f8fe9e = 0xE0; // EntityComponentBase[]
+        public const Int32 _ee2e657c50a196cdecb6eed0e2c1c8162db5fac0 = 0xD4; // uint
+        public const Int32 _20d5914b84708b5cc47a3abd0cab2db1fbec12de = 0xD8; // ulong
+        public const Int32 _4dd68b9f5347735382c53be5cc6b5f808d3a384d = 0xE0; // EntityComponentBase[]
         public const Int32 HasBrain = 0xE8; // bool
-        public const Int32 _6b7fd4e3aee9d931b6a05f28c3bc637407bebaa0 = 0xF0; // string
-        public const Int32 _78834ed8bf625bb712ef47a6b14de88d138e2ec7 = 0xF8; // ulong
-        public const Int32 _ded01cf7d02e40f485e65d0a17e4c4645ec5701b = 0x100; // uint
-        public const Int32 _f247ddb67074eaf16e9a8c380e869c64c9475e92 = 0x108; // List<%44332f178268e7fb56bc13223be4e7d8649ce412>
-        public const Int32 _13293a64c7d996a755bab42f605337e535b66eb4 = 0x110; // bool
-        public const Int32 _207a9678e4641bda173321626a31d684dffce76d = 0x118; // List<BaseEntity.%bae4dc60bc6c872362f05d59740de70b2f950292>
-        public const Int32 _3e81f730670585857089f2178b17df1140fb4edc = 0x120; // Action
-        public const Int32 _27a6c215befc70a35a19c2cd7ee238056f437b18 = 0x128; // BaseEntity
-        public const Int32 _26fc3afd03409522340b6b465938cf5acefad0e1 = 0x130; // ItemSkin
-        public const Int32 _3d176a5886d4a8f4e4f01db6acbd02aa4bfa8d59 = 0x138; // Action
-        public const Int32 _6781014597fac38ddb9ad0cd868dd08636c0648a = 0x140; // Action
-        public const Int32 _2508fd5ff170afac09bf4f0d59b012e206cd7ff6 = 0x148; // %0a47fe3f21f9dd8572a0b638cffd29ba2048fba0[]
-        public const Int32 _7fdc9049a99291570fcf646632d63613315e77c7 = 0x150; // List<TriggerBase>
-        public const Int32 _b3e9ad29baf11d0eb77b1fecf4cd0b178ff79035 = 0x158; // bool
-        public const Int32 _c82efa028196e364954d8598c78efda476d592cc = 0x159; // bool
-        public const Int32 _7e0a7c0cd8d65e9b0f29e7865ac7f4773177dc3e = 0x15A; // bool
-        public const Int32 _3ce02f03b00c3ea8eb419ec996cf126526a16b76 = 0x160; // %6675749f04c0f05f235db4c299acedc4d1ecde73
-        public const Int32 _e715697d8f4dd732767e4096ad80e540b08ee559 = 0x180; // float
+        public const Int32 _4dfce3f786455069b996724df1432d2044bd4db6 = 0xF0; // string
+        public const Int32 _0a82f65065239ee8eede14359eec0c18ece63bc8 = 0xF8; // ulong
+        public const Int32 _b303b5cf02099499afa05eea9e73b340d9d679b8 = 0x100; // uint
+        public const Int32 _874fcad5c7274b9a326b1650e4f2ee7c8d2cf53a = 0x108; // List<%ee9a54c921734019de972e7b08dc56424ac20ab9>
+        public const Int32 _5626f4980db0b01bc2b9ed6b1367f283b6464b50 = 0x110; // bool
+        public const Int32 _74b7b172749e9f362936c1b84a106849e987ec2b = 0x118; // List<BaseEntity.%2490e77aba3fbde35d09de199bf827a6edf6d6b0>
+        public const Int32 _a09a9af4c633370addf34c08f9ef54d34f81fb6d = 0x120; // Action
+        public const Int32 _290c1f757b77185a37010a9310a643315c0e1f15 = 0x128; // BaseEntity
+        public const Int32 _04e7aa1920f96964340bd34dec3560898915586c = 0x130; // ItemSkin
+        public const Int32 _5bc64985790e32c91f1a6a20e9901e69cc0be9ba = 0x138; // Action
+        public const Int32 _75c68028037d49e89d586847d83979c15c698562 = 0x140; // Action
+        public const Int32 _70215d4188a40d1c7d661a38b440b2ce94ec2aa9 = 0x148; // %ad5776c9de79bfabb374476a9309ebaa2905d9a6[]
+        public const Int32 _0263f8833fd911e7797e1e903838894336463a53 = 0x150; // List<TriggerBase>
+        public const Int32 _51b047524f1797fd08a3da10ac0fc09029803efc = 0x158; // bool
+        public const Int32 _6039aecdfcdb5a523b718b93005c02a063703932 = 0x159; // bool
+        public const Int32 _cb9bc2bc3b2f201fd9f303dec235e25a7aa6f750 = 0x15A; // bool
+        public const Int32 _e452cc207c809d949a37a9912ebd82ff6d1670b9 = 0x160; // %834582bd7133ddba4cd8312810178b26fbbed1f7
+        public const Int32 _ab0376a73755bbdcfdf35b9756273f1c087f83b4 = 0x180; // float
     }
     public static class BaseCombatEntity
     {
-        public const Int32 _316c89630d0fa210b42a3a62872c95b015c2deeb = 0x188; // %b227a51b55e3df8a75f31698d9cd685534b8421a
+        public const Int32 _6fbb8075b49238b757fd2c5d2089e57f0ef0db60 = 0x188; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
         public const Int32 skeletonProperties = 0x200; // SkeletonProperties
         public const Int32 baseProtection = 0x208; // ProtectionProperties
         public const Int32 startHealth = 0x210; // float
@@ -228,29 +228,29 @@ namespace blazedumper {
         public const Int32 sendsHitNotification = 0x278; // bool
         public const Int32 sendsMeleeHitNotification = 0x279; // bool
         public const Int32 markAttackerHostile = 0x27A; // bool
-        public const Int32 _589f3a6d931e200b5ce114a49a657b40f4bb932a = 0x27C; // float
-        public const Int32 _1d62c4eaf8c2be9aabcf4979201df62acf63f298 = 0x280; // float
+        public const Int32 _2cbd30f1f46e9d49ca1c63424a6ab7bc1192afde = 0x27C; // float
+        public const Int32 _176865a3bb4045c8d8a003dfcb65c82d4da60b0a = 0x280; // float
         public const Int32 faction = 0x284; // BaseCombatEntity.Faction
-        public const Int32 _9b93bf72194b3b30eacb70ceefcc3c203dfab902 = 0x288; // float
-        public const Int32 _918c626b61db772b6b086e3937396ef66679656b = 0x28C; // int
+        public const Int32 _859c987dc482c4391fcfa9665f5a74eab88f1b66 = 0x288; // float
+        public const Int32 _1eb988bf70a8a522e4112bd27f592f090406c0ee = 0x28C; // int
     }
     public static class BuildingPrivlidge
     {
-        public const Int32 _658c4194226e7a8d5932f26434c21fb23e21325c = 0x4A0; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _76e21b6b7f8aba5182a2dbf6029b3240b63d2bde = 0x518; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _181e0c8581392f0c9ff93782c95d74f6828007ef = 0x590; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _3b19b1af96fa8efa7a1ab2f6c32c52148f216e32 = 0x608; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _8931b26079cb1b548452a369dbd7de3766cd82d2 = 0x680; // %b227a51b55e3df8a75f31698d9cd685534b8421a
-        public const Int32 _58f491eb4957f7b8e6fd678951328a6f860009c5 = 0x6F8; // %b227a51b55e3df8a75f31698d9cd685534b8421a
+        public const Int32 _e3ae128ea543d2c3323b34700f0c394b0ec27384 = 0x4A0; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _8f0de6280c5272eeb8ebdf779c359933f914d99e = 0x518; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _c72cd28f44034f3bb8215929bac19be709e2a1ec = 0x590; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _086eb6793d4ff4cec1838053294e2576aebe6057 = 0x608; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _d1a398f7b272372f64f9af91a2302e8dec838578 = 0x680; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
+        public const Int32 _bc218baf5f55199316228d6334997d5c8ac5a1bf = 0x6F8; // %6d8cf3a8addc14103d92a69f88418ace3b5dd02d
         public const Int32 assignDialog = 0x770; // GameObject
-        public const Int32 _44a92b5e043edbcaab8189f7c2025a0ccadbba68 = 0x778; // HashSet<PlayerNameID>
+        public const Int32 _df7913c11d2afb84cb8691daa27ddef543dc49f6 = 0x778; // HashSet<PlayerNameID>
         public const Int32 allowedConstructionItems = 0x780; // List<ItemDefinition>
-        public const Int32 _fd819f90ba425250b334871efb2fd71d2393f9b1 = 0x788; // float
-        public const Int32 _7b3f1011eb0185f17d33761cba62a959d28eef0d = 0x78C; // float
-        public const Int32 _146f55f1be1a4370c398b0250df6ea113337e270 = 0x790; // float
-        public const Int32 _e4d6b26901a8b6edf219347dde368e964b081752 = 0x794; // bool
-        public const Int32 _75e5592a5fe391df8e1b85835e2b554a4ddc3829 = 0x795; // bool
-        public const Int32 _af755e50c2add0ada81efca7b922c48f7a49ea03 = 0x798; // DateTime
+        public const Int32 _148e65746b78caa63d8918da87b6f28ff637cf63 = 0x788; // float
+        public const Int32 _ddf2030846e9a8c669bafe554119681e3ddd1afb = 0x78C; // float
+        public const Int32 _37439a13f01cdfdb82edbaf0ef3fb043bf431c50 = 0x790; // float
+        public const Int32 _79aa6c2ac1315ff214786cda35fb23fd86baf2f2 = 0x794; // bool
+        public const Int32 _c5f02c39875ceee7a59060172bef1c7b009daf23 = 0x795; // bool
+        public const Int32 _4d4e3c3413a9149ae61f8c39c98119ecf89a4861 = 0x798; // DateTime
     }
     public static class BaseProjectile
     {
@@ -287,9 +287,9 @@ namespace blazedumper {
         public const Int32 hasADS = 0x334; // bool
         public const Int32 noAimingWhileCycling = 0x335; // bool
         public const Int32 manualCycle = 0x336; // bool
-        public const Int32 _51a1fd4af2b1b09ec7ba56f872bc404536e63903 = 0x337; // bool
-        public const Int32 _5a29aa9a82bea63bd36ec1a4fa1db85305bbb398 = 0x338; // bool
-        public const Int32 _b8b097124e1462973e686d412a440247263e5a29 = 0x339; // bool
+        public const Int32 _f11454f09c8761a97607a2e1fee8e21054c35283 = 0x337; // bool
+        public const Int32 _b6d634e0ca22e65d4619a9ece01c0b13f417073c = 0x338; // bool
+        public const Int32 _e83312d8a39a7cf96cd318ac0713e7b600e528ee = 0x339; // bool
         public const Int32 useEmptyAmmoState = 0x33A; // bool
         public const Int32 isBurstWeapon = 0x33B; // bool
         public const Int32 canChangeFireModes = 0x33C; // bool
@@ -299,24 +299,24 @@ namespace blazedumper {
         public const Int32 internalBurstAimConeScale = 0x348; // float
         public const Int32 resetDuration = 0x34C; // float
         public const Int32 numShotsFired = 0x350; // int
-        public const Int32 _e65c32ae28a76ed73c17e0b152a863b8172af768 = 0x35C; // float
-        public const Int32 _f87502cc03a7f874046f921a62804ba834befdcb = 0x360; // float
-        public const Int32 _c4e1e993b0bf604512d574a6af56d08071eeef12 = 0x364; // uint
-        public const Int32 _fd9c9ea07d76caa99c75e1536679fc6254f24488 = 0x368; // float
-        public const Int32 _d8c7378d7b3b8de07b25f7ceb2ca9563a8f321fa = 0x36C; // float
-        public const Int32 _6ea87ac1ec07fd25435e900548b9c989a9ef6033 = 0x370; // float
-        public const Int32 _18b417e6162bf270014af12365bbd3eadd060f0e = 0x374; // float
-        public const Int32 _a395019784a6d9b07a1b61a55d9cf836d579c836 = 0x378; // bool
-        public const Int32 _b8bb48a4dd55c853c367e8338f14caf1a9ef99c1 = 0x37C; // TimeSince
-        public const Int32 _fc0cd4d56430107dd5431716012e98585f2a542e = 0x380; // float
-        public const Int32 _aed6394d515a651b81af50a9ae0d4c5f537bdd24 = 0x388; // float
-        public const Int32 _741bb7f3d073c29837da22f0090f2d6bfe81ec90 = 0x390; // ItemDefinition
-        public const Int32 _cc3aeede50079451aee1f10641a8165d2e94e93b = 0x398; // int
-        public const Int32 _e1f7f59c8f76d798f6ccb35d607341456c275557 = 0x39C; // int
-        public const Int32 _02ea06ef87214270669f0a041b66328f84284e7d = 0x3A0; // int
-        public const Int32 _e1f7afe44306db7c2cd563f3a772ddc2010025db = 0x3A4; // bool
-        public const Int32 _e15d566b18993bbab08cd8988ef5c34351a4fbfb = 0x3A8; // float
-        public const Int32 _de9cbfeaa469f3978dc0fd2a4b92ff5c2c3555f1 = 0x3AC; // bool
+        public const Int32 _8a8cce2e73d6f66fee5a050101128d18d7344975 = 0x35C; // float
+        public const Int32 _71b1227ca82ad3ca3d5d9623db5028e2c930119a = 0x360; // float
+        public const Int32 _e3a7160b7b4edd2a5eca6b8092649b72b3c294bc = 0x364; // uint
+        public const Int32 _e1c03aa234e1fa1a518fd2e023fa3dec996ea569 = 0x368; // float
+        public const Int32 _2dfbcb25ac0cd5013ff536cb750a10002a862e15 = 0x36C; // float
+        public const Int32 _370afff4d1e5d81536d1c07c5644c676603aa06f = 0x370; // float
+        public const Int32 _2b063f7e8d23801ae5404ab6314c797462f93420 = 0x374; // float
+        public const Int32 _f3b6550290fc0031e48a89a7e9aba39e39b1dc57 = 0x378; // bool
+        public const Int32 _9232e711bc0ec9c4a7ea8bcd3c585bee9a148adb = 0x37C; // TimeSince
+        public const Int32 _fe66d77d3ca8a95219029c32a1b7d4d50bce3c94 = 0x380; // float
+        public const Int32 _5961a41d114bb1c729a755eb3ac9cdf31568384e = 0x388; // float
+        public const Int32 _eb4f159a412890add0117b33a8dc9e9e72a9a504 = 0x390; // ItemDefinition
+        public const Int32 _0bf080bd3b190df342852977dc5df1c3cd6c94d7 = 0x398; // int
+        public const Int32 _d0cad581438bff0b72d8bb1c8260596d87479ca9 = 0x39C; // int
+        public const Int32 _9eb20a599437dc9fddb7841ed475eda683e4320d = 0x3A0; // int
+        public const Int32 _5ade7821cbf4363a996d67b35aa697e12d7b855f = 0x3A4; // bool
+        public const Int32 _92783f1506bee5585494321b54a21e49a552a61d = 0x3A8; // float
+        public const Int32 _aba01d5a27fdcd938bf3760e8754e464b916253e = 0x3AC; // bool
     }
     public static class Magazine
     {
@@ -328,14 +328,14 @@ namespace blazedumper {
     }
     public static class PlayerInventory
     {
-        public const Int32 _aa0acef7aa13c54a54927102fa073a07f6f5def4 = 0x28; // %3dd474af39c51738fc617d642fbb95d04da13612
-        public const Int32 _72b2175148189e3d764654335810fe8328f3c087 = 0x30; // %3dd474af39c51738fc617d642fbb95d04da13612
-        public const Int32 _7b241e9dc8dc7ff9325a671174c4cbc868f09682 = 0x38; // %3dd474af39c51738fc617d642fbb95d04da13612
+        public const Int32 _97daee21ba67e117873952f813b4ce64f73b5139 = 0x28; // %e1783dc5b0b97891683b11118d7365b8907d9184
+        public const Int32 _3e94a9eaed37c996dd3f7ed29be3501907edc0f8 = 0x30; // %e1783dc5b0b97891683b11118d7365b8907d9184
+        public const Int32 _d9038987111574d603147d7dcb4857bad2f859fb = 0x38; // %e1783dc5b0b97891683b11118d7365b8907d9184
         public const Int32 crafting = 0x40; // ItemCrafter
         public const Int32 loot = 0x48; // PlayerLoot
-        public const Int32 _3197a401720c8fb111de84fc8b804b8c578fe820 = 0x50; // List<ItemIcon>
-        public const Int32 _9582d3661606a5ecd593f59dd27fb180e8922b09 = 0x58; // PlayerInventory.%09b14d5499edacec623ad91c10f808ecf33a7e20
-        public const Int32 _2cbaf47674082d40b0ad06ce1036e1be5b1341d3 = 0x68; // List<%f8d47c61227d7cc853b6d2cf9b1ea8449adaeb8b>
+        public const Int32 _d6525987a45d62e43221b233a3bc0cb1ac89cb62 = 0x50; // List<ItemIcon>
+        public const Int32 _89360a1fc9bccad6b18a35c57621d7a28c9d8ee6 = 0x58; // PlayerInventory.%1eb5842eb20be11c296ee4bcef4a3de6c7d8f235
+        public const Int32 _244e5129747c5a35a7cc744ca14b604494e4ddcb = 0x68; // List<%1ea346df49d86f99e6b41cb0049aba26f3b54024>
     }
     public static class PlayerModel
     {
@@ -371,7 +371,7 @@ namespace blazedumper {
         public const Int32 CrawlToIncapacitatedGesture = 0x138; // RuntimeAnimatorController
         public const Int32 CrawlToIncapacitatedGestureHandcuff = 0x140; // RuntimeAnimatorController
         public const Int32 StandToIncapacitatedGesture = 0x148; // RuntimeAnimatorController
-        public const Int32 _07b126cfbf3553b699cde2e1f24cdf120723eb17 = 0x150; // RuntimeAnimatorController
+        public const Int32 _07014b38cbda5ce5538fd1c46a6590da6ada42ad = 0x150; // RuntimeAnimatorController
         public const Int32 MaleSkin = 0x158; // SkinSetCollection
         public const Int32 FemaleSkin = 0x160; // SkinSetCollection
         public const Int32 subsurfaceProfile = 0x168; // SubsurfaceProfile
@@ -385,78 +385,78 @@ namespace blazedumper {
         public const Int32 showSash = 0x190; // bool
         public const Int32 tempPoseType = 0x194; // int
         public const Int32 underwearSkin = 0x198; // uint
-        public const Int32 _c17ee5ea35c8742cd9bb88970388cdf674646480 = 0x1A0; // ulong
-        public const Int32 _b280255088854bd7a805f28d065c3060dc0b019b = 0x1A8; // Quaternion
-        public const Int32 _7b4edd620ed53915dad017dce3b05b33acdf87a0 = 0x1B8; // Quaternion
-        public const Int32 _bcf623969f5176e8ca21394a364fc1cd9d1faa4a = 0x1C8; // ModelState
-        public const Int32 _df02293d317d153c5cd8411e9482fb7cabeaf98e = 0x1D0; // Vector3
-        public const Int32 _46b2ecba8f462b3e30be18aa48b3c934023ad0d1 = 0x1DC; // Vector3
-        public const Int32 _bcafb05a94a82acbcc5572a1eed745647846fcba = 0x1E8; // Vector3
-        public const Int32 _c0a9544190496bc4ed29d61476f47cff2b6c2f44 = 0x1F4; // Vector3
-        public const Int32 _742537eb8312d7b0c8ac8184e52ae3b7c4f7d20c = 0x200; // Quaternion
-        public const Int32 _1bfc6ac500da2b371233cd0a8bc325dfe071cc74 = 0x210; // Quaternion
-        public const Int32 _b374568fc044f559e3af1ea285fe9b7450394dec = 0x220; // float
-        public const Int32 _73ce9ce640ae2754d69203da8e16afffe3cc9a10 = 0x224; // Vector3
-        public const Int32 _a94385b2faa5a38d058e57871f1c14a34d3f6fff = 0x230; // Vector3
-        public const Int32 _d4c41fc8bd993c59823e703c20d22291b2380d75 = 0x23C; // bool
-        public const Int32 _7558d4cf4e9067e3697a9b74573a26c744c45a7d = 0x23D; // bool
-        public const Int32 _af6477ed223ef5750978cd8a35037960c2c86670 = 0x240; // uint
-        public const Int32 _9f48dd208ea12a3481e4e4cc9da6aa21cf143646 = 0x244; // bool
-        public const Int32 _dd6c72d9ca8a43e9bc4c262f967a0158a87c8875 = 0x248; // PlayerNameTag
-        public const Int32 _579df9e8cee4df6fc986ceb9b47da98c42a69f9d = 0x250; // bool
-        public const Int32 _323cecdea83db367480be13a4f69690c3abfcd57 = 0x251; // bool
-        public const Int32 _e648079351b4affdfdd072bd6a2c04fac9ceb9f9 = 0x258; // SoundDefinition
-        public const Int32 _2607f643290cb6c72c99a5ceb6d2ade5282df3c5 = 0x260; // SoundDefinition
-        public const Int32 _1f3f9fa68b4364482cabe9a3094969068fa36b55 = 0x268; // bool
-        public const Int32 _4e09362efd6b4d868d95e0b920cbd8243eec1b87 = 0x270; // GestureConfig
-        public const Int32 _e80769da84398d6284ddb59f1e03a940e63c1b05 = 0x278; // bool
-        public const Int32 _9e385c26ca11b56d47c8af91c36efa5845198fd5 = 0x280; // RuntimeAnimatorController
-        public const Int32 _ce0408d9ef4720b7acc2e8415e79bb61950eab7b = 0x288; // SkinnedMultiMesh
-        public const Int32 _d5f57f2ffc7a51457796e140901cf37e0ececca6 = 0x290; // Animator
-        public const Int32 _db811f568acf9785cda9c05b820ecd7dfa548b5e = 0x298; // LODGroup
-        public const Int32 _778423bb9b1e8b36661f3aa20a9e2132481c9c77 = 0x2A0; // RuntimeAnimatorController
-        public const Int32 _0ca7b80d9e51e7c7a7f7e954616b8332eebde002 = 0x2A8; // float
-        public const Int32 _eb8fe8336a430c579a48ff9063afcfa4270c6173 = 0x2AC; // bool
-        public const Int32 _4a743e3aa35c0144047d690095a4349a0439d4c8 = 0x2AD; // bool
-        public const Int32 _fd0a8fa23091fa8cdcbd21eb064fa429456a4935 = 0x2B0; // int
-        public const Int32 _e479101aa7dbef0369259587a506aed2a97142d9 = 0x2B4; // int
-        public const Int32 _540bd306c9f159388e538ce7f3ca33722f164831 = 0x2B8; // HeldEntity
-        public const Int32 _d7bec0d00f3babf8273291d127068ddbb549aee3 = 0x2C0; // bool
-        public const Int32 _64248e53ade1c80796d05797460779a329dcca58 = 0x2C4; // float
-        public const Int32 _cefee0121c960553f11ac865d39c876df37615c3 = 0x2C8; // float
-        public const Int32 _4d81544c591a445e257f9a4b9599d1606328fe8b = 0x2CC; // bool
-        public const Int32 _7de30eee431edf6ea470d89299a2527f9adc87b2 = 0x2D0; // Nullable<float>
-        public const Int32 _6da69c110967a84cb5eb15463ca20bd2d6c7aa06 = 0x2D8; // List<BlendShapeController>
-        public const Int32 _b9c9225fdabbaba224e9fd867c91e70a5a70e8e7 = 0x2E0; // bool
-        public const Int32 _5f3bdf7ff2a9647a13271742d1320c31396ab04a = 0x2E1; // bool
-        public const Int32 _61762253e18a2a84cd58d5df4600b427165dc395 = 0x2E2; // bool
-        public const Int32 _37ed14ceb9e8ba56af146cf1673179cd07ce5434 = 0x2E4; // TimeSince
-        public const Int32 _d300a5041c9aa9fcbd6de806c85194e9b8157ff2 = 0x2E8; // TimeSince
-        public const Int32 _7747357f63892a95933a43a71cd66fdda8627192 = 0x2EC; // Vector3
-        public const Int32 _2376050d8445b92a7343df6822184bad67fc89fb = 0x2F8; // Vector3
-        public const Int32 _764f9b17dd05a34a1eb0b9b94b776f985590880d = 0x304; // TimeSince
-        public const Int32 _e58051d5ca45006d69fe12995850264781f5f2f9 = 0x308; // Vector3
-        public const Int32 _33120ce782190dfbc3a05d71e97af8daf8752256 = 0x314; // Vector3
-        public const Int32 _8e4fed32574257792a51e4420c6ee7afe7de0faf = 0x320; // float
-        public const Int32 _4af747072ed9da1c731ffcaf79efd32eb32e4832 = 0x324; // float
-        public const Int32 _a8c889c4d654f006098d79e5ca40cbc9f1947780 = 0x328; // Vector3
-        public const Int32 _e4b07b17a09790da078ecdef3cfedc6dbef63254 = 0x334; // bool
-        public const Int32 _a9d2db71fe0a3c6bf8a5c6e59f78f34fc07b89eb = 0x338; // float
-        public const Int32 _32d7237033925052e9ef3bda4f82bb2269f4b928 = 0x33C; // float
-        public const Int32 _e48b2d418fe09941f364e942448419dd44731415 = 0x340; // Vector3
-        public const Int32 _c1f42d7c64216b50f4e86ebfb00dd7b923dfd025 = 0x34C; // Vector3
-        public const Int32 _46f7bebf105590d94de91eedca17df7cf5e91819 = 0x358; // Vector3
-        public const Int32 _923f683e33b3158b35be97ed0c896294b5fc3abf = 0x364; // Vector3
-        public const Int32 _802502e59a91b6b86e97fb2957eef9df639cf122 = 0x370; // float
-        public const Int32 _7ef829f87cb69ac9a82db84b414f1ac35a0c5e80 = 0x374; // float
+        public const Int32 _34a400901fec19fb2ee7e63b5e1b6cc4aafa7dba = 0x1A0; // ulong
+        public const Int32 _88f65c1545e685638f8c0b7fa70aba67197df561 = 0x1A8; // Quaternion
+        public const Int32 _837e18291d32583ede3f6f12085d9c181086ff15 = 0x1B8; // Quaternion
+        public const Int32 _47206ec716ad0528afe6fcd83c91bc058d194000 = 0x1C8; // ModelState
+        public const Int32 _384fce2fe606bf1110444d3e8248926fba98676c = 0x1D0; // Vector3
+        public const Int32 _761f3e639932ba1190b012d1c07b34c4375dab7a = 0x1DC; // Vector3
+        public const Int32 _a3411e40eb4d5382a3db784f530a773aad57e8fd = 0x1E8; // Vector3
+        public const Int32 _59a4a451673a55bb0b6970a5e7535a36025326d3 = 0x1F4; // Vector3
+        public const Int32 _4ebd4f1146841edc0ca45afac82ff8b3515e5f72 = 0x200; // Quaternion
+        public const Int32 _d9d4f50313f3954cda8780597a806ec341e1600f = 0x210; // Quaternion
+        public const Int32 _6f767cb9c9446e55cb51c0845667181038aad5e1 = 0x220; // float
+        public const Int32 _120c41f60d54155c319373187930f46fb2e689f4 = 0x224; // Vector3
+        public const Int32 _c3d54437a2164ffa72c7a68012570c27f46801ec = 0x230; // Vector3
+        public const Int32 _379ec812b47de5e00d481bf1aa6f5ad09c698dca = 0x23C; // bool
+        public const Int32 _c15b9f3d7c01961b4e8017cc1dc82b42ab27394b = 0x23D; // bool
+        public const Int32 _c43ee242fea08116673f3dd21b8f6cefad61508d = 0x240; // uint
+        public const Int32 _d59f5141a11ccad88672b1a2652cc073bf61ee39 = 0x244; // bool
+        public const Int32 _028423b1b004836eec806a6e818a50947abdab6b = 0x248; // PlayerNameTag
+        public const Int32 _77c765333102e7a398b88f8db0f36284bc725ce7 = 0x250; // bool
+        public const Int32 _4172b0e3160f35211125ad35949638fe79725274 = 0x251; // bool
+        public const Int32 _82a1d3a9e7aaa45ca17b9a79a3b0ad98d6472c3d = 0x258; // SoundDefinition
+        public const Int32 _b0971312b34fd079d5e421a87b5f180f1de7e7cb = 0x260; // SoundDefinition
+        public const Int32 _9dabd02506780c9b7d4a1c37d0ccb97648561ba5 = 0x268; // bool
+        public const Int32 _3ec2deb745f39fd6c9dc82f6f40e52e2a494b1db = 0x270; // GestureConfig
+        public const Int32 _fb9721f16971d227310aa490c5edfba304c24f36 = 0x278; // bool
+        public const Int32 _c1988a6964641e40a6ecf1cf47b922cbd44a8866 = 0x280; // RuntimeAnimatorController
+        public const Int32 _64c1c1114966d84578a3e0eb8840fd55dfedf419 = 0x288; // SkinnedMultiMesh
+        public const Int32 _eb73ab438b17863ba161a609e2ca1cb54fe6b36e = 0x290; // Animator
+        public const Int32 _54ad226bb01bd54b5d7444139fe4b4d1eeeb855f = 0x298; // LODGroup
+        public const Int32 _d92ae8750f45f54dcd953a366ab8a15ea55ec4b1 = 0x2A0; // RuntimeAnimatorController
+        public const Int32 _3ee33371a41463b44aaf476406e3551b2151bae2 = 0x2A8; // float
+        public const Int32 _4c4ff159b977132dfc7c2a5a58730f78f5f072f8 = 0x2AC; // bool
+        public const Int32 _7a63865e9f1de3ed028e56f271d08530760459e1 = 0x2AD; // bool
+        public const Int32 _3dd8e8f0e383eae717ab1ae211a801230c099c84 = 0x2B0; // int
+        public const Int32 _49e583d57f672b3f1031b2e8536502cbd84d711a = 0x2B4; // int
+        public const Int32 _b2c4ad1cb7c72b7e98be236c45e38ea5a1044f55 = 0x2B8; // HeldEntity
+        public const Int32 _1db0154a797829c1128f3421dcbd5172baaff755 = 0x2C0; // bool
+        public const Int32 _507c129e13eb5169a8010e7239fbb630f801a836 = 0x2C4; // float
+        public const Int32 _784f7f21fb7548054b7bf810b0100eed121864cb = 0x2C8; // float
+        public const Int32 _55068d3a3e5dfbf47e7f62831ebfea2836eb1ae8 = 0x2CC; // bool
+        public const Int32 _63146bb2445e31f9c7b4b77fd6d021847aef9f47 = 0x2D0; // Nullable<float>
+        public const Int32 _8323988c32d4dd9ea69c21b654a3dc4c473457c1 = 0x2D8; // List<BlendShapeController>
+        public const Int32 _5823e34a285e84c6c4ac684a178efb545801b5d2 = 0x2E0; // bool
+        public const Int32 _b683d0de3f6ddf0b064b94f7e66fa088d8e2f35b = 0x2E1; // bool
+        public const Int32 _dbcdb92aa6087464c50bd4c2178c4f97ea3ca3e4 = 0x2E2; // bool
+        public const Int32 _af9d71f179d7ac85c58ff754aad504f93870e376 = 0x2E4; // TimeSince
+        public const Int32 _ddd70eb59b1c25e847f636949f34a7b05d36d25f = 0x2E8; // TimeSince
+        public const Int32 _d6292b474b53df2a79b2f4bccfdce625188fde6b = 0x2EC; // Vector3
+        public const Int32 _788e0da1d0f38c6804b221abe2bdafcc772e7d0b = 0x2F8; // Vector3
+        public const Int32 _f6f5b2330c9bda1a8e7d777d3349c952171cf91e = 0x304; // TimeSince
+        public const Int32 _354854eaaa97ce33ccc86d9688eb38791db0ff2a = 0x308; // Vector3
+        public const Int32 _6133fc56e15ab0ecef015dad675d6051c05fa971 = 0x314; // Vector3
+        public const Int32 _2bcac2da950adb005b54f94a512965c1d0266f8e = 0x320; // float
+        public const Int32 _22ba39dcad635b9fdb238afcff2e7e346984f53c = 0x324; // float
+        public const Int32 _9a17b3c1ef57a3b96f3cbe2bb6589c1c8cfd83fe = 0x328; // Vector3
+        public const Int32 _69094745e79de0109fab3d9dbabaed1770b41db0 = 0x334; // bool
+        public const Int32 _3b7a949c3d7d94a0b8d298577605d46162898e60 = 0x338; // float
+        public const Int32 _f4d6fd5887483d45564044e853527403bb09a579 = 0x33C; // float
+        public const Int32 _78df50eef515c1c62166739378de792d8e860e5c = 0x340; // Vector3
+        public const Int32 _bf08191d7ebf7503a575e59dd7f2c7ec6f6051ef = 0x34C; // Vector3
+        public const Int32 _93ac236921149e8025c5312e51d0d0070da24e5d = 0x358; // Vector3
+        public const Int32 _2b51b49b9c71c4e269685acd944d1c9bbd3cc9dc = 0x364; // Vector3
+        public const Int32 _865f583e56008d15aba42d095fefc0d2ca645bd9 = 0x370; // float
+        public const Int32 _845f760566d773c20db522bac47d71fbdf7fb5fb = 0x374; // float
         public const Int32 Shoulders = 0x378; // Transform[]
         public const Int32 AdditionalSpineBones = 0x380; // Transform[]
-        public const Int32 _fc47fccbd1df025f3df0c7e1b1772b0edc48db20 = 0x388; // List<SkinnedMeshRenderer>
-        public const Int32 _1920017f0eba2747e573068d2b38d888ea550374 = 0x390; // List<WearableFadeToggle>
-        public const Int32 _72cbf07be3cf2454e9da22efb9ff36b31165d440 = 0x398; // Transform[]
-        public const Int32 _2ab595158b6e3cab50f145d4c3d9f97e1a104ef0 = 0x3A0; // float
-        public const Int32 _944deb9fa08ce98dac2fd9e383c9d32128ace54f = 0x3A4; // Nullable<bool>
-        public const Int32 _553b543136c039d8a2940714b1d853cbb41ae750 = 0x3A8; // float
+        public const Int32 _476760310cf4515db87520d717091b4ff7dd4e48 = 0x388; // List<SkinnedMeshRenderer>
+        public const Int32 _1e24e186819ac3c95834a518b2df77d1e3a476ec = 0x390; // List<WearableFadeToggle>
+        public const Int32 _1e3caa1c91ae6dd4884a4b5ad1b1c443827e93f9 = 0x398; // Transform[]
+        public const Int32 _8c2446591334bc1f25eb5bcd958c89e5357d5461 = 0x3A0; // float
+        public const Int32 _50eef9cc5fee734bed60901ee690334d5ebdad0d = 0x3A4; // Nullable<bool>
+        public const Int32 _b8a613bf79b703f71d7f299e711781fb77e4c486 = 0x3A8; // float
     }
     public static class ModelState
     {
@@ -483,9 +483,9 @@ namespace blazedumper {
         public const Int32 skeleton = 0x48; // Skeleton
         public const Int32 boneTransforms = 0x50; // Transform[]
         public const Int32 boneNames = 0x58; // string[]
-        public const Int32 _1fb5c91dac7b6a2b5222e3bed55e48b3406e643e = 0x60; // %5c53726b21c1b3f4c997161bb49273ce027ca81a
-        public const Int32 _e8b1e42a2960e94b66ffbea9c76638cf1a06310a = 0x68; // int
-        public const Int32 _db811f568acf9785cda9c05b820ecd7dfa548b5e = 0x70; // LODGroup
+        public const Int32 _03c807d86c275adfd784997a9dc03eaa0b46df8e = 0x60; // %01ccbe949c82a5d8504764081382be5ef9680645
+        public const Int32 _a20a3cde4bcf40aee639f2bd7b15c5d32382eab0 = 0x68; // int
+        public const Int32 _54ad226bb01bd54b5d7444139fe4b4d1eeeb855f = 0x70; // LODGroup
     }
     public static class RecoilProperties
     {
@@ -518,9 +518,9 @@ namespace blazedumper {
         public const Int32 FishCatchDistance = 0x220; // float
         public const Int32 ReelLineRenderer = 0x228; // LineRenderer
         public const Int32 LineRendererWorldStartPos = 0x230; // Transform
-        public const Int32 _37bd89f58cc0155202d868dfcba0342aa45623d3 = 0x238; // BaseFishingRod.CatchState
-        public const Int32 _5a4aad65851a7d0a8ae1ab395494033761e5c480 = 0x23C; // BaseFishingRod.FishState
-        public const Int32 _08d3934b7e319fd9117870236455cec024e6ecb1 = 0x240; // %0a26d86763b93db27b7673d96b25c8496f156495<FishingBobber>
+        public const Int32 _a0b7bc84bde3ffd4303fb245f9ef1859fa0e4ae3 = 0x238; // BaseFishingRod.CatchState
+        public const Int32 _e4a827e5efd9c7d063b1a28a7c24fbddedbc100f = 0x23C; // BaseFishingRod.FishState
+        public const Int32 _9bcfcb52bb3b85d28801c1f9154f3e1510111393 = 0x240; // %06f9fd75fd97e27cc12f0bae5286ba90cf209f20<FishingBobber>
         public const Int32 ConditionLossOnSuccess = 0x250; // float
         public const Int32 ConditionLossOnFail = 0x254; // float
         public const Int32 GlobalStrainSpeedMultiplier = 0x258; // float
@@ -531,19 +531,19 @@ namespace blazedumper {
         public const Int32 strainSoundDef = 0x278; // SoundDefinition
         public const Int32 strainGainCurve = 0x280; // AnimationCurve
         public const Int32 tensionBreakSoundDef = 0x288; // SoundDefinition
-        public const Int32 _0755859698e89c1528f0bfb53ac8b035aff87a74 = 0x290; // Vector3[]
-        public const Int32 _0b0312b5a5268163cdb1337ad37eaa8027931789 = 0x298; // Vector3[]
-        public const Int32 _95dd03f889bfe2be605b3bd842829a48a28a60eb = 0x2A0; // float[]
-        public const Int32 _a199f629c05e379ac52efc6478ba1824c1a77c4e = 0x2A8; // float
-        public const Int32 _d6444f8c770a1f66b0022bae29e62f2fd55bcf71 = 0x2AC; // TimeUntil
-        public const Int32 _079d52b862509494cbb153dcbc616f521c635e93 = 0x2B0; // FishingRodViewmodel
-        public const Int32 _e8e37e8f41745787271872a98a8c8883bbea2e5a = 0x2B8; // BobberPreview
-        public const Int32 _5e925d043797207c9c8a0c42f3b608fb10bbf772 = 0x2C0; // bool
-        public const Int32 _e5c51deead32e64673f6bc1f359e4807e62ff12f = 0x2C8; // Sound
-        public const Int32 _4860b98f51578060e31a87d2b131df148a8e5076 = 0x2D0; // Sound
-        public const Int32 _e26444ad352d75527215b353638cb857bd5dbdff = 0x2D8; // SoundModulation.Modulator
-        public const Int32 _6761dd51d88c331282576bf8156a28137e8823e4 = 0x2E0; // TimeUntil
-        public const Int32 _f47887cdcd5427069a9f168ea126c78583afd600 = 0x2E4; // TimeSince
+        public const Int32 _47004238e6909a78212ca1c49013ca2100377894 = 0x290; // Vector3[]
+        public const Int32 _7e9a3fa28672365bb59be83a70b5564babbd6904 = 0x298; // Vector3[]
+        public const Int32 _96f670e4c65b19c85be3ed44d28f4d94993cf4e7 = 0x2A0; // float[]
+        public const Int32 _d13a10139d4711c57cca6f179c7a488ab190f85b = 0x2A8; // float
+        public const Int32 _45e35125eeed20756483456426074e402e7729c1 = 0x2AC; // TimeUntil
+        public const Int32 _944a66b50d3c293b3c69241d63c9ddcdd7d59e4f = 0x2B0; // FishingRodViewmodel
+        public const Int32 _b35ee16bacb8e471ee37e5c4dd796d2eb88ce4df = 0x2B8; // BobberPreview
+        public const Int32 _33fdb048eac0150b5e71dd42426eb254e47229af = 0x2C0; // bool
+        public const Int32 _18e0c7ed4a8b670eed91576f0529c917e253ab7f = 0x2C8; // Sound
+        public const Int32 _404cabcd7504922d1df46e4b4c4ba27c2f3c0846 = 0x2D0; // Sound
+        public const Int32 _76479bf87dda7a0d74c751cd0b59f06b37b5d13c = 0x2D8; // SoundModulation.Modulator
+        public const Int32 _597ec6561fd3203e107c09c70698cd535cecf328 = 0x2E0; // TimeUntil
+        public const Int32 _c3754faf044135436e0e35016bb12e8b306e42b7 = 0x2E4; // TimeSince
     }
     public static class FishingBobber
     {
@@ -555,44 +555,44 @@ namespace blazedumper {
         public const Int32 PullAwayMoveSpeed = 0x2B4; // float
         public const Int32 SidewaysInputForce = 0x2B8; // float
         public const Int32 ReelInMoveSpeed = 0x2BC; // float
-        public const Int32 _bcf8d3418bc4d75f9fe0450af50f9bf44dd81c6c = 0x2C0; // float
-        public const Int32 _75a6d77b3a2906f470c36e51b0e31cbf65e3e5fb = 0x2C4; // Vector3
+        public const Int32 _502b355b2cbd4ab23010f95984905d14f6ce63f9 = 0x2C0; // float
+        public const Int32 _c39c6e0abd1284a9a44e7832d8ba8a26d0c501f3 = 0x2C4; // Vector3
     }
     public static class OcclusionCulling
     {
         public const Int32 computeShader = 0x20; // ComputeShader
         public const Int32 usePixelShaderFallback = 0x28; // bool
         public const Int32 useAsyncReadAPI = 0x29; // bool
-        public const Int32 _aef174bf62ea44eb39afa6b578b1119d9ae8041e = 0x30; // Camera
-        public const Int32 static__4290284fc6e8dd14c3e6821fdaba69c099b13126 = 0x58; // OcclusionCulling.%8022c3f9e69bf495ef7a428adb6420139df89639
-        public const Int32 static__ee848e7852b87f7e5e924184951ac6b1bf2e7924 = 0x60; // OcclusionCulling.%8022c3f9e69bf495ef7a428adb6420139df89639
-        public const Int32 static__fc3bf0da8e64e434a21f5bd0b4baf34835dbc0e9 = 0x68; // OcclusionCulling.%8022c3f9e69bf495ef7a428adb6420139df89639
-        public const Int32 _44679d367b33b3df1e29fe3a021476e03ba894b6 = 0x38; // Vector4[]
-        public const Int32 _ffc278faec2924fd5b4f09610f8bbe715eab9cb5 = 0x40; // string[]
-        public const Int32 _f78c6ba66423023318a1f3fa11ee5e81464dd4ca = 0x48; // float[]
-        public const Int32 _2a0617a3f0c8fa9ee34e5ac1a246483a9b8bb32c = 0x50; // Material
-        public const Int32 _b3a249d526ddeda1d7d5f9c3c69c883f887e605f = 0x58; // Material
-        public const Int32 _e2897e8e2b5950ed9a816ecd6179fa9dfa9c9920 = 0x60; // Matrix4x4
-        public const Int32 _d3828b50ccbd8b888078ae8508fec54bae125af8 = 0xA0; // Matrix4x4
-        public const Int32 _c95b8e9ad7d20794cf75771ec8bb70885aa4acad = 0xE0; // Matrix4x4
-        public const Int32 _481f03867cb6fd8ad2ae5648800cb86e348c8c86 = 0x120; // Matrix4x4
-        public const Int32 _d711de38d8ae0de45dfc13d419c5a265456530af = 0x160; // Matrix4x4
-        public const Int32 _09d5dd1f9464d96431b69b002338fae99144e219 = 0x1A0; // bool
-        public const Int32 static__46642ede8ba5342d4c705126d0ed0c13fa53dc6b = 0x70; // OcclusionCulling
-        public const Int32 static__58d439f13ce8f95011575c6632d5eb7b0d316d61 = 0x78; // bool
-        public const Int32 static__6b16b590665a0f812046ef9cbae6d30f7ca056e8 = 0x88; // bool
-        public const Int32 static__e7a3b114aafbcb76bdc699fbd14dfd2158e682ad = 0x89; // bool
-        public const Int32 static__bf7d52a1f83413c628549314d4dfec605eb7f660 = 0x8C; // OcclusionCulling.DebugFilter
+        public const Int32 _86adebcbacaf9fb6b732c2ac61e9acb7de21603d = 0x30; // Camera
+        public const Int32 static__bb5a5f66799b7338334c03c57626baeda67bfb12 = 0x58; // OcclusionCulling.%aeb1a16ab9a8505f509f4eab1be17681bae96f24
+        public const Int32 static__492172fd86ea29e770d288696980041a991e1a9d = 0x60; // OcclusionCulling.%aeb1a16ab9a8505f509f4eab1be17681bae96f24
+        public const Int32 static__2fa90afe5ebd8fcd674ab205ca5ee692be9355ec = 0x68; // OcclusionCulling.%aeb1a16ab9a8505f509f4eab1be17681bae96f24
+        public const Int32 _c043de62a5a635a593eae77ffe833f31e675d930 = 0x38; // Vector4[]
+        public const Int32 _0137b517c0f0f7a25aef77d6b031db95c731b8e0 = 0x40; // string[]
+        public const Int32 _29972fe2753270e622c8ddda4394081011ec39ec = 0x48; // float[]
+        public const Int32 _b58a0e67bcc81dc03900304eef32f80a8dcdcaa1 = 0x50; // Material
+        public const Int32 _f1da4e42061a2c50f7afaa6c6ea09de1be588044 = 0x58; // Material
+        public const Int32 _ddcf5ac5ea003b9606bb7f97484d882a8e28fcbb = 0x60; // Matrix4x4
+        public const Int32 _9c74c2c7a84c2c43b6a0304a1b5ce4a872401c26 = 0xA0; // Matrix4x4
+        public const Int32 _2048044293ebee7895918842e6a303fd9277d47b = 0xE0; // Matrix4x4
+        public const Int32 _16d956a23177203b6dbdae89bfdc8805a5d8d3d5 = 0x120; // Matrix4x4
+        public const Int32 _3deef0bb63eea1b1f1f3efb7fcbb6feb3d1f5ac0 = 0x160; // Matrix4x4
+        public const Int32 _f5bf299001cff9f269df5a331c1410aaaa2d8857 = 0x1A0; // bool
+        public const Int32 static__d5cc1a22bd281b4869e16797a494732ebb1182ff = 0x70; // OcclusionCulling
+        public const Int32 static__1117ffa64b3593f919a0fafc8b63bbde9fcfcc3f = 0x78; // bool
+        public const Int32 static__287c01cd6b341e10dfbd096e86440c442fc38a94 = 0x88; // bool
+        public const Int32 static__ee865875a68867b11a63429241a7168538b774aa = 0x89; // bool
+        public const Int32 static__4337a4f99308c8633956a7efb281d25246d347da = 0x8C; // OcclusionCulling.DebugFilter
         public const Int32 debugSettings = 0x1A8; // OcclusionCulling.DebugSettings
-        public const Int32 _af1da40c832e25b43f716ab7756d06ed9da5c433 = 0x1B0; // Material
-        public const Int32 _a375dee8424b4b9b9d11f923f47d10257a510166 = 0x1B8; // Material
-        public const Int32 _5bc97ba6599f2cb6dd86b73369e3e34d7859ec52 = 0x1C0; // Material
-        public const Int32 _1514ae46474db8d6cbede8f33b4b6fa0f953c8bc = 0x1C8; // int
-        public const Int32 _63c3e696814a3d90851d379cb44ab2ddbf64f07a = 0x1CC; // int
-        public const Int32 _c80add539727b2a19bf1d727b906539771f27211 = 0x1D0; // int
-        public const Int32 _efdb46f3906eb14a71fe61383086d0ac8ae4df21 = 0x1D8; // RenderTexture
-        public const Int32 _29ee30340dba00b7994a505dd47471f3709727a8 = 0x1E0; // RenderTexture
-        public const Int32 _68ffb8df146313577edaf25e04b4a55dcd6b0eb1 = 0x1E8; // RenderTexture[]
+        public const Int32 _db2e9ce1a7eb803b504e8ae51bac7144a505ae4b = 0x1B0; // Material
+        public const Int32 _9eb6b8b0c5610c5cf63ad0289eb5035538d614eb = 0x1B8; // Material
+        public const Int32 _baf7767f0e1671cd98574c0d4591bf19be817eef = 0x1C0; // Material
+        public const Int32 _407adb538c8a4dea1e67ccfe95b74d2c8cbe38d2 = 0x1C8; // int
+        public const Int32 _411ab16bde21ff85fba320fd2dbb9c7669ed1cf6 = 0x1CC; // int
+        public const Int32 _0b2e773d66d148e44bf46d7df862adb421937afa = 0x1D0; // int
+        public const Int32 _9095e2c605464d6dae2c67e37c796fb7e07776f5 = 0x1D8; // RenderTexture
+        public const Int32 _9f188ff83f1c9c722713d951900528f496338d07 = 0x1E0; // RenderTexture
+        public const Int32 _4f243c000113d47b960cfa887aed15fac2161d4f = 0x1E8; // RenderTexture[]
     }
     public static class OcclusionCulling.DebugSettings
     {
@@ -609,27 +609,27 @@ namespace blazedumper {
     }
     public static class PlayerInput
     {
-        public const Int32 _7f99e0112f6ed6eef2f4a0c3866053579062f187 = 0x28; // %6fec8c23ae31c5e40a14508b37357fbcc12830d0
-        public const Int32 _24b8ed4cd88b1c45a11848c230009a5ebc68fc5f = 0x30; // bool
-        public const Int32 _8fb99948c2d47600682794e5db66ffae018e0b92 = 0x34; // Quaternion
-        public const Int32 _7dbb258a52982fb6939048148468ab05401034f1 = 0x44; // Vector3
-        public const Int32 _4f89c6012f8d7db1d9a8c7405ef5dd383bd7fc6e = 0x50; // Vector3
-        public const Int32 _10b05f1120c02e3706278da693c63a947bd99cbe = 0x5C; // bool
-        public const Int32 _e0a5157d260f6515380c76dbb740eeb246d0497e = 0x60; // float
-        public const Int32 _c55723cde397256ce4ec1d5dd62465bf95637ee9 = 0x64; // Quaternion
-        public const Int32 _b1f87d9d4a21b4931b5a6434939269635c63598f = 0x74; // Vector3
-        public const Int32 _44c33450a1cdee6ba96a0f456895d6efe027b813 = 0x8C; // Vector2
-        public const Int32 _fdd679347dffba40f898269ce74f688addaa7f81 = 0x94; // float
-        public const Int32 _67e3fe5f62828bbe6c67e102d60a4711e6350de2 = 0x98; // int
-        public const Int32 _daa13dc0a81b5bff6d385346a88e1769089c65a7 = 0x9C; // int
-        public const Int32 _cb570c76ee92c879fe3af114b3a57b7fbdff83a8 = 0xA0; // bool
-        public const Int32 _1b6bcce684035291fc4bb650b4fe41e8b8210f72 = 0xA1; // bool
-        public const Int32 _e34cbb839383844247970d5e41b9cd1b1b36f5cd = 0xA2; // bool
-        public const Int32 _c37a5b813ddfd239094bdbb61e949a6b3f10c505 = 0xA8; // NetworkableId
-        public const Int32 _80f9397e8142a02c34d43f5066a105609449818c = 0xB0; // Vector3
-        public const Int32 _ab0e756ea95629e2beb5142f8cb85c1471480cb8 = 0xBC; // Vector3
-        public const Int32 _835f1b5ca469fed18048b49c30ad9b348ec4b9dc = 0xC8; // int
-        public const Int32 _10ec5d33ba68b2f2c6856482648e659b7d696b3f = 0xCC; // bool
+        public const Int32 _6b240c66394fb695fe31963b6c498a064ebc968b = 0x28; // %3e44cd04aeab18732987d96a4fb87a7b0badb97f
+        public const Int32 _8f9bd1546f7f9a0a538d8a7526beaa97b17b544b = 0x30; // bool
+        public const Int32 _c691d20c559ab31f6127ac35d0421b78bd2b6a29 = 0x34; // Quaternion
+        public const Int32 _0e94e2314d15c8187d1d4b922e62288c7141a2c6 = 0x44; // Vector3
+        public const Int32 _83be9171da198dd4dfebb86b68fa97d5dda07572 = 0x50; // Vector3
+        public const Int32 _4dc52b3a3faf2ee9f30ef4b984fdb52c185a001b = 0x5C; // bool
+        public const Int32 _0844a23e6d056c50d118241816f451054f4a1837 = 0x60; // float
+        public const Int32 _6ded43aec2b4adf5f9633a1d37c84748e355ac0f = 0x64; // Quaternion
+        public const Int32 _42cc05d781b33d86f1899c4d20dcb787aec1c79b = 0x74; // Vector3
+        public const Int32 _2a1b507ec9790b7309bb69e45faa0a2847784650 = 0x8C; // Vector2
+        public const Int32 _ed37d87062be4dd544c2df4c3aa50215254868fd = 0x94; // float
+        public const Int32 _6b39694a34f8d319789c148ba3bb88387a3f6f7e = 0x98; // int
+        public const Int32 _47ef6f76c0d7f5d340d4ff4a7a0c8e82c26b4f80 = 0x9C; // int
+        public const Int32 _2c3051bc8c217b61a4c03f18a4329adf9317bc7b = 0xA0; // bool
+        public const Int32 _fd85bb4827b40fb0b7d4a69ef1e8e3fe04d6f4c4 = 0xA1; // bool
+        public const Int32 _af4a5617a13656b7a481294a51659d38c8043dde = 0xA2; // bool
+        public const Int32 _89ea650232963234c3d1cea8b228a22fff438eff = 0xA8; // NetworkableId
+        public const Int32 _59ad6258e89eba835a1b78dc9f109fc3a7c7a9e6 = 0xB0; // Vector3
+        public const Int32 _5736d54d3d56d5406ea48daa5e4d8e021aafc7e4 = 0xBC; // Vector3
+        public const Int32 _85766a73097ee5ae56a970cb85b562785ad42e8e = 0xC8; // int
+        public const Int32 _2c00e28ceb4fd5b0ba8f80310c3f8d94b764ebde = 0xCC; // bool
     }
     public static class ItemDefinition
     {
@@ -641,7 +641,7 @@ namespace blazedumper {
         public const Int32 category = 0x48; // ItemCategory
         public const Int32 selectionPanel = 0x4C; // ItemSelectionPanel
         public const Int32 maxDraggable = 0x50; // int
-        public const Int32 itemType = 0x54; // %3dd474af39c51738fc617d642fbb95d04da13612.ContentsType
+        public const Int32 itemType = 0x54; // %e1783dc5b0b97891683b11118d7365b8907d9184.ContentsType
         public const Int32 amountType = 0x58; // ItemDefinition.AmountType
         public const Int32 occupySlots = 0x5C; // ItemSlot
         public const Int32 stackable = 0x60; // int
@@ -668,28 +668,28 @@ namespace blazedumper {
         public const Int32 WorldModelDropOffset = 0xEC; // Vector3
         public const Int32 isRedirectOf = 0xF8; // ItemDefinition
         public const Int32 redirectVendingBehaviour = 0x100; // ItemDefinition.RedirectVendingBehaviour
-        public const Int32 _8c6d7914aaaa9839c34738e3eecf742dee52b142 = 0x108; // ItemMod[]
+        public const Int32 _34bf21aa26c0135ca140bccefac39ab9680eb5a8 = 0x108; // ItemMod[]
         public const Int32 Traits = 0x110; // BaseEntity.TraitFlag
-        public const Int32 _15563d0bc763b5d6706e2d8966bd9fdc4b39e79e = 0x120; // IPlayerItemDefinition[]
+        public const Int32 _adbabfa07e2843dcd1b6c3ee9f55a61f8af120b0 = 0x120; // IPlayerItemDefinition[]
         public const Int32 panel = 0x128; // GameObject
-        public const Int32 _b3efcc10830a6f25605da19f67dc0b6b0dad679b = 0x130; // ItemModWearable
-        public const Int32 _f27fd5229b215694ea58711c74775821bc01af2d = 0x138; // ItemModBurnable
-        public const Int32 _59f1875fd9c8092d0ab7cd6e8a37d8c8d0f9ffca = 0x140; // ItemModCookable
-        public const Int32 _bc3e8c6f26baba207f15b0bd85a109b6b43c0b3e = 0x148; // bool
-        public const Int32 _7a9f8e10bbf50accf1899ad173b8ddef0eed3136 = 0x149; // bool
-        public const Int32 _1b011fae00e001e3e954f2fe4d2f950d8e22c266 = 0x14A; // bool
-        public const Int32 _222bf9288012b8025eb4c776778367d35fe863d1 = 0x150; // ItemDefinition[]
+        public const Int32 _a53c1f62cf24c7e50fa35ebac95b5c99374c5703 = 0x130; // ItemModWearable
+        public const Int32 _9fa36b81e4a1cbe048234a968ba6d2df6827c38b = 0x138; // ItemModBurnable
+        public const Int32 _b8dc7972fe0305ce0c9d8f42a3a1f7164ce98a0b = 0x140; // ItemModCookable
+        public const Int32 _dc64b8e3d0c6cd0196ab90b073688fd8c56b2c28 = 0x148; // bool
+        public const Int32 _a4130327b887050244d7657aff4d1d8ad4dd10e0 = 0x149; // bool
+        public const Int32 _9d4b129b2f491b1f4be88292a2d41208707eeeca = 0x14A; // bool
+        public const Int32 _9fd09e71204e24129034b7bc89a9a53bddeb2f11 = 0x150; // ItemDefinition[]
     }
     public static class PlayerEyes
     {
         public const Int32 thirdPersonSleepingOffset = 0x28; // Vector3
         public const Int32 defaultLazyAim = 0x38; // LazyAimProperties
-        public const Int32 _4b24a7a71a0c56645c90481aa971d409d7f57e41 = 0x4C; // Quaternion
-        public const Int32 _28c25ac8d81ea81798bdac8945b2badc28ccb959 = 0x5C; // Vector3
-        public const Int32 _6593d2a10643bbad003ee096cc986c5f99555f06 = 0x68; // Quaternion
-        public const Int32 _f7429c8ce35a504bed3a1218958a926c90fb2a0b = 0x78; // Quaternion
-        public const Int32 _78c38dbb378b9a68f8ae1994f1a3bdf1d20a6a38 = 0x88; // float
-        public const Int32 _6773a0c47b60906c6b6df1a1bdd8f768e2021f95 = 0x8C; // bool
+        public const Int32 _f779751325fcc966a38153f5458cbc1998685b4e = 0x4C; // Quaternion
+        public const Int32 _65b8a63de544ea70fdb884842c7c9329e8b3d17c = 0x5C; // Vector3
+        public const Int32 _0a0dede43402c919423812da8a4bd29e266f0b82 = 0x68; // Quaternion
+        public const Int32 _d5421e76635542fbaaa6e53e4c4eab085bff389c = 0x78; // Quaternion
+        public const Int32 _6fc41c284a2666826a412e460f76a87bfb0f11a9 = 0x88; // float
+        public const Int32 _c7db267a1c7b2b9178f1259ecc53ae24c16d2b4b = 0x8C; // bool
     }
     public static class Projectile
     {
@@ -721,39 +721,39 @@ namespace blazedumper {
         public const Int32 tumbleAxis = 0xB0; // Vector3
         public const Int32 swimScale = 0xBC; // Vector3
         public const Int32 swimSpeed = 0xC8; // Vector3
-        public const Int32 _1eda29c2de607992e09747cebf2fd9fc8ce74b60 = 0xD8; // BasePlayer
-        public const Int32 _de0c8f041bc88a503f418e04d9cb069f0940d746 = 0xE0; // AttackEntity
-        public const Int32 _d11b1148ffff6f565fe32ac6c5f8948d60750cef = 0xE8; // Projectile
-        public const Int32 _e895c472da811a9084ae79669c19fb92b772ef73 = 0xF0; // ItemModProjectile
-        public const Int32 _5496623e4c98a2d6803f4d6582d7788ebbf7ac51 = 0xF8; // int
-        public const Int32 _20670f88f31a3e914277bc4a42d6f1c9afa11f84 = 0xFC; // int
-        public const Int32 _db10d2f8024420258352638681500b752447c5ea = 0x100; // bool
-        public const Int32 _11e43a0fa71b1172e29753571526747996773827 = 0x101; // bool
-        public const Int32 _ce68c6616cadaef73b7ebcc3cd2ecf301703b4ca = 0x104; // float
-        public const Int32 _a7270c78d40f552d336368e29d2a57b522231773 = 0x108; // float
-        public const Int32 _4cc2e7bd9413b61f812608e01ec45c40a5ea1916 = 0x10C; // Projectile.%db9276046b27b856581640bdd1adf6775f086172
-        public const Int32 _7419be98aa301e2364c09b70fa2a57961c31b5f4 = 0x11C; // bool
-        public const Int32 _79d3b8cd742a243cc5ead27633e657c7e2d8e360 = 0x11D; // bool
-        public const Int32 _ff622c0537c2ca9849183fe1dca22f94836a2b87 = 0x120; // float
-        public const Int32 _833e2e6571b8d6b4e93316f65aa2a14e05949698 = 0x124; // Vector3
-        public const Int32 _2bc572089342346808f17b42a488c95825bc140e = 0x130; // Vector3
-        public const Int32 _92df1d4c69fdd9c4ceb067183be900b9f7fb7444 = 0x13C; // float
-        public const Int32 _5b184290571e0fb3c4e1562397ae3f46c162bee2 = 0x140; // float
-        public const Int32 _e00ef537b581ff428e8bdb5c0e89c6e659ed316c = 0x144; // float
-        public const Int32 _0586876fa849cb00318c12d10b4c064d8b6f1b92 = 0x148; // Vector3
-        public const Int32 _e266ad615f3f1c43a311d81ab2bbed458cb5c907 = 0x154; // Vector3
-        public const Int32 _e584a402fefbb4e6791ef64de3f6224a825a5e4e = 0x160; // Vector3
-        public const Int32 _58828f0425b8b19ee70d64eaa46741f1b63b798a = 0x16C; // float
-        public const Int32 _a7e114acde66f7600622914b50954446f74d3b0e = 0x170; // bool
-        public const Int32 _e9dffc5407c794b26dd7ecc0c77a3f0d23a0d33c = 0x171; // bool
-        public const Int32 _8d5da11bc8d3311f7d8759b2882736d3ab8e5835 = 0x172; // bool
-        public const Int32 _ef1e80e442a8ce6f5166a499b00e7e77022a4bb4 = 0x173; // bool
-        public const Int32 _4f15e0d7bfd4377ed60b9d57b69bb3be0b94be7b = 0x174; // bool
-        public const Int32 _4defd2ea9c7b34b466080e0606fa1eec303c6e2e = 0x178; // Plane
-        public const Int32 _79f375c0dbb9a4ab79cdd3231117c36804bcc951 = 0x188; // Ray
-        public const Int32 _daa37a191608fb523911e1591245fab464aaf65b = 0x1A0; // Action
-        public const Int32 _691fa89f8e408ef7e1bb61e7c6644ff2ac0a8b58 = 0x1A8; // %81ae8a405eb5f1c3a9391910cd979e79536f8914
-        public const Int32 _ec1365dfffeaf2914ab73d3c1166e20d0c1f4392 = 0x1B0; // float
+        public const Int32 _26615490cdaf007adda79ad2cd6809c700f67147 = 0xD8; // BasePlayer
+        public const Int32 _a9a503fb25ccb9d7eb470678e61fbf102bd1ac58 = 0xE0; // AttackEntity
+        public const Int32 _e17080bbd10dcc9ed01df9e3eb408f3bc54a1aab = 0xE8; // Projectile
+        public const Int32 _5b81b959a0debe20b073be08a97cd435c7b9761e = 0xF0; // ItemModProjectile
+        public const Int32 _3cbd8a6e6697c4bdb2fa609c6d65c2feb4ad4b5b = 0xF8; // int
+        public const Int32 _fdbbb67c0da7037f138bda93869c6b309614eb5a = 0xFC; // int
+        public const Int32 _ef08ea85b540865fb919aec8c3f6e3f1c3a9c8cb = 0x100; // bool
+        public const Int32 _69558f7378b59b5dc142bb71dd22bf83708e5ebb = 0x101; // bool
+        public const Int32 _e851ea7cee0c835a84d3f672e0b1a26fc365ec8f = 0x104; // float
+        public const Int32 _b40f17187b520e7e3582e92a73b1e97b6e6db249 = 0x108; // float
+        public const Int32 _79cc8cf074638931bd077a8625d09e6c91aee896 = 0x10C; // Projectile.%a0646cf05275597c804275393414abff57b5f308
+        public const Int32 _4794e47208bb3e751f7378b92a8d13a81f69f21b = 0x11C; // bool
+        public const Int32 _543f54e17cf5cc3039caefd84fbf74b8d6aa843e = 0x11D; // bool
+        public const Int32 _5dce0b7731ba2d302db0311cd25cb08654a5de09 = 0x120; // float
+        public const Int32 _a40c023ad8612f658d4e2797c09af9a8fefa86eb = 0x124; // Vector3
+        public const Int32 _cd4573338ab965e423330efd027cb96f2ca6a907 = 0x130; // Vector3
+        public const Int32 _12d0421687f26784a038549aa736d75555fef84f = 0x13C; // float
+        public const Int32 _9cf59808078a89f2a5ec699d4158c827a2e64c4d = 0x140; // float
+        public const Int32 _471d52fbb446b536b3fbe5da64af0bc952bb9eca = 0x144; // float
+        public const Int32 _c83e498c25bc0b5a58608c911c5eef99e51a6747 = 0x148; // Vector3
+        public const Int32 _a90e7cfacda6b4cc1375545837f154d600ca21e6 = 0x154; // Vector3
+        public const Int32 _ee4010e239655fc407b6543886f534f18fd533f9 = 0x160; // Vector3
+        public const Int32 _b6f0e4a6c8c766bc490bc325ba3b15159bc164e3 = 0x16C; // float
+        public const Int32 _2cc8b31927e8fee7c10da1a0c1aec057e1cfe5d3 = 0x170; // bool
+        public const Int32 _a791948439eb4bb4ec20bb325203ac9dca4745c4 = 0x171; // bool
+        public const Int32 _1dd71bffabe528fb69b33f6e6124c76b8cf6c8be = 0x172; // bool
+        public const Int32 _eeaa689f2a68a004fc9be1c930838b35fa8d62d7 = 0x173; // bool
+        public const Int32 _b5fbb6e7489872dbc9a70e37172ed1b20500b5d6 = 0x174; // bool
+        public const Int32 _7734a677fabc49bb60b4577728b992721bfa5e0f = 0x178; // Plane
+        public const Int32 _7dd829341b6bff87a6d535b22f191e133c5ce798 = 0x188; // Ray
+        public const Int32 _96c2dff4c6c3e3647f14d0885f90ee5f73ba83ba = 0x1A0; // Action
+        public const Int32 _0dc36284dea86f3422c27a4e3562efa381003aab = 0x1A8; // %6af134ffbd68e4c9800742bef6bc0040ada4afaa
+        public const Int32 _7fc2aeb2d7080157c6fb1a0987c73934641d3220 = 0x1B0; // float
     }
     public static class ItemModProjectile
     {
